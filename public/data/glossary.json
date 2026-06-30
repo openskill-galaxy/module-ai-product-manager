@@ -1,8 +1,5042 @@
 [
-  { "id": "g-module", "term": "Module", "definition": "模块，OpenSkill Galaxy 中最大的学习内容组织单元，包含课程、知识点、题目等。", "aliases": ["模块"] },
-  { "id": "g-course", "term": "Course", "definition": "课程，讲义的有序集合，按主题和难度组织。", "aliases": ["课程"] },
-  { "id": "g-lesson", "term": "Lesson", "definition": "讲义，最小的学习单元，包含 Markdown 正文与关联知识点。", "aliases": ["讲义", "章节"] },
-  { "id": "g-slug", "term": "Slug", "definition": "URL 友好的唯一标识符，由小写字母、数字和连字符组成，如 basic-concepts。", "aliases": ["标识符"] },
-  { "id": "g-difficulty", "term": "Difficulty", "definition": "难度等级，取值为 easy（简单）、medium（中等）、hard（困难）。", "aliases": ["难度"] },
-  { "id": "g-node", "term": "Node.js", "definition": "基于 Chrome V8 引擎的 JavaScript 运行时，模块模板的构建工具依赖。", "aliases": ["Node"] }
+  {
+    "id": "aipm-gloss-001",
+    "term": "AI 产品经理",
+    "category": "AI 产品术语",
+    "definition": "AI 产品经理 是 AI 产品术语 领域中的重要概念。在 AI 产品中，AI 产品经理 决定了产品功能上限与用户体验。",
+    "example": "示例：AI 产品经理 在 AI 产品中的应用",
+    "aliases": [
+      "AIGC"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "AI 产品经理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-002",
+    "term": "AIGC",
+    "category": "LLM 术语",
+    "definition": "AIGC 是 LLM 术语 领域中的重要概念。在 AI 产品中，AIGC 决定了产品功能上限与用户体验。",
+    "example": "示例：AIGC 在 AI 产品中的应用",
+    "aliases": [
+      "Agent"
+    ],
+    "tags": [
+      "LLM 术语",
+      "AIGC"
+    ]
+  },
+  {
+    "id": "aipm-gloss-003",
+    "term": "Agent",
+    "category": "Prompt 工程术语",
+    "definition": "Agent 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Agent 决定了产品功能上限与用户体验。",
+    "example": "示例：Agent 在 AI 产品中的应用",
+    "aliases": [
+      "RAG"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Agent"
+    ]
+  },
+  {
+    "id": "aipm-gloss-004",
+    "term": "RAG",
+    "category": "Agent 术语",
+    "definition": "RAG 是 Agent 术语 领域中的重要概念。在 AI 产品中，RAG 决定了产品功能上限与用户体验。",
+    "example": "示例：RAG 在 AI 产品中的应用",
+    "aliases": [
+      "LLM"
+    ],
+    "tags": [
+      "Agent 术语",
+      "RAG"
+    ]
+  },
+  {
+    "id": "aipm-gloss-005",
+    "term": "LLM",
+    "category": "RAG 术语",
+    "definition": "LLM 是 RAG 术语 领域中的重要概念。在 AI 产品中，LLM 决定了产品功能上限与用户体验。",
+    "example": "示例：LLM 在 AI 产品中的应用",
+    "aliases": [
+      "Prompt"
+    ],
+    "tags": [
+      "RAG 术语",
+      "LLM"
+    ]
+  },
+  {
+    "id": "aipm-gloss-006",
+    "term": "Prompt",
+    "category": "向量检索术语",
+    "definition": "Prompt 是 向量检索术语 领域中的重要概念。在 AI 产品中，Prompt 决定了产品功能上限与用户体验。",
+    "example": "示例：Prompt 在 AI 产品中的应用",
+    "aliases": [
+      "Token"
+    ],
+    "tags": [
+      "向量检索术语",
+      "Prompt"
+    ]
+  },
+  {
+    "id": "aipm-gloss-007",
+    "term": "Token",
+    "category": "AI 评测术语",
+    "definition": "Token 是 AI 评测术语 领域中的重要概念。在 AI 产品中，Token 决定了产品功能上限与用户体验。",
+    "example": "示例：Token 在 AI 产品中的应用",
+    "aliases": [
+      "Embedding"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "Token"
+    ]
+  },
+  {
+    "id": "aipm-gloss-008",
+    "term": "Embedding",
+    "category": "AI 安全术语",
+    "definition": "Embedding 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Embedding 决定了产品功能上限与用户体验。",
+    "example": "示例：Embedding 在 AI 产品中的应用",
+    "aliases": [
+      "向量数据库"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Embedding"
+    ]
+  },
+  {
+    "id": "aipm-gloss-009",
+    "term": "向量数据库",
+    "category": "SaaS 商业化术语",
+    "definition": "向量数据库 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，向量数据库 决定了产品功能上限与用户体验。",
+    "example": "示例：向量数据库 在 AI 产品中的应用",
+    "aliases": [
+      "Fine-tuning"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "向量数据库"
+    ]
+  },
+  {
+    "id": "aipm-gloss-010",
+    "term": "Fine-tuning",
+    "category": "产品经理术语",
+    "definition": "Fine-tuning 是 产品经理术语 领域中的重要概念。在 AI 产品中，Fine-tuning 决定了产品功能上限与用户体验。",
+    "example": "示例：Fine-tuning 在 AI 产品中的应用",
+    "aliases": [
+      "Few-shot"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Fine-tuning"
+    ]
+  },
+  {
+    "id": "aipm-gloss-011",
+    "term": "Few-shot",
+    "category": "AI 产品术语",
+    "definition": "Few-shot 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Few-shot 决定了产品功能上限与用户体验。",
+    "example": "示例：Few-shot 在 AI 产品中的应用",
+    "aliases": [
+      "Zero-shot"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Few-shot"
+    ]
+  },
+  {
+    "id": "aipm-gloss-012",
+    "term": "Zero-shot",
+    "category": "LLM 术语",
+    "definition": "Zero-shot 是 LLM 术语 领域中的重要概念。在 AI 产品中，Zero-shot 决定了产品功能上限与用户体验。",
+    "example": "示例：Zero-shot 在 AI 产品中的应用",
+    "aliases": [
+      "Chain of Thought"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Zero-shot"
+    ]
+  },
+  {
+    "id": "aipm-gloss-013",
+    "term": "Chain of Thought",
+    "category": "Prompt 工程术语",
+    "definition": "Chain of Thought 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Chain of Thought 决定了产品功能上限与用户体验。",
+    "example": "示例：Chain of Thought 在 AI 产品中的应用",
+    "aliases": [
+      "ReAct"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Chain of Thought"
+    ]
+  },
+  {
+    "id": "aipm-gloss-014",
+    "term": "ReAct",
+    "category": "Agent 术语",
+    "definition": "ReAct 是 Agent 术语 领域中的重要概念。在 AI 产品中，ReAct 决定了产品功能上限与用户体验。",
+    "example": "示例：ReAct 在 AI 产品中的应用",
+    "aliases": [
+      "Function Calling"
+    ],
+    "tags": [
+      "Agent 术语",
+      "ReAct"
+    ]
+  },
+  {
+    "id": "aipm-gloss-015",
+    "term": "Function Calling",
+    "category": "RAG 术语",
+    "definition": "Function Calling 是 RAG 术语 领域中的重要概念。在 AI 产品中，Function Calling 决定了产品功能上限与用户体验。",
+    "example": "示例：Function Calling 在 AI 产品中的应用",
+    "aliases": [
+      "Tool Use"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Function Calling"
+    ]
+  },
+  {
+    "id": "aipm-gloss-016",
+    "term": "Tool Use",
+    "category": "向量检索术语",
+    "definition": "Tool Use 是 向量检索术语 领域中的重要概念。在 AI 产品中，Tool Use 决定了产品功能上限与用户体验。",
+    "example": "示例：Tool Use 在 AI 产品中的应用",
+    "aliases": [
+      "Memory"
+    ],
+    "tags": [
+      "向量检索术语",
+      "Tool Use"
+    ]
+  },
+  {
+    "id": "aipm-gloss-017",
+    "term": "Memory",
+    "category": "AI 评测术语",
+    "definition": "Memory 是 AI 评测术语 领域中的重要概念。在 AI 产品中，Memory 决定了产品功能上限与用户体验。",
+    "example": "示例：Memory 在 AI 产品中的应用",
+    "aliases": [
+      "Planning"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "Memory"
+    ]
+  },
+  {
+    "id": "aipm-gloss-018",
+    "term": "Planning",
+    "category": "AI 安全术语",
+    "definition": "Planning 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Planning 决定了产品功能上限与用户体验。",
+    "example": "示例：Planning 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Planning"
+    ]
+  },
+  {
+    "id": "aipm-gloss-019",
+    "term": "Chunk",
+    "category": "SaaS 商业化术语",
+    "definition": "Chunk 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Chunk 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk Size"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Chunk"
+    ]
+  },
+  {
+    "id": "aipm-gloss-020",
+    "term": "Chunk Size",
+    "category": "产品经理术语",
+    "definition": "Chunk Size 是 产品经理术语 领域中的重要概念。在 AI 产品中，Chunk Size 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk Size 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk Overlap"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Chunk Size"
+    ]
+  },
+  {
+    "id": "aipm-gloss-021",
+    "term": "Chunk Overlap",
+    "category": "AI 产品术语",
+    "definition": "Chunk Overlap 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Chunk Overlap 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk Overlap 在 AI 产品中的应用",
+    "aliases": [
+      "Top K"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Chunk Overlap"
+    ]
+  },
+  {
+    "id": "aipm-gloss-022",
+    "term": "Top K",
+    "category": "LLM 术语",
+    "definition": "Top K 是 LLM 术语 领域中的重要概念。在 AI 产品中，Top K 决定了产品功能上限与用户体验。",
+    "example": "示例：Top K 在 AI 产品中的应用",
+    "aliases": [
+      "Rerank"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Top K"
+    ]
+  },
+  {
+    "id": "aipm-gloss-023",
+    "term": "Rerank",
+    "category": "Prompt 工程术语",
+    "definition": "Rerank 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Rerank 决定了产品功能上限与用户体验。",
+    "example": "示例：Rerank 在 AI 产品中的应用",
+    "aliases": [
+      "Cross-Encoder"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Rerank"
+    ]
+  },
+  {
+    "id": "aipm-gloss-024",
+    "term": "Cross-Encoder",
+    "category": "Agent 术语",
+    "definition": "Cross-Encoder 是 Agent 术语 领域中的重要概念。在 AI 产品中，Cross-Encoder 决定了产品功能上限与用户体验。",
+    "example": "示例：Cross-Encoder 在 AI 产品中的应用",
+    "aliases": [
+      "余弦相似度"
+    ],
+    "tags": [
+      "Agent 术语",
+      "Cross-Encoder"
+    ]
+  },
+  {
+    "id": "aipm-gloss-025",
+    "term": "余弦相似度",
+    "category": "RAG 术语",
+    "definition": "余弦相似度 是 RAG 术语 领域中的重要概念。在 AI 产品中，余弦相似度 决定了产品功能上限与用户体验。",
+    "example": "示例：余弦相似度 在 AI 产品中的应用",
+    "aliases": [
+      "点积"
+    ],
+    "tags": [
+      "RAG 术语",
+      "余弦相似度"
+    ]
+  },
+  {
+    "id": "aipm-gloss-026",
+    "term": "点积",
+    "category": "向量检索术语",
+    "definition": "点积 是 向量检索术语 领域中的重要概念。在 AI 产品中，点积 决定了产品功能上限与用户体验。",
+    "example": "示例：点积 在 AI 产品中的应用",
+    "aliases": [
+      "幻觉"
+    ],
+    "tags": [
+      "向量检索术语",
+      "点积"
+    ]
+  },
+  {
+    "id": "aipm-gloss-027",
+    "term": "幻觉",
+    "category": "AI 评测术语",
+    "definition": "幻觉 是 AI 评测术语 领域中的重要概念。在 AI 产品中，幻觉 决定了产品功能上限与用户体验。",
+    "example": "示例：幻觉 在 AI 产品中的应用",
+    "aliases": [
+      "Hallucination"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "幻觉"
+    ]
+  },
+  {
+    "id": "aipm-gloss-028",
+    "term": "Hallucination",
+    "category": "AI 安全术语",
+    "definition": "Hallucination 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Hallucination 决定了产品功能上限与用户体验。",
+    "example": "示例：Hallucination 在 AI 产品中的应用",
+    "aliases": [
+      "Temperature"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Hallucination"
+    ]
+  },
+  {
+    "id": "aipm-gloss-029",
+    "term": "Temperature",
+    "category": "SaaS 商业化术语",
+    "definition": "Temperature 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Temperature 决定了产品功能上限与用户体验。",
+    "example": "示例：Temperature 在 AI 产品中的应用",
+    "aliases": [
+      "Top P"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Temperature"
+    ]
+  },
+  {
+    "id": "aipm-gloss-030",
+    "term": "Top P",
+    "category": "产品经理术语",
+    "definition": "Top P 是 产品经理术语 领域中的重要概念。在 AI 产品中，Top P 决定了产品功能上限与用户体验。",
+    "example": "示例：Top P 在 AI 产品中的应用",
+    "aliases": [
+      "Top K 采样"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Top P"
+    ]
+  },
+  {
+    "id": "aipm-gloss-031",
+    "term": "Top K 采样",
+    "category": "AI 产品术语",
+    "definition": "Top K 采样 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Top K 采样 决定了产品功能上限与用户体验。",
+    "example": "示例：Top K 采样 在 AI 产品中的应用",
+    "aliases": [
+      "上下文窗口"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Top K 采样"
+    ]
+  },
+  {
+    "id": "aipm-gloss-032",
+    "term": "上下文窗口",
+    "category": "LLM 术语",
+    "definition": "上下文窗口 是 LLM 术语 领域中的重要概念。在 AI 产品中，上下文窗口 决定了产品功能上限与用户体验。",
+    "example": "示例：上下文窗口 在 AI 产品中的应用",
+    "aliases": [
+      "Context Window"
+    ],
+    "tags": [
+      "LLM 术语",
+      "上下文窗口"
+    ]
+  },
+  {
+    "id": "aipm-gloss-033",
+    "term": "Context Window",
+    "category": "Prompt 工程术语",
+    "definition": "Context Window 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Context Window 决定了产品功能上限与用户体验。",
+    "example": "示例：Context Window 在 AI 产品中的应用",
+    "aliases": [
+      "System Prompt"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Context Window"
+    ]
+  },
+  {
+    "id": "aipm-gloss-034",
+    "term": "System Prompt",
+    "category": "Agent 术语",
+    "definition": "System Prompt 是 Agent 术语 领域中的重要概念。在 AI 产品中，System Prompt 决定了产品功能上限与用户体验。",
+    "example": "示例：System Prompt 在 AI 产品中的应用",
+    "aliases": [
+      "User Prompt"
+    ],
+    "tags": [
+      "Agent 术语",
+      "System Prompt"
+    ]
+  },
+  {
+    "id": "aipm-gloss-035",
+    "term": "User Prompt",
+    "category": "RAG 术语",
+    "definition": "User Prompt 是 RAG 术语 领域中的重要概念。在 AI 产品中，User Prompt 决定了产品功能上限与用户体验。",
+    "example": "示例：User Prompt 在 AI 产品中的应用",
+    "aliases": [
+      "Assistant"
+    ],
+    "tags": [
+      "RAG 术语",
+      "User Prompt"
+    ]
+  },
+  {
+    "id": "aipm-gloss-036",
+    "term": "Assistant",
+    "category": "向量检索术语",
+    "definition": "Assistant 是 向量检索术语 领域中的重要概念。在 AI 产品中，Assistant 决定了产品功能上限与用户体验。",
+    "example": "示例：Assistant 在 AI 产品中的应用",
+    "aliases": [
+      "JSON 输出"
+    ],
+    "tags": [
+      "向量检索术语",
+      "Assistant"
+    ]
+  },
+  {
+    "id": "aipm-gloss-037",
+    "term": "JSON 输出",
+    "category": "AI 评测术语",
+    "definition": "JSON 输出 是 AI 评测术语 领域中的重要概念。在 AI 产品中，JSON 输出 决定了产品功能上限与用户体验。",
+    "example": "示例：JSON 输出 在 AI 产品中的应用",
+    "aliases": [
+      "结构化输出"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "JSON 输出"
+    ]
+  },
+  {
+    "id": "aipm-gloss-038",
+    "term": "结构化输出",
+    "category": "AI 安全术语",
+    "definition": "结构化输出 是 AI 安全术语 领域中的重要概念。在 AI 产品中，结构化输出 决定了产品功能上限与用户体验。",
+    "example": "示例：结构化输出 在 AI 产品中的应用",
+    "aliases": [
+      "Prompt 注入"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "结构化输出"
+    ]
+  },
+  {
+    "id": "aipm-gloss-039",
+    "term": "Prompt 注入",
+    "category": "SaaS 商业化术语",
+    "definition": "Prompt 注入 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Prompt 注入 决定了产品功能上限与用户体验。",
+    "example": "示例：Prompt 注入 在 AI 产品中的应用",
+    "aliases": [
+      "Jailbreak"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Prompt 注入"
+    ]
+  },
+  {
+    "id": "aipm-gloss-040",
+    "term": "Jailbreak",
+    "category": "产品经理术语",
+    "definition": "Jailbreak 是 产品经理术语 领域中的重要概念。在 AI 产品中，Jailbreak 决定了产品功能上限与用户体验。",
+    "example": "示例：Jailbreak 在 AI 产品中的应用",
+    "aliases": [
+      "意图识别"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Jailbreak"
+    ]
+  },
+  {
+    "id": "aipm-gloss-041",
+    "term": "意图识别",
+    "category": "AI 产品术语",
+    "definition": "意图识别 是 AI 产品术语 领域中的重要概念。在 AI 产品中，意图识别 决定了产品功能上限与用户体验。",
+    "example": "示例：意图识别 在 AI 产品中的应用",
+    "aliases": [
+      "槽位填充"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "意图识别"
+    ]
+  },
+  {
+    "id": "aipm-gloss-042",
+    "term": "槽位填充",
+    "category": "LLM 术语",
+    "definition": "槽位填充 是 LLM 术语 领域中的重要概念。在 AI 产品中，槽位填充 决定了产品功能上限与用户体验。",
+    "example": "示例：槽位填充 在 AI 产品中的应用",
+    "aliases": [
+      "多轮对话"
+    ],
+    "tags": [
+      "LLM 术语",
+      "槽位填充"
+    ]
+  },
+  {
+    "id": "aipm-gloss-043",
+    "term": "多轮对话",
+    "category": "Prompt 工程术语",
+    "definition": "多轮对话 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，多轮对话 决定了产品功能上限与用户体验。",
+    "example": "示例：多轮对话 在 AI 产品中的应用",
+    "aliases": [
+      "对话状态"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "多轮对话"
+    ]
+  },
+  {
+    "id": "aipm-gloss-044",
+    "term": "对话状态",
+    "category": "Agent 术语",
+    "definition": "对话状态 是 Agent 术语 领域中的重要概念。在 AI 产品中，对话状态 决定了产品功能上限与用户体验。",
+    "example": "示例：对话状态 在 AI 产品中的应用",
+    "aliases": [
+      "信息架构"
+    ],
+    "tags": [
+      "Agent 术语",
+      "对话状态"
+    ]
+  },
+  {
+    "id": "aipm-gloss-045",
+    "term": "信息架构",
+    "category": "RAG 术语",
+    "definition": "信息架构 是 RAG 术语 领域中的重要概念。在 AI 产品中，信息架构 决定了产品功能上限与用户体验。",
+    "example": "示例：信息架构 在 AI 产品中的应用",
+    "aliases": [
+      "兜底话术"
+    ],
+    "tags": [
+      "RAG 术语",
+      "信息架构"
+    ]
+  },
+  {
+    "id": "aipm-gloss-046",
+    "term": "兜底话术",
+    "category": "向量检索术语",
+    "definition": "兜底话术 是 向量检索术语 领域中的重要概念。在 AI 产品中，兜底话术 决定了产品功能上限与用户体验。",
+    "example": "示例：兜底话术 在 AI 产品中的应用",
+    "aliases": [
+      "转人工"
+    ],
+    "tags": [
+      "向量检索术语",
+      "兜底话术"
+    ]
+  },
+  {
+    "id": "aipm-gloss-047",
+    "term": "转人工",
+    "category": "AI 评测术语",
+    "definition": "转人工 是 AI 评测术语 领域中的重要概念。在 AI 产品中，转人工 决定了产品功能上限与用户体验。",
+    "example": "示例：转人工 在 AI 产品中的应用",
+    "aliases": [
+      "任务完成率"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "转人工"
+    ]
+  },
+  {
+    "id": "aipm-gloss-048",
+    "term": "任务完成率",
+    "category": "AI 安全术语",
+    "definition": "任务完成率 是 AI 安全术语 领域中的重要概念。在 AI 产品中，任务完成率 决定了产品功能上限与用户体验。",
+    "example": "示例：任务完成率 在 AI 产品中的应用",
+    "aliases": [
+      "评测集"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "任务完成率"
+    ]
+  },
+  {
+    "id": "aipm-gloss-049",
+    "term": "评测集",
+    "category": "SaaS 商业化术语",
+    "definition": "评测集 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，评测集 决定了产品功能上限与用户体验。",
+    "example": "示例：评测集 在 AI 产品中的应用",
+    "aliases": [
+      "人工评估"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "评测集"
+    ]
+  },
+  {
+    "id": "aipm-gloss-050",
+    "term": "人工评估",
+    "category": "产品经理术语",
+    "definition": "人工评估 是 产品经理术语 领域中的重要概念。在 AI 产品中，人工评估 决定了产品功能上限与用户体验。",
+    "example": "示例：人工评估 在 AI 产品中的应用",
+    "aliases": [
+      "A/B 测试"
+    ],
+    "tags": [
+      "产品经理术语",
+      "人工评估"
+    ]
+  },
+  {
+    "id": "aipm-gloss-051",
+    "term": "A/B 测试",
+    "category": "AI 产品术语",
+    "definition": "A/B 测试 是 AI 产品术语 领域中的重要概念。在 AI 产品中，A/B 测试 决定了产品功能上限与用户体验。",
+    "example": "示例：A/B 测试 在 AI 产品中的应用",
+    "aliases": [
+      "BLEU"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "A/B 测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-052",
+    "term": "BLEU",
+    "category": "LLM 术语",
+    "definition": "BLEU 是 LLM 术语 领域中的重要概念。在 AI 产品中，BLEU 决定了产品功能上限与用户体验。",
+    "example": "示例：BLEU 在 AI 产品中的应用",
+    "aliases": [
+      "ROUGE"
+    ],
+    "tags": [
+      "LLM 术语",
+      "BLEU"
+    ]
+  },
+  {
+    "id": "aipm-gloss-053",
+    "term": "ROUGE",
+    "category": "Prompt 工程术语",
+    "definition": "ROUGE 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，ROUGE 决定了产品功能上限与用户体验。",
+    "example": "示例：ROUGE 在 AI 产品中的应用",
+    "aliases": [
+      "BERTScore"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "ROUGE"
+    ]
+  },
+  {
+    "id": "aipm-gloss-054",
+    "term": "BERTScore",
+    "category": "Agent 术语",
+    "definition": "BERTScore 是 Agent 术语 领域中的重要概念。在 AI 产品中，BERTScore 决定了产品功能上限与用户体验。",
+    "example": "示例：BERTScore 在 AI 产品中的应用",
+    "aliases": [
+      "准确率"
+    ],
+    "tags": [
+      "Agent 术语",
+      "BERTScore"
+    ]
+  },
+  {
+    "id": "aipm-gloss-055",
+    "term": "准确率",
+    "category": "RAG 术语",
+    "definition": "准确率 是 RAG 术语 领域中的重要概念。在 AI 产品中，准确率 决定了产品功能上限与用户体验。",
+    "example": "示例：准确率 在 AI 产品中的应用",
+    "aliases": [
+      "召回率"
+    ],
+    "tags": [
+      "RAG 术语",
+      "准确率"
+    ]
+  },
+  {
+    "id": "aipm-gloss-056",
+    "term": "召回率",
+    "category": "向量检索术语",
+    "definition": "召回率 是 向量检索术语 领域中的重要概念。在 AI 产品中，召回率 决定了产品功能上限与用户体验。",
+    "example": "示例：召回率 在 AI 产品中的应用",
+    "aliases": [
+      "F1"
+    ],
+    "tags": [
+      "向量检索术语",
+      "召回率"
+    ]
+  },
+  {
+    "id": "aipm-gloss-057",
+    "term": "F1",
+    "category": "AI 评测术语",
+    "definition": "F1 是 AI 评测术语 领域中的重要概念。在 AI 产品中，F1 决定了产品功能上限与用户体验。",
+    "example": "示例：F1 在 AI 产品中的应用",
+    "aliases": [
+      "SaaS"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "F1"
+    ]
+  },
+  {
+    "id": "aipm-gloss-058",
+    "term": "SaaS",
+    "category": "AI 安全术语",
+    "definition": "SaaS 是 AI 安全术语 领域中的重要概念。在 AI 产品中，SaaS 决定了产品功能上限与用户体验。",
+    "example": "示例：SaaS 在 AI 产品中的应用",
+    "aliases": [
+      "PLG"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "SaaS"
+    ]
+  },
+  {
+    "id": "aipm-gloss-059",
+    "term": "PLG",
+    "category": "SaaS 商业化术语",
+    "definition": "PLG 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，PLG 决定了产品功能上限与用户体验。",
+    "example": "示例：PLG 在 AI 产品中的应用",
+    "aliases": [
+      "SLG"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "PLG"
+    ]
+  },
+  {
+    "id": "aipm-gloss-060",
+    "term": "SLG",
+    "category": "产品经理术语",
+    "definition": "SLG 是 产品经理术语 领域中的重要概念。在 AI 产品中，SLG 决定了产品功能上限与用户体验。",
+    "example": "示例：SLG 在 AI 产品中的应用",
+    "aliases": [
+      "免费增值"
+    ],
+    "tags": [
+      "产品经理术语",
+      "SLG"
+    ]
+  },
+  {
+    "id": "aipm-gloss-061",
+    "term": "免费增值",
+    "category": "AI 产品术语",
+    "definition": "免费增值 是 AI 产品术语 领域中的重要概念。在 AI 产品中，免费增值 决定了产品功能上限与用户体验。",
+    "example": "示例：免费增值 在 AI 产品中的应用",
+    "aliases": [
+      "订阅制"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "免费增值"
+    ]
+  },
+  {
+    "id": "aipm-gloss-062",
+    "term": "订阅制",
+    "category": "LLM 术语",
+    "definition": "订阅制 是 LLM 术语 领域中的重要概念。在 AI 产品中，订阅制 决定了产品功能上限与用户体验。",
+    "example": "示例：订阅制 在 AI 产品中的应用",
+    "aliases": [
+      "用量计费"
+    ],
+    "tags": [
+      "LLM 术语",
+      "订阅制"
+    ]
+  },
+  {
+    "id": "aipm-gloss-063",
+    "term": "用量计费",
+    "category": "Prompt 工程术语",
+    "definition": "用量计费 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，用量计费 决定了产品功能上限与用户体验。",
+    "example": "示例：用量计费 在 AI 产品中的应用",
+    "aliases": [
+      "LTV"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "用量计费"
+    ]
+  },
+  {
+    "id": "aipm-gloss-064",
+    "term": "LTV",
+    "category": "Agent 术语",
+    "definition": "LTV 是 Agent 术语 领域中的重要概念。在 AI 产品中，LTV 决定了产品功能上限与用户体验。",
+    "example": "示例：LTV 在 AI 产品中的应用",
+    "aliases": [
+      "CAC"
+    ],
+    "tags": [
+      "Agent 术语",
+      "LTV"
+    ]
+  },
+  {
+    "id": "aipm-gloss-065",
+    "term": "CAC",
+    "category": "RAG 术语",
+    "definition": "CAC 是 RAG 术语 领域中的重要概念。在 AI 产品中，CAC 决定了产品功能上限与用户体验。",
+    "example": "示例：CAC 在 AI 产品中的应用",
+    "aliases": [
+      "ARPU"
+    ],
+    "tags": [
+      "RAG 术语",
+      "CAC"
+    ]
+  },
+  {
+    "id": "aipm-gloss-066",
+    "term": "ARPU",
+    "category": "向量检索术语",
+    "definition": "ARPU 是 向量检索术语 领域中的重要概念。在 AI 产品中，ARPU 决定了产品功能上限与用户体验。",
+    "example": "示例：ARPU 在 AI 产品中的应用",
+    "aliases": [
+      " churn"
+    ],
+    "tags": [
+      "向量检索术语",
+      "ARPU"
+    ]
+  },
+  {
+    "id": "aipm-gloss-067",
+    "term": " churn",
+    "category": "AI 评测术语",
+    "definition": " churn 是 AI 评测术语 领域中的重要概念。在 AI 产品中， churn 决定了产品功能上限与用户体验。",
+    "example": "示例： churn 在 AI 产品中的应用",
+    "aliases": [
+      "冷启动"
+    ],
+    "tags": [
+      "AI 评测术语",
+      " churn"
+    ]
+  },
+  {
+    "id": "aipm-gloss-068",
+    "term": "冷启动",
+    "category": "AI 安全术语",
+    "definition": "冷启动 是 AI 安全术语 领域中的重要概念。在 AI 产品中，冷启动 决定了产品功能上限与用户体验。",
+    "example": "示例：冷启动 在 AI 产品中的应用",
+    "aliases": [
+      "种子用户"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "冷启动"
+    ]
+  },
+  {
+    "id": "aipm-gloss-069",
+    "term": "种子用户",
+    "category": "SaaS 商业化术语",
+    "definition": "种子用户 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，种子用户 决定了产品功能上限与用户体验。",
+    "example": "示例：种子用户 在 AI 产品中的应用",
+    "aliases": [
+      "增长黑客"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "种子用户"
+    ]
+  },
+  {
+    "id": "aipm-gloss-070",
+    "term": "增长黑客",
+    "category": "产品经理术语",
+    "definition": "增长黑客 是 产品经理术语 领域中的重要概念。在 AI 产品中，增长黑客 决定了产品功能上限与用户体验。",
+    "example": "示例：增长黑客 在 AI 产品中的应用",
+    "aliases": [
+      "AARRR"
+    ],
+    "tags": [
+      "产品经理术语",
+      "增长黑客"
+    ]
+  },
+  {
+    "id": "aipm-gloss-071",
+    "term": "AARRR",
+    "category": "AI 产品术语",
+    "definition": "AARRR 是 AI 产品术语 领域中的重要概念。在 AI 产品中，AARRR 决定了产品功能上限与用户体验。",
+    "example": "示例：AARRR 在 AI 产品中的应用",
+    "aliases": [
+      "北极星指标"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "AARRR"
+    ]
+  },
+  {
+    "id": "aipm-gloss-072",
+    "term": "北极星指标",
+    "category": "LLM 术语",
+    "definition": "北极星指标 是 LLM 术语 领域中的重要概念。在 AI 产品中，北极星指标 决定了产品功能上限与用户体验。",
+    "example": "示例：北极星指标 在 AI 产品中的应用",
+    "aliases": [
+      "留存"
+    ],
+    "tags": [
+      "LLM 术语",
+      "北极星指标"
+    ]
+  },
+  {
+    "id": "aipm-gloss-073",
+    "term": "留存",
+    "category": "Prompt 工程术语",
+    "definition": "留存 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，留存 决定了产品功能上限与用户体验。",
+    "example": "示例：留存 在 AI 产品中的应用",
+    "aliases": [
+      "激活"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "留存"
+    ]
+  },
+  {
+    "id": "aipm-gloss-074",
+    "term": "激活",
+    "category": "Agent 术语",
+    "definition": "激活 是 Agent 术语 领域中的重要概念。在 AI 产品中，激活 决定了产品功能上限与用户体验。",
+    "example": "示例：激活 在 AI 产品中的应用",
+    "aliases": [
+      "变现"
+    ],
+    "tags": [
+      "Agent 术语",
+      "激活"
+    ]
+  },
+  {
+    "id": "aipm-gloss-075",
+    "term": "变现",
+    "category": "RAG 术语",
+    "definition": "变现 是 RAG 术语 领域中的重要概念。在 AI 产品中，变现 决定了产品功能上限与用户体验。",
+    "example": "示例：变现 在 AI 产品中的应用",
+    "aliases": [
+      "推荐"
+    ],
+    "tags": [
+      "RAG 术语",
+      "变现"
+    ]
+  },
+  {
+    "id": "aipm-gloss-076",
+    "term": "推荐",
+    "category": "向量检索术语",
+    "definition": "推荐 是 向量检索术语 领域中的重要概念。在 AI 产品中，推荐 决定了产品功能上限与用户体验。",
+    "example": "示例：推荐 在 AI 产品中的应用",
+    "aliases": [
+      "PRD"
+    ],
+    "tags": [
+      "向量检索术语",
+      "推荐"
+    ]
+  },
+  {
+    "id": "aipm-gloss-077",
+    "term": "PRD",
+    "category": "AI 评测术语",
+    "definition": "PRD 是 AI 评测术语 领域中的重要概念。在 AI 产品中，PRD 决定了产品功能上限与用户体验。",
+    "example": "示例：PRD 在 AI 产品中的应用",
+    "aliases": [
+      "MRD"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "PRD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-078",
+    "term": "MRD",
+    "category": "AI 安全术语",
+    "definition": "MRD 是 AI 安全术语 领域中的重要概念。在 AI 产品中，MRD 决定了产品功能上限与用户体验。",
+    "example": "示例：MRD 在 AI 产品中的应用",
+    "aliases": [
+      "BRD"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "MRD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-079",
+    "term": "BRD",
+    "category": "SaaS 商业化术语",
+    "definition": "BRD 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，BRD 决定了产品功能上限与用户体验。",
+    "example": "示例：BRD 在 AI 产品中的应用",
+    "aliases": [
+      "用户画像"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "BRD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-080",
+    "term": "用户画像",
+    "category": "产品经理术语",
+    "definition": "用户画像 是 产品经理术语 领域中的重要概念。在 AI 产品中，用户画像 决定了产品功能上限与用户体验。",
+    "example": "示例：用户画像 在 AI 产品中的应用",
+    "aliases": [
+      "Persona"
+    ],
+    "tags": [
+      "产品经理术语",
+      "用户画像"
+    ]
+  },
+  {
+    "id": "aipm-gloss-081",
+    "term": "Persona",
+    "category": "AI 产品术语",
+    "definition": "Persona 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Persona 决定了产品功能上限与用户体验。",
+    "example": "示例：Persona 在 AI 产品中的应用",
+    "aliases": [
+      "用户旅程"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Persona"
+    ]
+  },
+  {
+    "id": "aipm-gloss-082",
+    "term": "用户旅程",
+    "category": "LLM 术语",
+    "definition": "用户旅程 是 LLM 术语 领域中的重要概念。在 AI 产品中，用户旅程 决定了产品功能上限与用户体验。",
+    "example": "示例：用户旅程 在 AI 产品中的应用",
+    "aliases": [
+      "痛点"
+    ],
+    "tags": [
+      "LLM 术语",
+      "用户旅程"
+    ]
+  },
+  {
+    "id": "aipm-gloss-083",
+    "term": "痛点",
+    "category": "Prompt 工程术语",
+    "definition": "痛点 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，痛点 决定了产品功能上限与用户体验。",
+    "example": "示例：痛点 在 AI 产品中的应用",
+    "aliases": [
+      "需求优先级"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "痛点"
+    ]
+  },
+  {
+    "id": "aipm-gloss-084",
+    "term": "需求优先级",
+    "category": "Agent 术语",
+    "definition": "需求优先级 是 Agent 术语 领域中的重要概念。在 AI 产品中，需求优先级 决定了产品功能上限与用户体验。",
+    "example": "示例：需求优先级 在 AI 产品中的应用",
+    "aliases": [
+      "MoSCoW"
+    ],
+    "tags": [
+      "Agent 术语",
+      "需求优先级"
+    ]
+  },
+  {
+    "id": "aipm-gloss-085",
+    "term": "MoSCoW",
+    "category": "RAG 术语",
+    "definition": "MoSCoW 是 RAG 术语 领域中的重要概念。在 AI 产品中，MoSCoW 决定了产品功能上限与用户体验。",
+    "example": "示例：MoSCoW 在 AI 产品中的应用",
+    "aliases": [
+      "RICE"
+    ],
+    "tags": [
+      "RAG 术语",
+      "MoSCoW"
+    ]
+  },
+  {
+    "id": "aipm-gloss-086",
+    "term": "RICE",
+    "category": "向量检索术语",
+    "definition": "RICE 是 向量检索术语 领域中的重要概念。在 AI 产品中，RICE 决定了产品功能上限与用户体验。",
+    "example": "示例：RICE 在 AI 产品中的应用",
+    "aliases": [
+      "MVP"
+    ],
+    "tags": [
+      "向量检索术语",
+      "RICE"
+    ]
+  },
+  {
+    "id": "aipm-gloss-087",
+    "term": "MVP",
+    "category": "AI 评测术语",
+    "definition": "MVP 是 AI 评测术语 领域中的重要概念。在 AI 产品中，MVP 决定了产品功能上限与用户体验。",
+    "example": "示例：MVP 在 AI 产品中的应用",
+    "aliases": [
+      "PMF"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "MVP"
+    ]
+  },
+  {
+    "id": "aipm-gloss-088",
+    "term": "PMF",
+    "category": "AI 安全术语",
+    "definition": "PMF 是 AI 安全术语 领域中的重要概念。在 AI 产品中，PMF 决定了产品功能上限与用户体验。",
+    "example": "示例：PMF 在 AI 产品中的应用",
+    "aliases": [
+      "MVP 上线"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "PMF"
+    ]
+  },
+  {
+    "id": "aipm-gloss-089",
+    "term": "MVP 上线",
+    "category": "SaaS 商业化术语",
+    "definition": "MVP 上线 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，MVP 上线 决定了产品功能上限与用户体验。",
+    "example": "示例：MVP 上线 在 AI 产品中的应用",
+    "aliases": [
+      "灰度发布"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "MVP 上线"
+    ]
+  },
+  {
+    "id": "aipm-gloss-090",
+    "term": "灰度发布",
+    "category": "产品经理术语",
+    "definition": "灰度发布 是 产品经理术语 领域中的重要概念。在 AI 产品中，灰度发布 决定了产品功能上限与用户体验。",
+    "example": "示例：灰度发布 在 AI 产品中的应用",
+    "aliases": [
+      "AB 测试"
+    ],
+    "tags": [
+      "产品经理术语",
+      "灰度发布"
+    ]
+  },
+  {
+    "id": "aipm-gloss-091",
+    "term": "AB 测试",
+    "category": "AI 产品术语",
+    "definition": "AB 测试 是 AI 产品术语 领域中的重要概念。在 AI 产品中，AB 测试 决定了产品功能上限与用户体验。",
+    "example": "示例：AB 测试 在 AI 产品中的应用",
+    "aliases": [
+      "北极星"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "AB 测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-092",
+    "term": "北极星",
+    "category": "LLM 术语",
+    "definition": "北极星 是 LLM 术语 领域中的重要概念。在 AI 产品中，北极星 决定了产品功能上限与用户体验。",
+    "example": "示例：北极星 在 AI 产品中的应用",
+    "aliases": [
+      "OKR"
+    ],
+    "tags": [
+      "LLM 术语",
+      "北极星"
+    ]
+  },
+  {
+    "id": "aipm-gloss-093",
+    "term": "OKR",
+    "category": "Prompt 工程术语",
+    "definition": "OKR 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，OKR 决定了产品功能上限与用户体验。",
+    "example": "示例：OKR 在 AI 产品中的应用",
+    "aliases": [
+      "KPI"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "OKR"
+    ]
+  },
+  {
+    "id": "aipm-gloss-094",
+    "term": "KPI",
+    "category": "Agent 术语",
+    "definition": "KPI 是 Agent 术语 领域中的重要概念。在 AI 产品中，KPI 决定了产品功能上限与用户体验。",
+    "example": "示例：KPI 在 AI 产品中的应用",
+    "aliases": [
+      "DoD"
+    ],
+    "tags": [
+      "Agent 术语",
+      "KPI"
+    ]
+  },
+  {
+    "id": "aipm-gloss-095",
+    "term": "DoD",
+    "category": "RAG 术语",
+    "definition": "DoD 是 RAG 术语 领域中的重要概念。在 AI 产品中，DoD 决定了产品功能上限与用户体验。",
+    "example": "示例：DoD 在 AI 产品中的应用",
+    "aliases": [
+      "DoR"
+    ],
+    "tags": [
+      "RAG 术语",
+      "DoD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-096",
+    "term": "DoR",
+    "category": "向量检索术语",
+    "definition": "DoR 是 向量检索术语 领域中的重要概念。在 AI 产品中，DoR 决定了产品功能上限与用户体验。",
+    "example": "示例：DoR 在 AI 产品中的应用",
+    "aliases": [
+      "竞品分析"
+    ],
+    "tags": [
+      "向量检索术语",
+      "DoR"
+    ]
+  },
+  {
+    "id": "aipm-gloss-097",
+    "term": "竞品分析",
+    "category": "AI 评测术语",
+    "definition": "竞品分析 是 AI 评测术语 领域中的重要概念。在 AI 产品中，竞品分析 决定了产品功能上限与用户体验。",
+    "example": "示例：竞品分析 在 AI 产品中的应用",
+    "aliases": [
+      "SWOT"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "竞品分析"
+    ]
+  },
+  {
+    "id": "aipm-gloss-098",
+    "term": "SWOT",
+    "category": "AI 安全术语",
+    "definition": "SWOT 是 AI 安全术语 领域中的重要概念。在 AI 产品中，SWOT 决定了产品功能上限与用户体验。",
+    "example": "示例：SWOT 在 AI 产品中的应用",
+    "aliases": [
+      "产品拆解"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "SWOT"
+    ]
+  },
+  {
+    "id": "aipm-gloss-099",
+    "term": "产品拆解",
+    "category": "SaaS 商业化术语",
+    "definition": "产品拆解 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，产品拆解 决定了产品功能上限与用户体验。",
+    "example": "示例：产品拆解 在 AI 产品中的应用",
+    "aliases": [
+      "设计模式"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "产品拆解"
+    ]
+  },
+  {
+    "id": "aipm-gloss-100",
+    "term": "设计模式",
+    "category": "产品经理术语",
+    "definition": "设计模式 是 产品经理术语 领域中的重要概念。在 AI 产品中，设计模式 决定了产品功能上限与用户体验。",
+    "example": "示例：设计模式 在 AI 产品中的应用",
+    "aliases": [
+      "交互设计"
+    ],
+    "tags": [
+      "产品经理术语",
+      "设计模式"
+    ]
+  },
+  {
+    "id": "aipm-gloss-101",
+    "term": "交互设计",
+    "category": "AI 产品术语",
+    "definition": "交互设计 是 AI 产品术语 领域中的重要概念。在 AI 产品中，交互设计 决定了产品功能上限与用户体验。",
+    "example": "示例：交互设计 在 AI 产品中的应用",
+    "aliases": [
+      "原型"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "交互设计"
+    ]
+  },
+  {
+    "id": "aipm-gloss-102",
+    "term": "原型",
+    "category": "LLM 术语",
+    "definition": "原型 是 LLM 术语 领域中的重要概念。在 AI 产品中，原型 决定了产品功能上限与用户体验。",
+    "example": "示例：原型 在 AI 产品中的应用",
+    "aliases": [
+      "Figma"
+    ],
+    "tags": [
+      "LLM 术语",
+      "原型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-103",
+    "term": "Figma",
+    "category": "Prompt 工程术语",
+    "definition": "Figma 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Figma 决定了产品功能上限与用户体验。",
+    "example": "示例：Figma 在 AI 产品中的应用",
+    "aliases": [
+      "流式输出"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Figma"
+    ]
+  },
+  {
+    "id": "aipm-gloss-104",
+    "term": "流式输出",
+    "category": "Agent 术语",
+    "definition": "流式输出 是 Agent 术语 领域中的重要概念。在 AI 产品中，流式输出 决定了产品功能上限与用户体验。",
+    "example": "示例：流式输出 在 AI 产品中的应用",
+    "aliases": [
+      "SSE"
+    ],
+    "tags": [
+      "Agent 术语",
+      "流式输出"
+    ]
+  },
+  {
+    "id": "aipm-gloss-105",
+    "term": "SSE",
+    "category": "RAG 术语",
+    "definition": "SSE 是 RAG 术语 领域中的重要概念。在 AI 产品中，SSE 决定了产品功能上限与用户体验。",
+    "example": "示例：SSE 在 AI 产品中的应用",
+    "aliases": [
+      "WebSocket"
+    ],
+    "tags": [
+      "RAG 术语",
+      "SSE"
+    ]
+  },
+  {
+    "id": "aipm-gloss-106",
+    "term": "WebSocket",
+    "category": "向量检索术语",
+    "definition": "WebSocket 是 向量检索术语 领域中的重要概念。在 AI 产品中，WebSocket 决定了产品功能上限与用户体验。",
+    "example": "示例：WebSocket 在 AI 产品中的应用",
+    "aliases": [
+      "内容安全"
+    ],
+    "tags": [
+      "向量检索术语",
+      "WebSocket"
+    ]
+  },
+  {
+    "id": "aipm-gloss-107",
+    "term": "内容安全",
+    "category": "AI 评测术语",
+    "definition": "内容安全 是 AI 评测术语 领域中的重要概念。在 AI 产品中，内容安全 决定了产品功能上限与用户体验。",
+    "example": "示例：内容安全 在 AI 产品中的应用",
+    "aliases": [
+      "敏感词"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "内容安全"
+    ]
+  },
+  {
+    "id": "aipm-gloss-108",
+    "term": "敏感词",
+    "category": "AI 安全术语",
+    "definition": "敏感词 是 AI 安全术语 领域中的重要概念。在 AI 产品中，敏感词 决定了产品功能上限与用户体验。",
+    "example": "示例：敏感词 在 AI 产品中的应用",
+    "aliases": [
+      "内容审核"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "敏感词"
+    ]
+  },
+  {
+    "id": "aipm-gloss-109",
+    "term": "内容审核",
+    "category": "SaaS 商业化术语",
+    "definition": "内容审核 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，内容审核 决定了产品功能上限与用户体验。",
+    "example": "示例：内容审核 在 AI 产品中的应用",
+    "aliases": [
+      "Prompt Injection"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "内容审核"
+    ]
+  },
+  {
+    "id": "aipm-gloss-110",
+    "term": "Prompt Injection",
+    "category": "产品经理术语",
+    "definition": "Prompt Injection 是 产品经理术语 领域中的重要概念。在 AI 产品中，Prompt Injection 决定了产品功能上限与用户体验。",
+    "example": "示例：Prompt Injection 在 AI 产品中的应用",
+    "aliases": [
+      "PII"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Prompt Injection"
+    ]
+  },
+  {
+    "id": "aipm-gloss-111",
+    "term": "PII",
+    "category": "AI 产品术语",
+    "definition": "PII 是 AI 产品术语 领域中的重要概念。在 AI 产品中，PII 决定了产品功能上限与用户体验。",
+    "example": "示例：PII 在 AI 产品中的应用",
+    "aliases": [
+      "GDPR"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "PII"
+    ]
+  },
+  {
+    "id": "aipm-gloss-112",
+    "term": "GDPR",
+    "category": "LLM 术语",
+    "definition": "GDPR 是 LLM 术语 领域中的重要概念。在 AI 产品中，GDPR 决定了产品功能上限与用户体验。",
+    "example": "示例：GDPR 在 AI 产品中的应用",
+    "aliases": [
+      "个保法"
+    ],
+    "tags": [
+      "LLM 术语",
+      "GDPR"
+    ]
+  },
+  {
+    "id": "aipm-gloss-113",
+    "term": "个保法",
+    "category": "Prompt 工程术语",
+    "definition": "个保法 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，个保法 决定了产品功能上限与用户体验。",
+    "example": "示例：个保法 在 AI 产品中的应用",
+    "aliases": [
+      "数据脱敏"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "个保法"
+    ]
+  },
+  {
+    "id": "aipm-gloss-114",
+    "term": "数据脱敏",
+    "category": "Agent 术语",
+    "definition": "数据脱敏 是 Agent 术语 领域中的重要概念。在 AI 产品中，数据脱敏 决定了产品功能上限与用户体验。",
+    "example": "示例：数据脱敏 在 AI 产品中的应用",
+    "aliases": [
+      "AI 伦理"
+    ],
+    "tags": [
+      "Agent 术语",
+      "数据脱敏"
+    ]
+  },
+  {
+    "id": "aipm-gloss-115",
+    "term": "AI 伦理",
+    "category": "RAG 术语",
+    "definition": "AI 伦理 是 RAG 术语 领域中的重要概念。在 AI 产品中，AI 伦理 决定了产品功能上限与用户体验。",
+    "example": "示例：AI 伦理 在 AI 产品中的应用",
+    "aliases": [
+      "偏见"
+    ],
+    "tags": [
+      "RAG 术语",
+      "AI 伦理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-116",
+    "term": "偏见",
+    "category": "向量检索术语",
+    "definition": "偏见 是 向量检索术语 领域中的重要概念。在 AI 产品中，偏见 决定了产品功能上限与用户体验。",
+    "example": "示例：偏见 在 AI 产品中的应用",
+    "aliases": [
+      "公平性"
+    ],
+    "tags": [
+      "向量检索术语",
+      "偏见"
+    ]
+  },
+  {
+    "id": "aipm-gloss-117",
+    "term": "公平性",
+    "category": "AI 评测术语",
+    "definition": "公平性 是 AI 评测术语 领域中的重要概念。在 AI 产品中，公平性 决定了产品功能上限与用户体验。",
+    "example": "示例：公平性 在 AI 产品中的应用",
+    "aliases": [
+      "透明度"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "公平性"
+    ]
+  },
+  {
+    "id": "aipm-gloss-118",
+    "term": "透明度",
+    "category": "AI 安全术语",
+    "definition": "透明度 是 AI 安全术语 领域中的重要概念。在 AI 产品中，透明度 决定了产品功能上限与用户体验。",
+    "example": "示例：透明度 在 AI 产品中的应用",
+    "aliases": [
+      "可解释性"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "透明度"
+    ]
+  },
+  {
+    "id": "aipm-gloss-119",
+    "term": "可解释性",
+    "category": "SaaS 商业化术语",
+    "definition": "可解释性 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，可解释性 决定了产品功能上限与用户体验。",
+    "example": "示例：可解释性 在 AI 产品中的应用",
+    "aliases": [
+      "责任归属"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "可解释性"
+    ]
+  },
+  {
+    "id": "aipm-gloss-120",
+    "term": "责任归属",
+    "category": "产品经理术语",
+    "definition": "责任归属 是 产品经理术语 领域中的重要概念。在 AI 产品中，责任归属 决定了产品功能上限与用户体验。",
+    "example": "示例：责任归属 在 AI 产品中的应用",
+    "aliases": [
+      "红队测试"
+    ],
+    "tags": [
+      "产品经理术语",
+      "责任归属"
+    ]
+  },
+  {
+    "id": "aipm-gloss-121",
+    "term": "红队测试",
+    "category": "AI 产品术语",
+    "definition": "红队测试 是 AI 产品术语 领域中的重要概念。在 AI 产品中，红队测试 决定了产品功能上限与用户体验。",
+    "example": "示例：红队测试 在 AI 产品中的应用",
+    "aliases": [
+      "越狱"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "红队测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-122",
+    "term": "越狱",
+    "category": "LLM 术语",
+    "definition": "越狱 是 LLM 术语 领域中的重要概念。在 AI 产品中，越狱 决定了产品功能上限与用户体验。",
+    "example": "示例：越狱 在 AI 产品中的应用",
+    "aliases": [
+      "DAN"
+    ],
+    "tags": [
+      "LLM 术语",
+      "越狱"
+    ]
+  },
+  {
+    "id": "aipm-gloss-123",
+    "term": "DAN",
+    "category": "Prompt 工程术语",
+    "definition": "DAN 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，DAN 决定了产品功能上限与用户体验。",
+    "example": "示例：DAN 在 AI 产品中的应用",
+    "aliases": [
+      "微调"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "DAN"
+    ]
+  },
+  {
+    "id": "aipm-gloss-124",
+    "term": "微调",
+    "category": "Agent 术语",
+    "definition": "微调 是 Agent 术语 领域中的重要概念。在 AI 产品中，微调 决定了产品功能上限与用户体验。",
+    "example": "示例：微调 在 AI 产品中的应用",
+    "aliases": [
+      "SFT"
+    ],
+    "tags": [
+      "Agent 术语",
+      "微调"
+    ]
+  },
+  {
+    "id": "aipm-gloss-125",
+    "term": "SFT",
+    "category": "RAG 术语",
+    "definition": "SFT 是 RAG 术语 领域中的重要概念。在 AI 产品中，SFT 决定了产品功能上限与用户体验。",
+    "example": "示例：SFT 在 AI 产品中的应用",
+    "aliases": [
+      "RLHF"
+    ],
+    "tags": [
+      "RAG 术语",
+      "SFT"
+    ]
+  },
+  {
+    "id": "aipm-gloss-126",
+    "term": "RLHF",
+    "category": "向量检索术语",
+    "definition": "RLHF 是 向量检索术语 领域中的重要概念。在 AI 产品中，RLHF 决定了产品功能上限与用户体验。",
+    "example": "示例：RLHF 在 AI 产品中的应用",
+    "aliases": [
+      "对齐"
+    ],
+    "tags": [
+      "向量检索术语",
+      "RLHF"
+    ]
+  },
+  {
+    "id": "aipm-gloss-127",
+    "term": "对齐",
+    "category": "AI 评测术语",
+    "definition": "对齐 是 AI 评测术语 领域中的重要概念。在 AI 产品中，对齐 决定了产品功能上限与用户体验。",
+    "example": "示例：对齐 在 AI 产品中的应用",
+    "aliases": [
+      "安全训练"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "对齐"
+    ]
+  },
+  {
+    "id": "aipm-gloss-128",
+    "term": "安全训练",
+    "category": "AI 安全术语",
+    "definition": "安全训练 是 AI 安全术语 领域中的重要概念。在 AI 产品中，安全训练 决定了产品功能上限与用户体验。",
+    "example": "示例：安全训练 在 AI 产品中的应用",
+    "aliases": [
+      "预训练"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "安全训练"
+    ]
+  },
+  {
+    "id": "aipm-gloss-129",
+    "term": "预训练",
+    "category": "SaaS 商业化术语",
+    "definition": "预训练 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，预训练 决定了产品功能上限与用户体验。",
+    "example": "示例：预训练 在 AI 产品中的应用",
+    "aliases": [
+      "指令微调"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "预训练"
+    ]
+  },
+  {
+    "id": "aipm-gloss-130",
+    "term": "指令微调",
+    "category": "产品经理术语",
+    "definition": "指令微调 是 产品经理术语 领域中的重要概念。在 AI 产品中，指令微调 决定了产品功能上限与用户体验。",
+    "example": "示例：指令微调 在 AI 产品中的应用",
+    "aliases": [
+      "GPT"
+    ],
+    "tags": [
+      "产品经理术语",
+      "指令微调"
+    ]
+  },
+  {
+    "id": "aipm-gloss-131",
+    "term": "GPT",
+    "category": "AI 产品术语",
+    "definition": "GPT 是 AI 产品术语 领域中的重要概念。在 AI 产品中，GPT 决定了产品功能上限与用户体验。",
+    "example": "示例：GPT 在 AI 产品中的应用",
+    "aliases": [
+      "Claude"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "GPT"
+    ]
+  },
+  {
+    "id": "aipm-gloss-132",
+    "term": "Claude",
+    "category": "LLM 术语",
+    "definition": "Claude 是 LLM 术语 领域中的重要概念。在 AI 产品中，Claude 决定了产品功能上限与用户体验。",
+    "example": "示例：Claude 在 AI 产品中的应用",
+    "aliases": [
+      "Gemini"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Claude"
+    ]
+  },
+  {
+    "id": "aipm-gloss-133",
+    "term": "Gemini",
+    "category": "Prompt 工程术语",
+    "definition": "Gemini 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Gemini 决定了产品功能上限与用户体验。",
+    "example": "示例：Gemini 在 AI 产品中的应用",
+    "aliases": [
+      "Llama"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Gemini"
+    ]
+  },
+  {
+    "id": "aipm-gloss-134",
+    "term": "Llama",
+    "category": "Agent 术语",
+    "definition": "Llama 是 Agent 术语 领域中的重要概念。在 AI 产品中，Llama 决定了产品功能上限与用户体验。",
+    "example": "示例：Llama 在 AI 产品中的应用",
+    "aliases": [
+      "Qwen"
+    ],
+    "tags": [
+      "Agent 术语",
+      "Llama"
+    ]
+  },
+  {
+    "id": "aipm-gloss-135",
+    "term": "Qwen",
+    "category": "RAG 术语",
+    "definition": "Qwen 是 RAG 术语 领域中的重要概念。在 AI 产品中，Qwen 决定了产品功能上限与用户体验。",
+    "example": "示例：Qwen 在 AI 产品中的应用",
+    "aliases": [
+      "GLM"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Qwen"
+    ]
+  },
+  {
+    "id": "aipm-gloss-136",
+    "term": "GLM",
+    "category": "向量检索术语",
+    "definition": "GLM 是 向量检索术语 领域中的重要概念。在 AI 产品中，GLM 决定了产品功能上限与用户体验。",
+    "example": "示例：GLM 在 AI 产品中的应用",
+    "aliases": [
+      "开源模型"
+    ],
+    "tags": [
+      "向量检索术语",
+      "GLM"
+    ]
+  },
+  {
+    "id": "aipm-gloss-137",
+    "term": "开源模型",
+    "category": "AI 评测术语",
+    "definition": "开源模型 是 AI 评测术语 领域中的重要概念。在 AI 产品中，开源模型 决定了产品功能上限与用户体验。",
+    "example": "示例：开源模型 在 AI 产品中的应用",
+    "aliases": [
+      "闭源模型"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "开源模型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-138",
+    "term": "闭源模型",
+    "category": "AI 安全术语",
+    "definition": "闭源模型 是 AI 安全术语 领域中的重要概念。在 AI 产品中，闭源模型 决定了产品功能上限与用户体验。",
+    "example": "示例：闭源模型 在 AI 产品中的应用",
+    "aliases": [
+      "模型 API"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "闭源模型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-139",
+    "term": "模型 API",
+    "category": "SaaS 商业化术语",
+    "definition": "模型 API 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，模型 API 决定了产品功能上限与用户体验。",
+    "example": "示例：模型 API 在 AI 产品中的应用",
+    "aliases": [
+      "模型部署"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "模型 API"
+    ]
+  },
+  {
+    "id": "aipm-gloss-140",
+    "term": "模型部署",
+    "category": "产品经理术语",
+    "definition": "模型部署 是 产品经理术语 领域中的重要概念。在 AI 产品中，模型部署 决定了产品功能上限与用户体验。",
+    "example": "示例：模型部署 在 AI 产品中的应用",
+    "aliases": [
+      "模型推理"
+    ],
+    "tags": [
+      "产品经理术语",
+      "模型部署"
+    ]
+  },
+  {
+    "id": "aipm-gloss-141",
+    "term": "模型推理",
+    "category": "AI 产品术语",
+    "definition": "模型推理 是 AI 产品术语 领域中的重要概念。在 AI 产品中，模型推理 决定了产品功能上限与用户体验。",
+    "example": "示例：模型推理 在 AI 产品中的应用",
+    "aliases": [
+      "模型延迟"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "模型推理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-142",
+    "term": "模型延迟",
+    "category": "LLM 术语",
+    "definition": "模型延迟 是 LLM 术语 领域中的重要概念。在 AI 产品中，模型延迟 决定了产品功能上限与用户体验。",
+    "example": "示例：模型延迟 在 AI 产品中的应用",
+    "aliases": [
+      "Transformer"
+    ],
+    "tags": [
+      "LLM 术语",
+      "模型延迟"
+    ]
+  },
+  {
+    "id": "aipm-gloss-143",
+    "term": "Transformer",
+    "category": "Prompt 工程术语",
+    "definition": "Transformer 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Transformer 决定了产品功能上限与用户体验。",
+    "example": "示例：Transformer 在 AI 产品中的应用",
+    "aliases": [
+      "注意力机制"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Transformer"
+    ]
+  },
+  {
+    "id": "aipm-gloss-144",
+    "term": "注意力机制",
+    "category": "Agent 术语",
+    "definition": "注意力机制 是 Agent 术语 领域中的重要概念。在 AI 产品中，注意力机制 决定了产品功能上限与用户体验。",
+    "example": "示例：注意力机制 在 AI 产品中的应用",
+    "aliases": [
+      "多模态"
+    ],
+    "tags": [
+      "Agent 术语",
+      "注意力机制"
+    ]
+  },
+  {
+    "id": "aipm-gloss-145",
+    "term": "多模态",
+    "category": "RAG 术语",
+    "definition": "多模态 是 RAG 术语 领域中的重要概念。在 AI 产品中，多模态 决定了产品功能上限与用户体验。",
+    "example": "示例：多模态 在 AI 产品中的应用",
+    "aliases": [
+      "文本生成"
+    ],
+    "tags": [
+      "RAG 术语",
+      "多模态"
+    ]
+  },
+  {
+    "id": "aipm-gloss-146",
+    "term": "文本生成",
+    "category": "向量检索术语",
+    "definition": "文本生成 是 向量检索术语 领域中的重要概念。在 AI 产品中，文本生成 决定了产品功能上限与用户体验。",
+    "example": "示例：文本生成 在 AI 产品中的应用",
+    "aliases": [
+      "图像生成"
+    ],
+    "tags": [
+      "向量检索术语",
+      "文本生成"
+    ]
+  },
+  {
+    "id": "aipm-gloss-147",
+    "term": "图像生成",
+    "category": "AI 评测术语",
+    "definition": "图像生成 是 AI 评测术语 领域中的重要概念。在 AI 产品中，图像生成 决定了产品功能上限与用户体验。",
+    "example": "示例：图像生成 在 AI 产品中的应用",
+    "aliases": [
+      "音频生成"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "图像生成"
+    ]
+  },
+  {
+    "id": "aipm-gloss-148",
+    "term": "音频生成",
+    "category": "AI 安全术语",
+    "definition": "音频生成 是 AI 安全术语 领域中的重要概念。在 AI 产品中，音频生成 决定了产品功能上限与用户体验。",
+    "example": "示例：音频生成 在 AI 产品中的应用",
+    "aliases": [
+      "视频生成"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "音频生成"
+    ]
+  },
+  {
+    "id": "aipm-gloss-149",
+    "term": "视频生成",
+    "category": "SaaS 商业化术语",
+    "definition": "视频生成 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，视频生成 决定了产品功能上限与用户体验。",
+    "example": "示例：视频生成 在 AI 产品中的应用",
+    "aliases": [
+      "代码生成"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "视频生成"
+    ]
+  },
+  {
+    "id": "aipm-gloss-150",
+    "term": "代码生成",
+    "category": "产品经理术语",
+    "definition": "代码生成 是 产品经理术语 领域中的重要概念。在 AI 产品中，代码生成 决定了产品功能上限与用户体验。",
+    "example": "示例：代码生成 在 AI 产品中的应用",
+    "aliases": [
+      "Chatbot"
+    ],
+    "tags": [
+      "产品经理术语",
+      "代码生成"
+    ]
+  },
+  {
+    "id": "aipm-gloss-151",
+    "term": "Chatbot",
+    "category": "AI 产品术语",
+    "definition": "Chatbot 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Chatbot 决定了产品功能上限与用户体验。",
+    "example": "示例：Chatbot 在 AI 产品中的应用",
+    "aliases": [
+      "任务型"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Chatbot"
+    ]
+  },
+  {
+    "id": "aipm-gloss-152",
+    "term": "任务型",
+    "category": "LLM 术语",
+    "definition": "任务型 是 LLM 术语 领域中的重要概念。在 AI 产品中，任务型 决定了产品功能上限与用户体验。",
+    "example": "示例：任务型 在 AI 产品中的应用",
+    "aliases": [
+      "闲聊型"
+    ],
+    "tags": [
+      "LLM 术语",
+      "任务型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-153",
+    "term": "闲聊型",
+    "category": "Prompt 工程术语",
+    "definition": "闲聊型 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，闲聊型 决定了产品功能上限与用户体验。",
+    "example": "示例：闲聊型 在 AI 产品中的应用",
+    "aliases": [
+      "混合型"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "闲聊型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-154",
+    "term": "混合型",
+    "category": "Agent 术语",
+    "definition": "混合型 是 Agent 术语 领域中的重要概念。在 AI 产品中，混合型 决定了产品功能上限与用户体验。",
+    "example": "示例：混合型 在 AI 产品中的应用",
+    "aliases": [
+      "意图"
+    ],
+    "tags": [
+      "Agent 术语",
+      "混合型"
+    ]
+  },
+  {
+    "id": "aipm-gloss-155",
+    "term": "意图",
+    "category": "RAG 术语",
+    "definition": "意图 是 RAG 术语 领域中的重要概念。在 AI 产品中，意图 决定了产品功能上限与用户体验。",
+    "example": "示例：意图 在 AI 产品中的应用",
+    "aliases": [
+      "实体"
+    ],
+    "tags": [
+      "RAG 术语",
+      "意图"
+    ]
+  },
+  {
+    "id": "aipm-gloss-156",
+    "term": "实体",
+    "category": "向量检索术语",
+    "definition": "实体 是 向量检索术语 领域中的重要概念。在 AI 产品中，实体 决定了产品功能上限与用户体验。",
+    "example": "示例：实体 在 AI 产品中的应用",
+    "aliases": [
+      "对话流"
+    ],
+    "tags": [
+      "向量检索术语",
+      "实体"
+    ]
+  },
+  {
+    "id": "aipm-gloss-157",
+    "term": "对话流",
+    "category": "AI 评测术语",
+    "definition": "对话流 是 AI 评测术语 领域中的重要概念。在 AI 产品中，对话流 决定了产品功能上限与用户体验。",
+    "example": "示例：对话流 在 AI 产品中的应用",
+    "aliases": [
+      "状态机"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "对话流"
+    ]
+  },
+  {
+    "id": "aipm-gloss-158",
+    "term": "状态机",
+    "category": "AI 安全术语",
+    "definition": "状态机 是 AI 安全术语 领域中的重要概念。在 AI 产品中，状态机 决定了产品功能上限与用户体验。",
+    "example": "示例：状态机 在 AI 产品中的应用",
+    "aliases": [
+      "上下文管理"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "状态机"
+    ]
+  },
+  {
+    "id": "aipm-gloss-159",
+    "term": "上下文管理",
+    "category": "SaaS 商业化术语",
+    "definition": "上下文管理 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，上下文管理 决定了产品功能上限与用户体验。",
+    "example": "示例：上下文管理 在 AI 产品中的应用",
+    "aliases": [
+      "工作流"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "上下文管理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-160",
+    "term": "工作流",
+    "category": "产品经理术语",
+    "definition": "工作流 是 产品经理术语 领域中的重要概念。在 AI 产品中，工作流 决定了产品功能上限与用户体验。",
+    "example": "示例：工作流 在 AI 产品中的应用",
+    "aliases": [
+      "编排"
+    ],
+    "tags": [
+      "产品经理术语",
+      "工作流"
+    ]
+  },
+  {
+    "id": "aipm-gloss-161",
+    "term": "编排",
+    "category": "AI 产品术语",
+    "definition": "编排 是 AI 产品术语 领域中的重要概念。在 AI 产品中，编排 决定了产品功能上限与用户体验。",
+    "example": "示例：编排 在 AI 产品中的应用",
+    "aliases": [
+      "节点"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "编排"
+    ]
+  },
+  {
+    "id": "aipm-gloss-162",
+    "term": "节点",
+    "category": "LLM 术语",
+    "definition": "节点 是 LLM 术语 领域中的重要概念。在 AI 产品中，节点 决定了产品功能上限与用户体验。",
+    "example": "示例：节点 在 AI 产品中的应用",
+    "aliases": [
+      "触发"
+    ],
+    "tags": [
+      "LLM 术语",
+      "节点"
+    ]
+  },
+  {
+    "id": "aipm-gloss-163",
+    "term": "触发",
+    "category": "Prompt 工程术语",
+    "definition": "触发 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，触发 决定了产品功能上限与用户体验。",
+    "example": "示例：触发 在 AI 产品中的应用",
+    "aliases": [
+      "条件分支"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "触发"
+    ]
+  },
+  {
+    "id": "aipm-gloss-164",
+    "term": "条件分支",
+    "category": "Agent 术语",
+    "definition": "条件分支 是 Agent 术语 领域中的重要概念。在 AI 产品中，条件分支 决定了产品功能上限与用户体验。",
+    "example": "示例：条件分支 在 AI 产品中的应用",
+    "aliases": [
+      "循环"
+    ],
+    "tags": [
+      "Agent 术语",
+      "条件分支"
+    ]
+  },
+  {
+    "id": "aipm-gloss-165",
+    "term": "循环",
+    "category": "RAG 术语",
+    "definition": "循环 是 RAG 术语 领域中的重要概念。在 AI 产品中，循环 决定了产品功能上限与用户体验。",
+    "example": "示例：循环 在 AI 产品中的应用",
+    "aliases": [
+      "并行"
+    ],
+    "tags": [
+      "RAG 术语",
+      "循环"
+    ]
+  },
+  {
+    "id": "aipm-gloss-166",
+    "term": "并行",
+    "category": "向量检索术语",
+    "definition": "并行 是 向量检索术语 领域中的重要概念。在 AI 产品中，并行 决定了产品功能上限与用户体验。",
+    "example": "示例：并行 在 AI 产品中的应用",
+    "aliases": [
+      "串行"
+    ],
+    "tags": [
+      "向量检索术语",
+      "并行"
+    ]
+  },
+  {
+    "id": "aipm-gloss-167",
+    "term": "串行",
+    "category": "AI 评测术语",
+    "definition": "串行 是 AI 评测术语 领域中的重要概念。在 AI 产品中，串行 决定了产品功能上限与用户体验。",
+    "example": "示例：串行 在 AI 产品中的应用",
+    "aliases": [
+      "Zapier"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "串行"
+    ]
+  },
+  {
+    "id": "aipm-gloss-168",
+    "term": "Zapier",
+    "category": "AI 安全术语",
+    "definition": "Zapier 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Zapier 决定了产品功能上限与用户体验。",
+    "example": "示例：Zapier 在 AI 产品中的应用",
+    "aliases": [
+      "Make"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Zapier"
+    ]
+  },
+  {
+    "id": "aipm-gloss-169",
+    "term": "Make",
+    "category": "SaaS 商业化术语",
+    "definition": "Make 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Make 决定了产品功能上限与用户体验。",
+    "example": "示例：Make 在 AI 产品中的应用",
+    "aliases": [
+      "n8n"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Make"
+    ]
+  },
+  {
+    "id": "aipm-gloss-170",
+    "term": "n8n",
+    "category": "产品经理术语",
+    "definition": "n8n 是 产品经理术语 领域中的重要概念。在 AI 产品中，n8n 决定了产品功能上限与用户体验。",
+    "example": "示例：n8n 在 AI 产品中的应用",
+    "aliases": [
+      "Dify"
+    ],
+    "tags": [
+      "产品经理术语",
+      "n8n"
+    ]
+  },
+  {
+    "id": "aipm-gloss-171",
+    "term": "Dify",
+    "category": "AI 产品术语",
+    "definition": "Dify 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Dify 决定了产品功能上限与用户体验。",
+    "example": "示例：Dify 在 AI 产品中的应用",
+    "aliases": [
+      "Coze"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Dify"
+    ]
+  },
+  {
+    "id": "aipm-gloss-172",
+    "term": "Coze",
+    "category": "LLM 术语",
+    "definition": "Coze 是 LLM 术语 领域中的重要概念。在 AI 产品中，Coze 决定了产品功能上限与用户体验。",
+    "example": "示例：Coze 在 AI 产品中的应用",
+    "aliases": [
+      "RPA"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Coze"
+    ]
+  },
+  {
+    "id": "aipm-gloss-173",
+    "term": "RPA",
+    "category": "Prompt 工程术语",
+    "definition": "RPA 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，RPA 决定了产品功能上限与用户体验。",
+    "example": "示例：RPA 在 AI 产品中的应用",
+    "aliases": [
+      "自动化"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "RPA"
+    ]
+  },
+  {
+    "id": "aipm-gloss-174",
+    "term": "自动化",
+    "category": "Agent 术语",
+    "definition": "自动化 是 Agent 术语 领域中的重要概念。在 AI 产品中，自动化 决定了产品功能上限与用户体验。",
+    "example": "示例：自动化 在 AI 产品中的应用",
+    "aliases": [
+      "监控"
+    ],
+    "tags": [
+      "Agent 术语",
+      "自动化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-175",
+    "term": "监控",
+    "category": "RAG 术语",
+    "definition": "监控 是 RAG 术语 领域中的重要概念。在 AI 产品中，监控 决定了产品功能上限与用户体验。",
+    "example": "示例：监控 在 AI 产品中的应用",
+    "aliases": [
+      "日志"
+    ],
+    "tags": [
+      "RAG 术语",
+      "监控"
+    ]
+  },
+  {
+    "id": "aipm-gloss-176",
+    "term": "日志",
+    "category": "向量检索术语",
+    "definition": "日志 是 向量检索术语 领域中的重要概念。在 AI 产品中，日志 决定了产品功能上限与用户体验。",
+    "example": "示例：日志 在 AI 产品中的应用",
+    "aliases": [
+      "告警"
+    ],
+    "tags": [
+      "向量检索术语",
+      "日志"
+    ]
+  },
+  {
+    "id": "aipm-gloss-177",
+    "term": "告警",
+    "category": "AI 评测术语",
+    "definition": "告警 是 AI 评测术语 领域中的重要概念。在 AI 产品中，告警 决定了产品功能上限与用户体验。",
+    "example": "示例：告警 在 AI 产品中的应用",
+    "aliases": [
+      "灾备"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "告警"
+    ]
+  },
+  {
+    "id": "aipm-gloss-178",
+    "term": "灾备",
+    "category": "AI 安全术语",
+    "definition": "灾备 是 AI 安全术语 领域中的重要概念。在 AI 产品中，灾备 决定了产品功能上限与用户体验。",
+    "example": "示例：灾备 在 AI 产品中的应用",
+    "aliases": [
+      "灰度"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "灾备"
+    ]
+  },
+  {
+    "id": "aipm-gloss-179",
+    "term": "灰度",
+    "category": "SaaS 商业化术语",
+    "definition": "灰度 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，灰度 决定了产品功能上限与用户体验。",
+    "example": "示例：灰度 在 AI 产品中的应用",
+    "aliases": [
+      "数据标注"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "灰度"
+    ]
+  },
+  {
+    "id": "aipm-gloss-180",
+    "term": "数据标注",
+    "category": "产品经理术语",
+    "definition": "数据标注 是 产品经理术语 领域中的重要概念。在 AI 产品中，数据标注 决定了产品功能上限与用户体验。",
+    "example": "示例：数据标注 在 AI 产品中的应用",
+    "aliases": [
+      "Label Studio"
+    ],
+    "tags": [
+      "产品经理术语",
+      "数据标注"
+    ]
+  },
+  {
+    "id": "aipm-gloss-181",
+    "term": "Label Studio",
+    "category": "AI 产品术语",
+    "definition": "Label Studio 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Label Studio 决定了产品功能上限与用户体验。",
+    "example": "示例：Label Studio 在 AI 产品中的应用",
+    "aliases": [
+      "一致性"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Label Studio"
+    ]
+  },
+  {
+    "id": "aipm-gloss-182",
+    "term": "一致性",
+    "category": "LLM 术语",
+    "definition": "一致性 是 LLM 术语 领域中的重要概念。在 AI 产品中，一致性 决定了产品功能上限与用户体验。",
+    "example": "示例：一致性 在 AI 产品中的应用",
+    "aliases": [
+      "标注质量"
+    ],
+    "tags": [
+      "LLM 术语",
+      "一致性"
+    ]
+  },
+  {
+    "id": "aipm-gloss-183",
+    "term": "标注质量",
+    "category": "Prompt 工程术语",
+    "definition": "标注质量 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，标注质量 决定了产品功能上限与用户体验。",
+    "example": "示例：标注质量 在 AI 产品中的应用",
+    "aliases": [
+      "评测自动化"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "标注质量"
+    ]
+  },
+  {
+    "id": "aipm-gloss-184",
+    "term": "评测自动化",
+    "category": "Agent 术语",
+    "definition": "评测自动化 是 Agent 术语 领域中的重要概念。在 AI 产品中，评测自动化 决定了产品功能上限与用户体验。",
+    "example": "示例：评测自动化 在 AI 产品中的应用",
+    "aliases": [
+      "评测报告"
+    ],
+    "tags": [
+      "Agent 术语",
+      "评测自动化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-185",
+    "term": "评测报告",
+    "category": "RAG 术语",
+    "definition": "评测报告 是 RAG 术语 领域中的重要概念。在 AI 产品中，评测报告 决定了产品功能上限与用户体验。",
+    "example": "示例：评测报告 在 AI 产品中的应用",
+    "aliases": [
+      "质量监控"
+    ],
+    "tags": [
+      "RAG 术语",
+      "评测报告"
+    ]
+  },
+  {
+    "id": "aipm-gloss-186",
+    "term": "质量监控",
+    "category": "向量检索术语",
+    "definition": "质量监控 是 向量检索术语 领域中的重要概念。在 AI 产品中，质量监控 决定了产品功能上限与用户体验。",
+    "example": "示例：质量监控 在 AI 产品中的应用",
+    "aliases": [
+      "PDCA"
+    ],
+    "tags": [
+      "向量检索术语",
+      "质量监控"
+    ]
+  },
+  {
+    "id": "aipm-gloss-187",
+    "term": "PDCA",
+    "category": "AI 评测术语",
+    "definition": "PDCA 是 AI 评测术语 领域中的重要概念。在 AI 产品中，PDCA 决定了产品功能上限与用户体验。",
+    "example": "示例：PDCA 在 AI 产品中的应用",
+    "aliases": [
+      "商业模式"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "PDCA"
+    ]
+  },
+  {
+    "id": "aipm-gloss-188",
+    "term": "商业模式",
+    "category": "AI 安全术语",
+    "definition": "商业模式 是 AI 安全术语 领域中的重要概念。在 AI 产品中，商业模式 决定了产品功能上限与用户体验。",
+    "example": "示例：商业模式 在 AI 产品中的应用",
+    "aliases": [
+      "定价策略"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "商业模式"
+    ]
+  },
+  {
+    "id": "aipm-gloss-189",
+    "term": "定价策略",
+    "category": "SaaS 商业化术语",
+    "definition": "定价策略 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，定价策略 决定了产品功能上限与用户体验。",
+    "example": "示例：定价策略 在 AI 产品中的应用",
+    "aliases": [
+      "毛利率"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "定价策略"
+    ]
+  },
+  {
+    "id": "aipm-gloss-190",
+    "term": "毛利率",
+    "category": "产品经理术语",
+    "definition": "毛利率 是 产品经理术语 领域中的重要概念。在 AI 产品中，毛利率 决定了产品功能上限与用户体验。",
+    "example": "示例：毛利率 在 AI 产品中的应用",
+    "aliases": [
+      "单位经济"
+    ],
+    "tags": [
+      "产品经理术语",
+      "毛利率"
+    ]
+  },
+  {
+    "id": "aipm-gloss-191",
+    "term": "单位经济",
+    "category": "AI 产品术语",
+    "definition": "单位经济 是 AI 产品术语 领域中的重要概念。在 AI 产品中，单位经济 决定了产品功能上限与用户体验。",
+    "example": "示例：单位经济 在 AI 产品中的应用",
+    "aliases": [
+      "网络效应"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "单位经济"
+    ]
+  },
+  {
+    "id": "aipm-gloss-192",
+    "term": "网络效应",
+    "category": "LLM 术语",
+    "definition": "网络效应 是 LLM 术语 领域中的重要概念。在 AI 产品中，网络效应 决定了产品功能上限与用户体验。",
+    "example": "示例：网络效应 在 AI 产品中的应用",
+    "aliases": [
+      "飞轮"
+    ],
+    "tags": [
+      "LLM 术语",
+      "网络效应"
+    ]
+  },
+  {
+    "id": "aipm-gloss-193",
+    "term": "飞轮",
+    "category": "Prompt 工程术语",
+    "definition": "飞轮 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，飞轮 决定了产品功能上限与用户体验。",
+    "example": "示例：飞轮 在 AI 产品中的应用",
+    "aliases": [
+      "杠杆"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "飞轮"
+    ]
+  },
+  {
+    "id": "aipm-gloss-194",
+    "term": "杠杆",
+    "category": "Agent 术语",
+    "definition": "杠杆 是 Agent 术语 领域中的重要概念。在 AI 产品中，杠杆 决定了产品功能上限与用户体验。",
+    "example": "示例：杠杆 在 AI 产品中的应用",
+    "aliases": [
+      "规模"
+    ],
+    "tags": [
+      "Agent 术语",
+      "杠杆"
+    ]
+  },
+  {
+    "id": "aipm-gloss-195",
+    "term": "规模",
+    "category": "RAG 术语",
+    "definition": "规模 是 RAG 术语 领域中的重要概念。在 AI 产品中，规模 决定了产品功能上限与用户体验。",
+    "example": "示例：规模 在 AI 产品中的应用",
+    "aliases": [
+      "扩张"
+    ],
+    "tags": [
+      "RAG 术语",
+      "规模"
+    ]
+  },
+  {
+    "id": "aipm-gloss-196",
+    "term": "扩张",
+    "category": "向量检索术语",
+    "definition": "扩张 是 向量检索术语 领域中的重要概念。在 AI 产品中，扩张 决定了产品功能上限与用户体验。",
+    "example": "示例：扩张 在 AI 产品中的应用",
+    "aliases": [
+      "国际化"
+    ],
+    "tags": [
+      "向量检索术语",
+      "扩张"
+    ]
+  },
+  {
+    "id": "aipm-gloss-197",
+    "term": "国际化",
+    "category": "AI 评测术语",
+    "definition": "国际化 是 AI 评测术语 领域中的重要概念。在 AI 产品中，国际化 决定了产品功能上限与用户体验。",
+    "example": "示例：国际化 在 AI 产品中的应用",
+    "aliases": [
+      "本地化"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "国际化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-198",
+    "term": "本地化",
+    "category": "AI 安全术语",
+    "definition": "本地化 是 AI 安全术语 领域中的重要概念。在 AI 产品中，本地化 决定了产品功能上限与用户体验。",
+    "example": "示例：本地化 在 AI 产品中的应用",
+    "aliases": [
+      "多语言"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "本地化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-199",
+    "term": "多语言",
+    "category": "SaaS 商业化术语",
+    "definition": "多语言 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，多语言 决定了产品功能上限与用户体验。",
+    "example": "示例：多语言 在 AI 产品中的应用",
+    "aliases": [
+      "多端"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "多语言"
+    ]
+  },
+  {
+    "id": "aipm-gloss-200",
+    "term": "多端",
+    "category": "产品经理术语",
+    "definition": "多端 是 产品经理术语 领域中的重要概念。在 AI 产品中，多端 决定了产品功能上限与用户体验。",
+    "example": "示例：多端 在 AI 产品中的应用",
+    "aliases": [
+      "跨端"
+    ],
+    "tags": [
+      "产品经理术语",
+      "多端"
+    ]
+  },
+  {
+    "id": "aipm-gloss-201",
+    "term": "跨端",
+    "category": "AI 产品术语",
+    "definition": "跨端 是 AI 产品术语 领域中的重要概念。在 AI 产品中，跨端 决定了产品功能上限与用户体验。",
+    "example": "示例：跨端 在 AI 产品中的应用",
+    "aliases": [
+      "协作"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "跨端"
+    ]
+  },
+  {
+    "id": "aipm-gloss-202",
+    "term": "协作",
+    "category": "LLM 术语",
+    "definition": "协作 是 LLM 术语 领域中的重要概念。在 AI 产品中，协作 决定了产品功能上限与用户体验。",
+    "example": "示例：协作 在 AI 产品中的应用",
+    "aliases": [
+      "权限"
+    ],
+    "tags": [
+      "LLM 术语",
+      "协作"
+    ]
+  },
+  {
+    "id": "aipm-gloss-203",
+    "term": "权限",
+    "category": "Prompt 工程术语",
+    "definition": "权限 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，权限 决定了产品功能上限与用户体验。",
+    "example": "示例：权限 在 AI 产品中的应用",
+    "aliases": [
+      "角色"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "权限"
+    ]
+  },
+  {
+    "id": "aipm-gloss-204",
+    "term": "角色",
+    "category": "Agent 术语",
+    "definition": "角色 是 Agent 术语 领域中的重要概念。在 AI 产品中，角色 决定了产品功能上限与用户体验。",
+    "example": "示例：角色 在 AI 产品中的应用",
+    "aliases": [
+      "组织"
+    ],
+    "tags": [
+      "Agent 术语",
+      "角色"
+    ]
+  },
+  {
+    "id": "aipm-gloss-205",
+    "term": "组织",
+    "category": "RAG 术语",
+    "definition": "组织 是 RAG 术语 领域中的重要概念。在 AI 产品中，组织 决定了产品功能上限与用户体验。",
+    "example": "示例：组织 在 AI 产品中的应用",
+    "aliases": [
+      "文化"
+    ],
+    "tags": [
+      "RAG 术语",
+      "组织"
+    ]
+  },
+  {
+    "id": "aipm-gloss-206",
+    "term": "文化",
+    "category": "向量检索术语",
+    "definition": "文化 是 向量检索术语 领域中的重要概念。在 AI 产品中，文化 决定了产品功能上限与用户体验。",
+    "example": "示例：文化 在 AI 产品中的应用",
+    "aliases": [
+      "使命"
+    ],
+    "tags": [
+      "向量检索术语",
+      "文化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-207",
+    "term": "使命",
+    "category": "AI 评测术语",
+    "definition": "使命 是 AI 评测术语 领域中的重要概念。在 AI 产品中，使命 决定了产品功能上限与用户体验。",
+    "example": "示例：使命 在 AI 产品中的应用",
+    "aliases": [
+      "愿景"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "使命"
+    ]
+  },
+  {
+    "id": "aipm-gloss-208",
+    "term": "愿景",
+    "category": "AI 安全术语",
+    "definition": "愿景 是 AI 安全术语 领域中的重要概念。在 AI 产品中，愿景 决定了产品功能上限与用户体验。",
+    "example": "示例：愿景 在 AI 产品中的应用",
+    "aliases": [
+      "战略"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "愿景"
+    ]
+  },
+  {
+    "id": "aipm-gloss-209",
+    "term": "战略",
+    "category": "SaaS 商业化术语",
+    "definition": "战略 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，战略 决定了产品功能上限与用户体验。",
+    "example": "示例：战略 在 AI 产品中的应用",
+    "aliases": [
+      "哲学"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "战略"
+    ]
+  },
+  {
+    "id": "aipm-gloss-210",
+    "term": "哲学",
+    "category": "产品经理术语",
+    "definition": "哲学 是 产品经理术语 领域中的重要概念。在 AI 产品中，哲学 决定了产品功能上限与用户体验。",
+    "example": "示例：哲学 在 AI 产品中的应用",
+    "aliases": [
+      "原则"
+    ],
+    "tags": [
+      "产品经理术语",
+      "哲学"
+    ]
+  },
+  {
+    "id": "aipm-gloss-211",
+    "term": "原则",
+    "category": "AI 产品术语",
+    "definition": "原则 是 AI 产品术语 领域中的重要概念。在 AI 产品中，原则 决定了产品功能上限与用户体验。",
+    "example": "示例：原则 在 AI 产品中的应用",
+    "aliases": [
+      "规范"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "原则"
+    ]
+  },
+  {
+    "id": "aipm-gloss-212",
+    "term": "规范",
+    "category": "LLM 术语",
+    "definition": "规范 是 LLM 术语 领域中的重要概念。在 AI 产品中，规范 决定了产品功能上限与用户体验。",
+    "example": "示例：规范 在 AI 产品中的应用",
+    "aliases": [
+      "标准"
+    ],
+    "tags": [
+      "LLM 术语",
+      "规范"
+    ]
+  },
+  {
+    "id": "aipm-gloss-213",
+    "term": "标准",
+    "category": "Prompt 工程术语",
+    "definition": "标准 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，标准 决定了产品功能上限与用户体验。",
+    "example": "示例：标准 在 AI 产品中的应用",
+    "aliases": [
+      "流程"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "标准"
+    ]
+  },
+  {
+    "id": "aipm-gloss-214",
+    "term": "流程",
+    "category": "Agent 术语",
+    "definition": "流程 是 Agent 术语 领域中的重要概念。在 AI 产品中，流程 决定了产品功能上限与用户体验。",
+    "example": "示例：流程 在 AI 产品中的应用",
+    "aliases": [
+      "模板"
+    ],
+    "tags": [
+      "Agent 术语",
+      "流程"
+    ]
+  },
+  {
+    "id": "aipm-gloss-215",
+    "term": "模板",
+    "category": "RAG 术语",
+    "definition": "模板 是 RAG 术语 领域中的重要概念。在 AI 产品中，模板 决定了产品功能上限与用户体验。",
+    "example": "示例：模板 在 AI 产品中的应用",
+    "aliases": [
+      "清单"
+    ],
+    "tags": [
+      "RAG 术语",
+      "模板"
+    ]
+  },
+  {
+    "id": "aipm-gloss-216",
+    "term": "清单",
+    "category": "向量检索术语",
+    "definition": "清单 是 向量检索术语 领域中的重要概念。在 AI 产品中，清单 决定了产品功能上限与用户体验。",
+    "example": "示例：清单 在 AI 产品中的应用",
+    "aliases": [
+      "指南"
+    ],
+    "tags": [
+      "向量检索术语",
+      "清单"
+    ]
+  },
+  {
+    "id": "aipm-gloss-217",
+    "term": "指南",
+    "category": "AI 评测术语",
+    "definition": "指南 是 AI 评测术语 领域中的重要概念。在 AI 产品中，指南 决定了产品功能上限与用户体验。",
+    "example": "示例：指南 在 AI 产品中的应用",
+    "aliases": [
+      "手册"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "指南"
+    ]
+  },
+  {
+    "id": "aipm-gloss-218",
+    "term": "手册",
+    "category": "AI 安全术语",
+    "definition": "手册 是 AI 安全术语 领域中的重要概念。在 AI 产品中，手册 决定了产品功能上限与用户体验。",
+    "example": "示例：手册 在 AI 产品中的应用",
+    "aliases": [
+      "百科"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "手册"
+    ]
+  },
+  {
+    "id": "aipm-gloss-219",
+    "term": "百科",
+    "category": "SaaS 商业化术语",
+    "definition": "百科 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，百科 决定了产品功能上限与用户体验。",
+    "example": "示例：百科 在 AI 产品中的应用",
+    "aliases": [
+      "词典"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "百科"
+    ]
+  },
+  {
+    "id": "aipm-gloss-220",
+    "term": "词典",
+    "category": "产品经理术语",
+    "definition": "词典 是 产品经理术语 领域中的重要概念。在 AI 产品中，词典 决定了产品功能上限与用户体验。",
+    "example": "示例：词典 在 AI 产品中的应用",
+    "aliases": [
+      "术语"
+    ],
+    "tags": [
+      "产品经理术语",
+      "词典"
+    ]
+  },
+  {
+    "id": "aipm-gloss-221",
+    "term": "术语",
+    "category": "AI 产品术语",
+    "definition": "术语 是 AI 产品术语 领域中的重要概念。在 AI 产品中，术语 决定了产品功能上限与用户体验。",
+    "example": "示例：术语 在 AI 产品中的应用",
+    "aliases": [
+      "缩写"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "术语"
+    ]
+  },
+  {
+    "id": "aipm-gloss-222",
+    "term": "缩写",
+    "category": "LLM 术语",
+    "definition": "缩写 是 LLM 术语 领域中的重要概念。在 AI 产品中，缩写 决定了产品功能上限与用户体验。",
+    "example": "示例：缩写 在 AI 产品中的应用",
+    "aliases": [
+      "缩略语"
+    ],
+    "tags": [
+      "LLM 术语",
+      "缩写"
+    ]
+  },
+  {
+    "id": "aipm-gloss-223",
+    "term": "缩略语",
+    "category": "Prompt 工程术语",
+    "definition": "缩略语 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，缩略语 决定了产品功能上限与用户体验。",
+    "example": "示例：缩略语 在 AI 产品中的应用",
+    "aliases": [
+      "社区"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "缩略语"
+    ]
+  },
+  {
+    "id": "aipm-gloss-224",
+    "term": "社区",
+    "category": "Agent 术语",
+    "definition": "社区 是 Agent 术语 领域中的重要概念。在 AI 产品中，社区 决定了产品功能上限与用户体验。",
+    "example": "示例：社区 在 AI 产品中的应用",
+    "aliases": [
+      "KOL"
+    ],
+    "tags": [
+      "Agent 术语",
+      "社区"
+    ]
+  },
+  {
+    "id": "aipm-gloss-225",
+    "term": "KOL",
+    "category": "RAG 术语",
+    "definition": "KOL 是 RAG 术语 领域中的重要概念。在 AI 产品中，KOL 决定了产品功能上限与用户体验。",
+    "example": "示例：KOL 在 AI 产品中的应用",
+    "aliases": [
+      "合作"
+    ],
+    "tags": [
+      "RAG 术语",
+      "KOL"
+    ]
+  },
+  {
+    "id": "aipm-gloss-226",
+    "term": "合作",
+    "category": "向量检索术语",
+    "definition": "合作 是 向量检索术语 领域中的重要概念。在 AI 产品中，合作 决定了产品功能上限与用户体验。",
+    "example": "示例：合作 在 AI 产品中的应用",
+    "aliases": [
+      "BD"
+    ],
+    "tags": [
+      "向量检索术语",
+      "合作"
+    ]
+  },
+  {
+    "id": "aipm-gloss-227",
+    "term": "BD",
+    "category": "AI 评测术语",
+    "definition": "BD 是 AI 评测术语 领域中的重要概念。在 AI 产品中，BD 决定了产品功能上限与用户体验。",
+    "example": "示例：BD 在 AI 产品中的应用",
+    "aliases": [
+      "渠道"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "BD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-228",
+    "term": "渠道",
+    "category": "AI 安全术语",
+    "definition": "渠道 是 AI 安全术语 领域中的重要概念。在 AI 产品中，渠道 决定了产品功能上限与用户体验。",
+    "example": "示例：渠道 在 AI 产品中的应用",
+    "aliases": [
+      "销售"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "渠道"
+    ]
+  },
+  {
+    "id": "aipm-gloss-229",
+    "term": "销售",
+    "category": "SaaS 商业化术语",
+    "definition": "销售 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，销售 决定了产品功能上限与用户体验。",
+    "example": "示例：销售 在 AI 产品中的应用",
+    "aliases": [
+      "客户成功"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "销售"
+    ]
+  },
+  {
+    "id": "aipm-gloss-230",
+    "term": "客户成功",
+    "category": "产品经理术语",
+    "definition": "客户成功 是 产品经理术语 领域中的重要概念。在 AI 产品中，客户成功 决定了产品功能上限与用户体验。",
+    "example": "示例：客户成功 在 AI 产品中的应用",
+    "aliases": [
+      "客服"
+    ],
+    "tags": [
+      "产品经理术语",
+      "客户成功"
+    ]
+  },
+  {
+    "id": "aipm-gloss-231",
+    "term": "客服",
+    "category": "AI 产品术语",
+    "definition": "客服 是 AI 产品术语 领域中的重要概念。在 AI 产品中，客服 决定了产品功能上限与用户体验。",
+    "example": "示例：客服 在 AI 产品中的应用",
+    "aliases": [
+      "FAQ"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "客服"
+    ]
+  },
+  {
+    "id": "aipm-gloss-232",
+    "term": "FAQ",
+    "category": "LLM 术语",
+    "definition": "FAQ 是 LLM 术语 领域中的重要概念。在 AI 产品中，FAQ 决定了产品功能上限与用户体验。",
+    "example": "示例：FAQ 在 AI 产品中的应用",
+    "aliases": [
+      "帮助中心"
+    ],
+    "tags": [
+      "LLM 术语",
+      "FAQ"
+    ]
+  },
+  {
+    "id": "aipm-gloss-233",
+    "term": "帮助中心",
+    "category": "Prompt 工程术语",
+    "definition": "帮助中心 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，帮助中心 决定了产品功能上限与用户体验。",
+    "example": "示例：帮助中心 在 AI 产品中的应用",
+    "aliases": [
+      "文档"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "帮助中心"
+    ]
+  },
+  {
+    "id": "aipm-gloss-234",
+    "term": "文档",
+    "category": "Agent 术语",
+    "definition": "文档 是 Agent 术语 领域中的重要概念。在 AI 产品中，文档 决定了产品功能上限与用户体验。",
+    "example": "示例：文档 在 AI 产品中的应用",
+    "aliases": [
+      "教程"
+    ],
+    "tags": [
+      "Agent 术语",
+      "文档"
+    ]
+  },
+  {
+    "id": "aipm-gloss-235",
+    "term": "教程",
+    "category": "RAG 术语",
+    "definition": "教程 是 RAG 术语 领域中的重要概念。在 AI 产品中，教程 决定了产品功能上限与用户体验。",
+    "example": "示例：教程 在 AI 产品中的应用",
+    "aliases": [
+      "案例库"
+    ],
+    "tags": [
+      "RAG 术语",
+      "教程"
+    ]
+  },
+  {
+    "id": "aipm-gloss-236",
+    "term": "案例库",
+    "category": "向量检索术语",
+    "definition": "案例库 是 向量检索术语 领域中的重要概念。在 AI 产品中，案例库 决定了产品功能上限与用户体验。",
+    "example": "示例：案例库 在 AI 产品中的应用",
+    "aliases": [
+      "博客"
+    ],
+    "tags": [
+      "向量检索术语",
+      "案例库"
+    ]
+  },
+  {
+    "id": "aipm-gloss-237",
+    "term": "博客",
+    "category": "AI 评测术语",
+    "definition": "博客 是 AI 评测术语 领域中的重要概念。在 AI 产品中，博客 决定了产品功能上限与用户体验。",
+    "example": "示例：博客 在 AI 产品中的应用",
+    "aliases": [
+      "白皮书"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "博客"
+    ]
+  },
+  {
+    "id": "aipm-gloss-238",
+    "term": "白皮书",
+    "category": "AI 安全术语",
+    "definition": "白皮书 是 AI 安全术语 领域中的重要概念。在 AI 产品中，白皮书 决定了产品功能上限与用户体验。",
+    "example": "示例：白皮书 在 AI 产品中的应用",
+    "aliases": [
+      "发布会"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "白皮书"
+    ]
+  },
+  {
+    "id": "aipm-gloss-239",
+    "term": "发布会",
+    "category": "SaaS 商业化术语",
+    "definition": "发布会 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，发布会 决定了产品功能上限与用户体验。",
+    "example": "示例：发布会 在 AI 产品中的应用",
+    "aliases": [
+      "路演"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "发布会"
+    ]
+  },
+  {
+    "id": "aipm-gloss-240",
+    "term": "路演",
+    "category": "产品经理术语",
+    "definition": "路演 是 产品经理术语 领域中的重要概念。在 AI 产品中，路演 决定了产品功能上限与用户体验。",
+    "example": "示例：路演 在 AI 产品中的应用",
+    "aliases": [
+      "Demo"
+    ],
+    "tags": [
+      "产品经理术语",
+      "路演"
+    ]
+  },
+  {
+    "id": "aipm-gloss-241",
+    "term": "Demo",
+    "category": "AI 产品术语",
+    "definition": "Demo 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Demo 决定了产品功能上限与用户体验。",
+    "example": "示例：Demo 在 AI 产品中的应用",
+    "aliases": [
+      "Pitch"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Demo"
+    ]
+  },
+  {
+    "id": "aipm-gloss-242",
+    "term": "Pitch",
+    "category": "LLM 术语",
+    "definition": "Pitch 是 LLM 术语 领域中的重要概念。在 AI 产品中，Pitch 决定了产品功能上限与用户体验。",
+    "example": "示例：Pitch 在 AI 产品中的应用",
+    "aliases": [
+      "BP"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Pitch"
+    ]
+  },
+  {
+    "id": "aipm-gloss-243",
+    "term": "BP",
+    "category": "Prompt 工程术语",
+    "definition": "BP 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，BP 决定了产品功能上限与用户体验。",
+    "example": "示例：BP 在 AI 产品中的应用",
+    "aliases": [
+      "融资"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "BP"
+    ]
+  },
+  {
+    "id": "aipm-gloss-244",
+    "term": "融资",
+    "category": "Agent 术语",
+    "definition": "融资 是 Agent 术语 领域中的重要概念。在 AI 产品中，融资 决定了产品功能上限与用户体验。",
+    "example": "示例：融资 在 AI 产品中的应用",
+    "aliases": [
+      "估值"
+    ],
+    "tags": [
+      "Agent 术语",
+      "融资"
+    ]
+  },
+  {
+    "id": "aipm-gloss-245",
+    "term": "估值",
+    "category": "RAG 术语",
+    "definition": "估值 是 RAG 术语 领域中的重要概念。在 AI 产品中，估值 决定了产品功能上限与用户体验。",
+    "example": "示例：估值 在 AI 产品中的应用",
+    "aliases": [
+      "并购"
+    ],
+    "tags": [
+      "RAG 术语",
+      "估值"
+    ]
+  },
+  {
+    "id": "aipm-gloss-246",
+    "term": "并购",
+    "category": "向量检索术语",
+    "definition": "并购 是 向量检索术语 领域中的重要概念。在 AI 产品中，并购 决定了产品功能上限与用户体验。",
+    "example": "示例：并购 在 AI 产品中的应用",
+    "aliases": [
+      "迭代"
+    ],
+    "tags": [
+      "向量检索术语",
+      "并购"
+    ]
+  },
+  {
+    "id": "aipm-gloss-247",
+    "term": "迭代",
+    "category": "AI 评测术语",
+    "definition": "迭代 是 AI 评测术语 领域中的重要概念。在 AI 产品中，迭代 决定了产品功能上限与用户体验。",
+    "example": "示例：迭代 在 AI 产品中的应用",
+    "aliases": [
+      "复盘"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "迭代"
+    ]
+  },
+  {
+    "id": "aipm-gloss-248",
+    "term": "复盘",
+    "category": "AI 安全术语",
+    "definition": "复盘 是 AI 安全术语 领域中的重要概念。在 AI 产品中，复盘 决定了产品功能上限与用户体验。",
+    "example": "示例：复盘 在 AI 产品中的应用",
+    "aliases": [
+      "总结"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "复盘"
+    ]
+  },
+  {
+    "id": "aipm-gloss-249",
+    "term": "总结",
+    "category": "SaaS 商业化术语",
+    "definition": "总结 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，总结 决定了产品功能上限与用户体验。",
+    "example": "示例：总结 在 AI 产品中的应用",
+    "aliases": [
+      "规划"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "总结"
+    ]
+  },
+  {
+    "id": "aipm-gloss-250",
+    "term": "规划",
+    "category": "产品经理术语",
+    "definition": "规划 是 产品经理术语 领域中的重要概念。在 AI 产品中，规划 决定了产品功能上限与用户体验。",
+    "example": "示例：规划 在 AI 产品中的应用",
+    "aliases": [
+      "路线图"
+    ],
+    "tags": [
+      "产品经理术语",
+      "规划"
+    ]
+  },
+  {
+    "id": "aipm-gloss-251",
+    "term": "路线图",
+    "category": "AI 产品术语",
+    "definition": "路线图 是 AI 产品术语 领域中的重要概念。在 AI 产品中，路线图 决定了产品功能上限与用户体验。",
+    "example": "示例：路线图 在 AI 产品中的应用",
+    "aliases": [
+      "目标"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "路线图"
+    ]
+  },
+  {
+    "id": "aipm-gloss-252",
+    "term": "目标",
+    "category": "LLM 术语",
+    "definition": "目标 是 LLM 术语 领域中的重要概念。在 AI 产品中，目标 决定了产品功能上限与用户体验。",
+    "example": "示例：目标 在 AI 产品中的应用",
+    "aliases": [
+      "策略"
+    ],
+    "tags": [
+      "LLM 术语",
+      "目标"
+    ]
+  },
+  {
+    "id": "aipm-gloss-253",
+    "term": "策略",
+    "category": "Prompt 工程术语",
+    "definition": "策略 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，策略 决定了产品功能上限与用户体验。",
+    "example": "示例：策略 在 AI 产品中的应用",
+    "aliases": [
+      "战术"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "策略"
+    ]
+  },
+  {
+    "id": "aipm-gloss-254",
+    "term": "战术",
+    "category": "Agent 术语",
+    "definition": "战术 是 Agent 术语 领域中的重要概念。在 AI 产品中，战术 决定了产品功能上限与用户体验。",
+    "example": "示例：战术 在 AI 产品中的应用",
+    "aliases": [
+      "执行"
+    ],
+    "tags": [
+      "Agent 术语",
+      "战术"
+    ]
+  },
+  {
+    "id": "aipm-gloss-255",
+    "term": "执行",
+    "category": "RAG 术语",
+    "definition": "执行 是 RAG 术语 领域中的重要概念。在 AI 产品中，执行 决定了产品功能上限与用户体验。",
+    "example": "示例：执行 在 AI 产品中的应用",
+    "aliases": [
+      "落地"
+    ],
+    "tags": [
+      "RAG 术语",
+      "执行"
+    ]
+  },
+  {
+    "id": "aipm-gloss-256",
+    "term": "落地",
+    "category": "向量检索术语",
+    "definition": "落地 是 向量检索术语 领域中的重要概念。在 AI 产品中，落地 决定了产品功能上限与用户体验。",
+    "example": "示例：落地 在 AI 产品中的应用",
+    "aliases": [
+      "上线"
+    ],
+    "tags": [
+      "向量检索术语",
+      "落地"
+    ]
+  },
+  {
+    "id": "aipm-gloss-257",
+    "term": "上线",
+    "category": "AI 评测术语",
+    "definition": "上线 是 AI 评测术语 领域中的重要概念。在 AI 产品中，上线 决定了产品功能上限与用户体验。",
+    "example": "示例：上线 在 AI 产品中的应用",
+    "aliases": [
+      "下线"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "上线"
+    ]
+  },
+  {
+    "id": "aipm-gloss-258",
+    "term": "下线",
+    "category": "AI 安全术语",
+    "definition": "下线 是 AI 安全术语 领域中的重要概念。在 AI 产品中，下线 决定了产品功能上限与用户体验。",
+    "example": "示例：下线 在 AI 产品中的应用",
+    "aliases": [
+      "迁移"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "下线"
+    ]
+  },
+  {
+    "id": "aipm-gloss-259",
+    "term": "迁移",
+    "category": "SaaS 商业化术语",
+    "definition": "迁移 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，迁移 决定了产品功能上限与用户体验。",
+    "example": "示例：迁移 在 AI 产品中的应用",
+    "aliases": [
+      "升级"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "迁移"
+    ]
+  },
+  {
+    "id": "aipm-gloss-260",
+    "term": "升级",
+    "category": "产品经理术语",
+    "definition": "升级 是 产品经理术语 领域中的重要概念。在 AI 产品中，升级 决定了产品功能上限与用户体验。",
+    "example": "示例：升级 在 AI 产品中的应用",
+    "aliases": [
+      "降级"
+    ],
+    "tags": [
+      "产品经理术语",
+      "升级"
+    ]
+  },
+  {
+    "id": "aipm-gloss-261",
+    "term": "降级",
+    "category": "AI 产品术语",
+    "definition": "降级 是 AI 产品术语 领域中的重要概念。在 AI 产品中，降级 决定了产品功能上限与用户体验。",
+    "example": "示例：降级 在 AI 产品中的应用",
+    "aliases": [
+      "回滚"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "降级"
+    ]
+  },
+  {
+    "id": "aipm-gloss-262",
+    "term": "回滚",
+    "category": "LLM 术语",
+    "definition": "回滚 是 LLM 术语 领域中的重要概念。在 AI 产品中，回滚 决定了产品功能上限与用户体验。",
+    "example": "示例：回滚 在 AI 产品中的应用",
+    "aliases": [
+      "热修复"
+    ],
+    "tags": [
+      "LLM 术语",
+      "回滚"
+    ]
+  },
+  {
+    "id": "aipm-gloss-263",
+    "term": "热修复",
+    "category": "Prompt 工程术语",
+    "definition": "热修复 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，热修复 决定了产品功能上限与用户体验。",
+    "example": "示例：热修复 在 AI 产品中的应用",
+    "aliases": [
+      "补丁"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "热修复"
+    ]
+  },
+  {
+    "id": "aipm-gloss-264",
+    "term": "补丁",
+    "category": "Agent 术语",
+    "definition": "补丁 是 Agent 术语 领域中的重要概念。在 AI 产品中，补丁 决定了产品功能上限与用户体验。",
+    "example": "示例：补丁 在 AI 产品中的应用",
+    "aliases": [
+      "版本"
+    ],
+    "tags": [
+      "Agent 术语",
+      "补丁"
+    ]
+  },
+  {
+    "id": "aipm-gloss-265",
+    "term": "版本",
+    "category": "RAG 术语",
+    "definition": "版本 是 RAG 术语 领域中的重要概念。在 AI 产品中，版本 决定了产品功能上限与用户体验。",
+    "example": "示例：版本 在 AI 产品中的应用",
+    "aliases": [
+      "发布"
+    ],
+    "tags": [
+      "RAG 术语",
+      "版本"
+    ]
+  },
+  {
+    "id": "aipm-gloss-266",
+    "term": "发布",
+    "category": "向量检索术语",
+    "definition": "发布 是 向量检索术语 领域中的重要概念。在 AI 产品中，发布 决定了产品功能上限与用户体验。",
+    "example": "示例：发布 在 AI 产品中的应用",
+    "aliases": [
+      "镜像"
+    ],
+    "tags": [
+      "向量检索术语",
+      "发布"
+    ]
+  },
+  {
+    "id": "aipm-gloss-267",
+    "term": "镜像",
+    "category": "AI 评测术语",
+    "definition": "镜像 是 AI 评测术语 领域中的重要概念。在 AI 产品中，镜像 决定了产品功能上限与用户体验。",
+    "example": "示例：镜像 在 AI 产品中的应用",
+    "aliases": [
+      "流量"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "镜像"
+    ]
+  },
+  {
+    "id": "aipm-gloss-268",
+    "term": "流量",
+    "category": "AI 安全术语",
+    "definition": "流量 是 AI 安全术语 领域中的重要概念。在 AI 产品中，流量 决定了产品功能上限与用户体验。",
+    "example": "示例：流量 在 AI 产品中的应用",
+    "aliases": [
+      "压测"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "流量"
+    ]
+  },
+  {
+    "id": "aipm-gloss-269",
+    "term": "压测",
+    "category": "SaaS 商业化术语",
+    "definition": "压测 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，压测 决定了产品功能上限与用户体验。",
+    "example": "示例：压测 在 AI 产品中的应用",
+    "aliases": [
+      "容量"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "压测"
+    ]
+  },
+  {
+    "id": "aipm-gloss-270",
+    "term": "容量",
+    "category": "产品经理术语",
+    "definition": "容量 是 产品经理术语 领域中的重要概念。在 AI 产品中，容量 决定了产品功能上限与用户体验。",
+    "example": "示例：容量 在 AI 产品中的应用",
+    "aliases": [
+      "弹性"
+    ],
+    "tags": [
+      "产品经理术语",
+      "容量"
+    ]
+  },
+  {
+    "id": "aipm-gloss-271",
+    "term": "弹性",
+    "category": "AI 产品术语",
+    "definition": "弹性 是 AI 产品术语 领域中的重要概念。在 AI 产品中，弹性 决定了产品功能上限与用户体验。",
+    "example": "示例：弹性 在 AI 产品中的应用",
+    "aliases": [
+      "扩容"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "弹性"
+    ]
+  },
+  {
+    "id": "aipm-gloss-272",
+    "term": "扩容",
+    "category": "LLM 术语",
+    "definition": "扩容 是 LLM 术语 领域中的重要概念。在 AI 产品中，扩容 决定了产品功能上限与用户体验。",
+    "example": "示例：扩容 在 AI 产品中的应用",
+    "aliases": [
+      "缩容"
+    ],
+    "tags": [
+      "LLM 术语",
+      "扩容"
+    ]
+  },
+  {
+    "id": "aipm-gloss-273",
+    "term": "缩容",
+    "category": "Prompt 工程术语",
+    "definition": "缩容 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，缩容 决定了产品功能上限与用户体验。",
+    "example": "示例：缩容 在 AI 产品中的应用",
+    "aliases": [
+      "运维"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "缩容"
+    ]
+  },
+  {
+    "id": "aipm-gloss-274",
+    "term": "运维",
+    "category": "Agent 术语",
+    "definition": "运维 是 Agent 术语 领域中的重要概念。在 AI 产品中，运维 决定了产品功能上限与用户体验。",
+    "example": "示例：运维 在 AI 产品中的应用",
+    "aliases": [
+      "SRE"
+    ],
+    "tags": [
+      "Agent 术语",
+      "运维"
+    ]
+  },
+  {
+    "id": "aipm-gloss-275",
+    "term": "SRE",
+    "category": "RAG 术语",
+    "definition": "SRE 是 RAG 术语 领域中的重要概念。在 AI 产品中，SRE 决定了产品功能上限与用户体验。",
+    "example": "示例：SRE 在 AI 产品中的应用",
+    "aliases": [
+      "DevOps"
+    ],
+    "tags": [
+      "RAG 术语",
+      "SRE"
+    ]
+  },
+  {
+    "id": "aipm-gloss-276",
+    "term": "DevOps",
+    "category": "向量检索术语",
+    "definition": "DevOps 是 向量检索术语 领域中的重要概念。在 AI 产品中，DevOps 决定了产品功能上限与用户体验。",
+    "example": "示例：DevOps 在 AI 产品中的应用",
+    "aliases": [
+      "CI"
+    ],
+    "tags": [
+      "向量检索术语",
+      "DevOps"
+    ]
+  },
+  {
+    "id": "aipm-gloss-277",
+    "term": "CI",
+    "category": "AI 评测术语",
+    "definition": "CI 是 AI 评测术语 领域中的重要概念。在 AI 产品中，CI 决定了产品功能上限与用户体验。",
+    "example": "示例：CI 在 AI 产品中的应用",
+    "aliases": [
+      "CD"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "CI"
+    ]
+  },
+  {
+    "id": "aipm-gloss-278",
+    "term": "CD",
+    "category": "AI 安全术语",
+    "definition": "CD 是 AI 安全术语 领域中的重要概念。在 AI 产品中，CD 决定了产品功能上限与用户体验。",
+    "example": "示例：CD 在 AI 产品中的应用",
+    "aliases": [
+      "流水线"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "CD"
+    ]
+  },
+  {
+    "id": "aipm-gloss-279",
+    "term": "流水线",
+    "category": "SaaS 商业化术语",
+    "definition": "流水线 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，流水线 决定了产品功能上限与用户体验。",
+    "example": "示例：流水线 在 AI 产品中的应用",
+    "aliases": [
+      "代码审查"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "流水线"
+    ]
+  },
+  {
+    "id": "aipm-gloss-280",
+    "term": "代码审查",
+    "category": "产品经理术语",
+    "definition": "代码审查 是 产品经理术语 领域中的重要概念。在 AI 产品中，代码审查 决定了产品功能上限与用户体验。",
+    "example": "示例：代码审查 在 AI 产品中的应用",
+    "aliases": [
+      "代码质量"
+    ],
+    "tags": [
+      "产品经理术语",
+      "代码审查"
+    ]
+  },
+  {
+    "id": "aipm-gloss-281",
+    "term": "代码质量",
+    "category": "AI 产品术语",
+    "definition": "代码质量 是 AI 产品术语 领域中的重要概念。在 AI 产品中，代码质量 决定了产品功能上限与用户体验。",
+    "example": "示例：代码质量 在 AI 产品中的应用",
+    "aliases": [
+      "单测"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "代码质量"
+    ]
+  },
+  {
+    "id": "aipm-gloss-282",
+    "term": "单测",
+    "category": "LLM 术语",
+    "definition": "单测 是 LLM 术语 领域中的重要概念。在 AI 产品中，单测 决定了产品功能上限与用户体验。",
+    "example": "示例：单测 在 AI 产品中的应用",
+    "aliases": [
+      "集成测试"
+    ],
+    "tags": [
+      "LLM 术语",
+      "单测"
+    ]
+  },
+  {
+    "id": "aipm-gloss-283",
+    "term": "集成测试",
+    "category": "Prompt 工程术语",
+    "definition": "集成测试 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，集成测试 决定了产品功能上限与用户体验。",
+    "example": "示例：集成测试 在 AI 产品中的应用",
+    "aliases": [
+      "E2E"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "集成测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-284",
+    "term": "E2E",
+    "category": "Agent 术语",
+    "definition": "E2E 是 Agent 术语 领域中的重要概念。在 AI 产品中，E2E 决定了产品功能上限与用户体验。",
+    "example": "示例：E2E 在 AI 产品中的应用",
+    "aliases": [
+      "性能测试"
+    ],
+    "tags": [
+      "Agent 术语",
+      "E2E"
+    ]
+  },
+  {
+    "id": "aipm-gloss-285",
+    "term": "性能测试",
+    "category": "RAG 术语",
+    "definition": "性能测试 是 RAG 术语 领域中的重要概念。在 AI 产品中，性能测试 决定了产品功能上限与用户体验。",
+    "example": "示例：性能测试 在 AI 产品中的应用",
+    "aliases": [
+      "安全测试"
+    ],
+    "tags": [
+      "RAG 术语",
+      "性能测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-286",
+    "term": "安全测试",
+    "category": "向量检索术语",
+    "definition": "安全测试 是 向量检索术语 领域中的重要概念。在 AI 产品中，安全测试 决定了产品功能上限与用户体验。",
+    "example": "示例：安全测试 在 AI 产品中的应用",
+    "aliases": [
+      "兼容测试"
+    ],
+    "tags": [
+      "向量检索术语",
+      "安全测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-287",
+    "term": "兼容测试",
+    "category": "AI 评测术语",
+    "definition": "兼容测试 是 AI 评测术语 领域中的重要概念。在 AI 产品中，兼容测试 决定了产品功能上限与用户体验。",
+    "example": "示例：兼容测试 在 AI 产品中的应用",
+    "aliases": [
+      "回归测试"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "兼容测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-288",
+    "term": "回归测试",
+    "category": "AI 安全术语",
+    "definition": "回归测试 是 AI 安全术语 领域中的重要概念。在 AI 产品中，回归测试 决定了产品功能上限与用户体验。",
+    "example": "示例：回归测试 在 AI 产品中的应用",
+    "aliases": [
+      "探索测试"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "回归测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-289",
+    "term": "探索测试",
+    "category": "SaaS 商业化术语",
+    "definition": "探索测试 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，探索测试 决定了产品功能上限与用户体验。",
+    "example": "示例：探索测试 在 AI 产品中的应用",
+    "aliases": [
+      "验收测试"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "探索测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-290",
+    "term": "验收测试",
+    "category": "产品经理术语",
+    "definition": "验收测试 是 产品经理术语 领域中的重要概念。在 AI 产品中，验收测试 决定了产品功能上限与用户体验。",
+    "example": "示例：验收测试 在 AI 产品中的应用",
+    "aliases": [
+      "UAT"
+    ],
+    "tags": [
+      "产品经理术语",
+      "验收测试"
+    ]
+  },
+  {
+    "id": "aipm-gloss-291",
+    "term": "UAT",
+    "category": "AI 产品术语",
+    "definition": "UAT 是 AI 产品术语 领域中的重要概念。在 AI 产品中，UAT 决定了产品功能上限与用户体验。",
+    "example": "示例：UAT 在 AI 产品中的应用",
+    "aliases": [
+      "内测"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "UAT"
+    ]
+  },
+  {
+    "id": "aipm-gloss-292",
+    "term": "内测",
+    "category": "LLM 术语",
+    "definition": "内测 是 LLM 术语 领域中的重要概念。在 AI 产品中，内测 决定了产品功能上限与用户体验。",
+    "example": "示例：内测 在 AI 产品中的应用",
+    "aliases": [
+      "公测"
+    ],
+    "tags": [
+      "LLM 术语",
+      "内测"
+    ]
+  },
+  {
+    "id": "aipm-gloss-293",
+    "term": "公测",
+    "category": "Prompt 工程术语",
+    "definition": "公测 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，公测 决定了产品功能上限与用户体验。",
+    "example": "示例：公测 在 AI 产品中的应用",
+    "aliases": [
+      "正式版"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "公测"
+    ]
+  },
+  {
+    "id": "aipm-gloss-294",
+    "term": "正式版",
+    "category": "Agent 术语",
+    "definition": "正式版 是 Agent 术语 领域中的重要概念。在 AI 产品中，正式版 决定了产品功能上限与用户体验。",
+    "example": "示例：正式版 在 AI 产品中的应用",
+    "aliases": [
+      "Beta"
+    ],
+    "tags": [
+      "Agent 术语",
+      "正式版"
+    ]
+  },
+  {
+    "id": "aipm-gloss-295",
+    "term": "Beta",
+    "category": "RAG 术语",
+    "definition": "Beta 是 RAG 术语 领域中的重要概念。在 AI 产品中，Beta 决定了产品功能上限与用户体验。",
+    "example": "示例：Beta 在 AI 产品中的应用",
+    "aliases": [
+      "Alpha"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Beta"
+    ]
+  },
+  {
+    "id": "aipm-gloss-296",
+    "term": "Alpha",
+    "category": "向量检索术语",
+    "definition": "Alpha 是 向量检索术语 领域中的重要概念。在 AI 产品中，Alpha 决定了产品功能上限与用户体验。",
+    "example": "示例：Alpha 在 AI 产品中的应用",
+    "aliases": [
+      "RC"
+    ],
+    "tags": [
+      "向量检索术语",
+      "Alpha"
+    ]
+  },
+  {
+    "id": "aipm-gloss-297",
+    "term": "RC",
+    "category": "AI 评测术语",
+    "definition": "RC 是 AI 评测术语 领域中的重要概念。在 AI 产品中，RC 决定了产品功能上限与用户体验。",
+    "example": "示例：RC 在 AI 产品中的应用",
+    "aliases": [
+      "GA"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "RC"
+    ]
+  },
+  {
+    "id": "aipm-gloss-298",
+    "term": "GA",
+    "category": "AI 安全术语",
+    "definition": "GA 是 AI 安全术语 领域中的重要概念。在 AI 产品中，GA 决定了产品功能上限与用户体验。",
+    "example": "示例：GA 在 AI 产品中的应用",
+    "aliases": [
+      "LTS"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "GA"
+    ]
+  },
+  {
+    "id": "aipm-gloss-299",
+    "term": "LTS",
+    "category": "SaaS 商业化术语",
+    "definition": "LTS 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，LTS 决定了产品功能上限与用户体验。",
+    "example": "示例：LTS 在 AI 产品中的应用",
+    "aliases": [
+      "EOL"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "LTS"
+    ]
+  },
+  {
+    "id": "aipm-gloss-300",
+    "term": "EOL",
+    "category": "产品经理术语",
+    "definition": "EOL 是 产品经理术语 领域中的重要概念。在 AI 产品中，EOL 决定了产品功能上限与用户体验。",
+    "example": "示例：EOL 在 AI 产品中的应用",
+    "aliases": [
+      "重构"
+    ],
+    "tags": [
+      "产品经理术语",
+      "EOL"
+    ]
+  },
+  {
+    "id": "aipm-gloss-301",
+    "term": "重构",
+    "category": "AI 产品术语",
+    "definition": "重构 是 AI 产品术语 领域中的重要概念。在 AI 产品中，重构 决定了产品功能上限与用户体验。",
+    "example": "示例：重构 在 AI 产品中的应用",
+    "aliases": [
+      "重写"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "重构"
+    ]
+  },
+  {
+    "id": "aipm-gloss-302",
+    "term": "重写",
+    "category": "LLM 术语",
+    "definition": "重写 是 LLM 术语 领域中的重要概念。在 AI 产品中，重写 决定了产品功能上限与用户体验。",
+    "example": "示例：重写 在 AI 产品中的应用",
+    "aliases": [
+      "优化"
+    ],
+    "tags": [
+      "LLM 术语",
+      "重写"
+    ]
+  },
+  {
+    "id": "aipm-gloss-303",
+    "term": "优化",
+    "category": "Prompt 工程术语",
+    "definition": "优化 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，优化 决定了产品功能上限与用户体验。",
+    "example": "示例：优化 在 AI 产品中的应用",
+    "aliases": [
+      "性能优化"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-304",
+    "term": "性能优化",
+    "category": "Agent 术语",
+    "definition": "性能优化 是 Agent 术语 领域中的重要概念。在 AI 产品中，性能优化 决定了产品功能上限与用户体验。",
+    "example": "示例：性能优化 在 AI 产品中的应用",
+    "aliases": [
+      "成本优化"
+    ],
+    "tags": [
+      "Agent 术语",
+      "性能优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-305",
+    "term": "成本优化",
+    "category": "RAG 术语",
+    "definition": "成本优化 是 RAG 术语 领域中的重要概念。在 AI 产品中，成本优化 决定了产品功能上限与用户体验。",
+    "example": "示例：成本优化 在 AI 产品中的应用",
+    "aliases": [
+      "体验优化"
+    ],
+    "tags": [
+      "RAG 术语",
+      "成本优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-306",
+    "term": "体验优化",
+    "category": "向量检索术语",
+    "definition": "体验优化 是 向量检索术语 领域中的重要概念。在 AI 产品中，体验优化 决定了产品功能上限与用户体验。",
+    "example": "示例：体验优化 在 AI 产品中的应用",
+    "aliases": [
+      "转化优化"
+    ],
+    "tags": [
+      "向量检索术语",
+      "体验优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-307",
+    "term": "转化优化",
+    "category": "AI 评测术语",
+    "definition": "转化优化 是 AI 评测术语 领域中的重要概念。在 AI 产品中，转化优化 决定了产品功能上限与用户体验。",
+    "example": "示例：转化优化 在 AI 产品中的应用",
+    "aliases": [
+      "留存优化"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "转化优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-308",
+    "term": "留存优化",
+    "category": "AI 安全术语",
+    "definition": "留存优化 是 AI 安全术语 领域中的重要概念。在 AI 产品中，留存优化 决定了产品功能上限与用户体验。",
+    "example": "示例：留存优化 在 AI 产品中的应用",
+    "aliases": [
+      "变现优化"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "留存优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-309",
+    "term": "变现优化",
+    "category": "SaaS 商业化术语",
+    "definition": "变现优化 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，变现优化 决定了产品功能上限与用户体验。",
+    "example": "示例：变现优化 在 AI 产品中的应用",
+    "aliases": [
+      "增长"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "变现优化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-310",
+    "term": "增长",
+    "category": "产品经理术语",
+    "definition": "增长 是 产品经理术语 领域中的重要概念。在 AI 产品中，增长 决定了产品功能上限与用户体验。",
+    "example": "示例：增长 在 AI 产品中的应用",
+    "aliases": [
+      "病毒循环"
+    ],
+    "tags": [
+      "产品经理术语",
+      "增长"
+    ]
+  },
+  {
+    "id": "aipm-gloss-311",
+    "term": "病毒循环",
+    "category": "AI 产品术语",
+    "definition": "病毒循环 是 AI 产品术语 领域中的重要概念。在 AI 产品中，病毒循环 决定了产品功能上限与用户体验。",
+    "example": "示例：病毒循环 在 AI 产品中的应用",
+    "aliases": [
+      "推荐循环"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "病毒循环"
+    ]
+  },
+  {
+    "id": "aipm-gloss-312",
+    "term": "推荐循环",
+    "category": "LLM 术语",
+    "definition": "推荐循环 是 LLM 术语 领域中的重要概念。在 AI 产品中，推荐循环 决定了产品功能上限与用户体验。",
+    "example": "示例：推荐循环 在 AI 产品中的应用",
+    "aliases": [
+      "飞轮效应"
+    ],
+    "tags": [
+      "LLM 术语",
+      "推荐循环"
+    ]
+  },
+  {
+    "id": "aipm-gloss-313",
+    "term": "飞轮效应",
+    "category": "Prompt 工程术语",
+    "definition": "飞轮效应 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，飞轮效应 决定了产品功能上限与用户体验。",
+    "example": "示例：飞轮效应 在 AI 产品中的应用",
+    "aliases": [
+      "护城河"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "飞轮效应"
+    ]
+  },
+  {
+    "id": "aipm-gloss-314",
+    "term": "护城河",
+    "category": "Agent 术语",
+    "definition": "护城河 是 Agent 术语 领域中的重要概念。在 AI 产品中，护城河 决定了产品功能上限与用户体验。",
+    "example": "示例：护城河 在 AI 产品中的应用",
+    "aliases": [
+      "壁垒"
+    ],
+    "tags": [
+      "Agent 术语",
+      "护城河"
+    ]
+  },
+  {
+    "id": "aipm-gloss-315",
+    "term": "壁垒",
+    "category": "RAG 术语",
+    "definition": "壁垒 是 RAG 术语 领域中的重要概念。在 AI 产品中，壁垒 决定了产品功能上限与用户体验。",
+    "example": "示例：壁垒 在 AI 产品中的应用",
+    "aliases": [
+      "差异化"
+    ],
+    "tags": [
+      "RAG 术语",
+      "壁垒"
+    ]
+  },
+  {
+    "id": "aipm-gloss-316",
+    "term": "差异化",
+    "category": "向量检索术语",
+    "definition": "差异化 是 向量检索术语 领域中的重要概念。在 AI 产品中，差异化 决定了产品功能上限与用户体验。",
+    "example": "示例：差异化 在 AI 产品中的应用",
+    "aliases": [
+      "定位"
+    ],
+    "tags": [
+      "向量检索术语",
+      "差异化"
+    ]
+  },
+  {
+    "id": "aipm-gloss-317",
+    "term": "定位",
+    "category": "AI 评测术语",
+    "definition": "定位 是 AI 评测术语 领域中的重要概念。在 AI 产品中，定位 决定了产品功能上限与用户体验。",
+    "example": "示例：定位 在 AI 产品中的应用",
+    "aliases": [
+      "细分"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "定位"
+    ]
+  },
+  {
+    "id": "aipm-gloss-318",
+    "term": "细分",
+    "category": "AI 安全术语",
+    "definition": "细分 是 AI 安全术语 领域中的重要概念。在 AI 产品中，细分 决定了产品功能上限与用户体验。",
+    "example": "示例：细分 在 AI 产品中的应用",
+    "aliases": [
+      "目标市场"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "细分"
+    ]
+  },
+  {
+    "id": "aipm-gloss-319",
+    "term": "目标市场",
+    "category": "SaaS 商业化术语",
+    "definition": "目标市场 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，目标市场 决定了产品功能上限与用户体验。",
+    "example": "示例：目标市场 在 AI 产品中的应用",
+    "aliases": [
+      "市场规模"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "目标市场"
+    ]
+  },
+  {
+    "id": "aipm-gloss-320",
+    "term": "市场规模",
+    "category": "产品经理术语",
+    "definition": "市场规模 是 产品经理术语 领域中的重要概念。在 AI 产品中，市场规模 决定了产品功能上限与用户体验。",
+    "example": "示例：市场规模 在 AI 产品中的应用",
+    "aliases": [
+      "趋势"
+    ],
+    "tags": [
+      "产品经理术语",
+      "市场规模"
+    ]
+  },
+  {
+    "id": "aipm-gloss-321",
+    "term": "趋势",
+    "category": "AI 产品术语",
+    "definition": "趋势 是 AI 产品术语 领域中的重要概念。在 AI 产品中，趋势 决定了产品功能上限与用户体验。",
+    "example": "示例：趋势 在 AI 产品中的应用",
+    "aliases": [
+      "机会"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "趋势"
+    ]
+  },
+  {
+    "id": "aipm-gloss-322",
+    "term": "机会",
+    "category": "LLM 术语",
+    "definition": "机会 是 LLM 术语 领域中的重要概念。在 AI 产品中，机会 决定了产品功能上限与用户体验。",
+    "example": "示例：机会 在 AI 产品中的应用",
+    "aliases": [
+      "风险"
+    ],
+    "tags": [
+      "LLM 术语",
+      "机会"
+    ]
+  },
+  {
+    "id": "aipm-gloss-323",
+    "term": "风险",
+    "category": "Prompt 工程术语",
+    "definition": "风险 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，风险 决定了产品功能上限与用户体验。",
+    "example": "示例：风险 在 AI 产品中的应用",
+    "aliases": [
+      "合规"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "风险"
+    ]
+  },
+  {
+    "id": "aipm-gloss-324",
+    "term": "合规",
+    "category": "Agent 术语",
+    "definition": "合规 是 Agent 术语 领域中的重要概念。在 AI 产品中，合规 决定了产品功能上限与用户体验。",
+    "example": "示例：合规 在 AI 产品中的应用",
+    "aliases": [
+      "伦理"
+    ],
+    "tags": [
+      "Agent 术语",
+      "合规"
+    ]
+  },
+  {
+    "id": "aipm-gloss-325",
+    "term": "伦理",
+    "category": "RAG 术语",
+    "definition": "伦理 是 RAG 术语 领域中的重要概念。在 AI 产品中，伦理 决定了产品功能上限与用户体验。",
+    "example": "示例：伦理 在 AI 产品中的应用",
+    "aliases": [
+      "公平"
+    ],
+    "tags": [
+      "RAG 术语",
+      "伦理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-326",
+    "term": "公平",
+    "category": "向量检索术语",
+    "definition": "公平 是 向量检索术语 领域中的重要概念。在 AI 产品中，公平 决定了产品功能上限与用户体验。",
+    "example": "示例：公平 在 AI 产品中的应用",
+    "aliases": [
+      "透明"
+    ],
+    "tags": [
+      "向量检索术语",
+      "公平"
+    ]
+  },
+  {
+    "id": "aipm-gloss-327",
+    "term": "透明",
+    "category": "AI 评测术语",
+    "definition": "透明 是 AI 评测术语 领域中的重要概念。在 AI 产品中，透明 决定了产品功能上限与用户体验。",
+    "example": "示例：透明 在 AI 产品中的应用",
+    "aliases": [
+      "可解释"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "透明"
+    ]
+  },
+  {
+    "id": "aipm-gloss-328",
+    "term": "可解释",
+    "category": "AI 安全术语",
+    "definition": "可解释 是 AI 安全术语 领域中的重要概念。在 AI 产品中，可解释 决定了产品功能上限与用户体验。",
+    "example": "示例：可解释 在 AI 产品中的应用",
+    "aliases": [
+      "责任"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "可解释"
+    ]
+  },
+  {
+    "id": "aipm-gloss-329",
+    "term": "责任",
+    "category": "SaaS 商业化术语",
+    "definition": "责任 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，责任 决定了产品功能上限与用户体验。",
+    "example": "示例：责任 在 AI 产品中的应用",
+    "aliases": [
+      "隐私"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "责任"
+    ]
+  },
+  {
+    "id": "aipm-gloss-330",
+    "term": "隐私",
+    "category": "产品经理术语",
+    "definition": "隐私 是 产品经理术语 领域中的重要概念。在 AI 产品中，隐私 决定了产品功能上限与用户体验。",
+    "example": "示例：隐私 在 AI 产品中的应用",
+    "aliases": [
+      "安全"
+    ],
+    "tags": [
+      "产品经理术语",
+      "隐私"
+    ]
+  },
+  {
+    "id": "aipm-gloss-331",
+    "term": "安全",
+    "category": "AI 产品术语",
+    "definition": "安全 是 AI 产品术语 领域中的重要概念。在 AI 产品中，安全 决定了产品功能上限与用户体验。",
+    "example": "示例：安全 在 AI 产品中的应用",
+    "aliases": [
+      "审计"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "安全"
+    ]
+  },
+  {
+    "id": "aipm-gloss-332",
+    "term": "审计",
+    "category": "LLM 术语",
+    "definition": "审计 是 LLM 术语 领域中的重要概念。在 AI 产品中，审计 决定了产品功能上限与用户体验。",
+    "example": "示例：审计 在 AI 产品中的应用",
+    "aliases": [
+      "AI 产品经理"
+    ],
+    "tags": [
+      "LLM 术语",
+      "审计"
+    ]
+  },
+  {
+    "id": "aipm-gloss-333",
+    "term": "AI 产品经理",
+    "category": "Prompt 工程术语",
+    "definition": "AI 产品经理 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，AI 产品经理 决定了产品功能上限与用户体验。",
+    "example": "示例：AI 产品经理 在 AI 产品中的应用",
+    "aliases": [
+      "AIGC"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "AI 产品经理"
+    ]
+  },
+  {
+    "id": "aipm-gloss-334",
+    "term": "AIGC",
+    "category": "Agent 术语",
+    "definition": "AIGC 是 Agent 术语 领域中的重要概念。在 AI 产品中，AIGC 决定了产品功能上限与用户体验。",
+    "example": "示例：AIGC 在 AI 产品中的应用",
+    "aliases": [
+      "Agent"
+    ],
+    "tags": [
+      "Agent 术语",
+      "AIGC"
+    ]
+  },
+  {
+    "id": "aipm-gloss-335",
+    "term": "Agent",
+    "category": "RAG 术语",
+    "definition": "Agent 是 RAG 术语 领域中的重要概念。在 AI 产品中，Agent 决定了产品功能上限与用户体验。",
+    "example": "示例：Agent 在 AI 产品中的应用",
+    "aliases": [
+      "RAG"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Agent"
+    ]
+  },
+  {
+    "id": "aipm-gloss-336",
+    "term": "RAG",
+    "category": "向量检索术语",
+    "definition": "RAG 是 向量检索术语 领域中的重要概念。在 AI 产品中，RAG 决定了产品功能上限与用户体验。",
+    "example": "示例：RAG 在 AI 产品中的应用",
+    "aliases": [
+      "LLM"
+    ],
+    "tags": [
+      "向量检索术语",
+      "RAG"
+    ]
+  },
+  {
+    "id": "aipm-gloss-337",
+    "term": "LLM",
+    "category": "AI 评测术语",
+    "definition": "LLM 是 AI 评测术语 领域中的重要概念。在 AI 产品中，LLM 决定了产品功能上限与用户体验。",
+    "example": "示例：LLM 在 AI 产品中的应用",
+    "aliases": [
+      "Prompt"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "LLM"
+    ]
+  },
+  {
+    "id": "aipm-gloss-338",
+    "term": "Prompt",
+    "category": "AI 安全术语",
+    "definition": "Prompt 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Prompt 决定了产品功能上限与用户体验。",
+    "example": "示例：Prompt 在 AI 产品中的应用",
+    "aliases": [
+      "Token"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Prompt"
+    ]
+  },
+  {
+    "id": "aipm-gloss-339",
+    "term": "Token",
+    "category": "SaaS 商业化术语",
+    "definition": "Token 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Token 决定了产品功能上限与用户体验。",
+    "example": "示例：Token 在 AI 产品中的应用",
+    "aliases": [
+      "Embedding"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Token"
+    ]
+  },
+  {
+    "id": "aipm-gloss-340",
+    "term": "Embedding",
+    "category": "产品经理术语",
+    "definition": "Embedding 是 产品经理术语 领域中的重要概念。在 AI 产品中，Embedding 决定了产品功能上限与用户体验。",
+    "example": "示例：Embedding 在 AI 产品中的应用",
+    "aliases": [
+      "向量数据库"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Embedding"
+    ]
+  },
+  {
+    "id": "aipm-gloss-341",
+    "term": "向量数据库",
+    "category": "AI 产品术语",
+    "definition": "向量数据库 是 AI 产品术语 领域中的重要概念。在 AI 产品中，向量数据库 决定了产品功能上限与用户体验。",
+    "example": "示例：向量数据库 在 AI 产品中的应用",
+    "aliases": [
+      "Fine-tuning"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "向量数据库"
+    ]
+  },
+  {
+    "id": "aipm-gloss-342",
+    "term": "Fine-tuning",
+    "category": "LLM 术语",
+    "definition": "Fine-tuning 是 LLM 术语 领域中的重要概念。在 AI 产品中，Fine-tuning 决定了产品功能上限与用户体验。",
+    "example": "示例：Fine-tuning 在 AI 产品中的应用",
+    "aliases": [
+      "Few-shot"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Fine-tuning"
+    ]
+  },
+  {
+    "id": "aipm-gloss-343",
+    "term": "Few-shot",
+    "category": "Prompt 工程术语",
+    "definition": "Few-shot 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Few-shot 决定了产品功能上限与用户体验。",
+    "example": "示例：Few-shot 在 AI 产品中的应用",
+    "aliases": [
+      "Zero-shot"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Few-shot"
+    ]
+  },
+  {
+    "id": "aipm-gloss-344",
+    "term": "Zero-shot",
+    "category": "Agent 术语",
+    "definition": "Zero-shot 是 Agent 术语 领域中的重要概念。在 AI 产品中，Zero-shot 决定了产品功能上限与用户体验。",
+    "example": "示例：Zero-shot 在 AI 产品中的应用",
+    "aliases": [
+      "Chain of Thought"
+    ],
+    "tags": [
+      "Agent 术语",
+      "Zero-shot"
+    ]
+  },
+  {
+    "id": "aipm-gloss-345",
+    "term": "Chain of Thought",
+    "category": "RAG 术语",
+    "definition": "Chain of Thought 是 RAG 术语 领域中的重要概念。在 AI 产品中，Chain of Thought 决定了产品功能上限与用户体验。",
+    "example": "示例：Chain of Thought 在 AI 产品中的应用",
+    "aliases": [
+      "ReAct"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Chain of Thought"
+    ]
+  },
+  {
+    "id": "aipm-gloss-346",
+    "term": "ReAct",
+    "category": "向量检索术语",
+    "definition": "ReAct 是 向量检索术语 领域中的重要概念。在 AI 产品中，ReAct 决定了产品功能上限与用户体验。",
+    "example": "示例：ReAct 在 AI 产品中的应用",
+    "aliases": [
+      "Function Calling"
+    ],
+    "tags": [
+      "向量检索术语",
+      "ReAct"
+    ]
+  },
+  {
+    "id": "aipm-gloss-347",
+    "term": "Function Calling",
+    "category": "AI 评测术语",
+    "definition": "Function Calling 是 AI 评测术语 领域中的重要概念。在 AI 产品中，Function Calling 决定了产品功能上限与用户体验。",
+    "example": "示例：Function Calling 在 AI 产品中的应用",
+    "aliases": [
+      "Tool Use"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "Function Calling"
+    ]
+  },
+  {
+    "id": "aipm-gloss-348",
+    "term": "Tool Use",
+    "category": "AI 安全术语",
+    "definition": "Tool Use 是 AI 安全术语 领域中的重要概念。在 AI 产品中，Tool Use 决定了产品功能上限与用户体验。",
+    "example": "示例：Tool Use 在 AI 产品中的应用",
+    "aliases": [
+      "Memory"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "Tool Use"
+    ]
+  },
+  {
+    "id": "aipm-gloss-349",
+    "term": "Memory",
+    "category": "SaaS 商业化术语",
+    "definition": "Memory 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，Memory 决定了产品功能上限与用户体验。",
+    "example": "示例：Memory 在 AI 产品中的应用",
+    "aliases": [
+      "Planning"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "Memory"
+    ]
+  },
+  {
+    "id": "aipm-gloss-350",
+    "term": "Planning",
+    "category": "产品经理术语",
+    "definition": "Planning 是 产品经理术语 领域中的重要概念。在 AI 产品中，Planning 决定了产品功能上限与用户体验。",
+    "example": "示例：Planning 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Planning"
+    ]
+  },
+  {
+    "id": "aipm-gloss-351",
+    "term": "Chunk",
+    "category": "AI 产品术语",
+    "definition": "Chunk 是 AI 产品术语 领域中的重要概念。在 AI 产品中，Chunk 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk Size"
+    ],
+    "tags": [
+      "AI 产品术语",
+      "Chunk"
+    ]
+  },
+  {
+    "id": "aipm-gloss-352",
+    "term": "Chunk Size",
+    "category": "LLM 术语",
+    "definition": "Chunk Size 是 LLM 术语 领域中的重要概念。在 AI 产品中，Chunk Size 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk Size 在 AI 产品中的应用",
+    "aliases": [
+      "Chunk Overlap"
+    ],
+    "tags": [
+      "LLM 术语",
+      "Chunk Size"
+    ]
+  },
+  {
+    "id": "aipm-gloss-353",
+    "term": "Chunk Overlap",
+    "category": "Prompt 工程术语",
+    "definition": "Chunk Overlap 是 Prompt 工程术语 领域中的重要概念。在 AI 产品中，Chunk Overlap 决定了产品功能上限与用户体验。",
+    "example": "示例：Chunk Overlap 在 AI 产品中的应用",
+    "aliases": [
+      "Top K"
+    ],
+    "tags": [
+      "Prompt 工程术语",
+      "Chunk Overlap"
+    ]
+  },
+  {
+    "id": "aipm-gloss-354",
+    "term": "Top K",
+    "category": "Agent 术语",
+    "definition": "Top K 是 Agent 术语 领域中的重要概念。在 AI 产品中，Top K 决定了产品功能上限与用户体验。",
+    "example": "示例：Top K 在 AI 产品中的应用",
+    "aliases": [
+      "Rerank"
+    ],
+    "tags": [
+      "Agent 术语",
+      "Top K"
+    ]
+  },
+  {
+    "id": "aipm-gloss-355",
+    "term": "Rerank",
+    "category": "RAG 术语",
+    "definition": "Rerank 是 RAG 术语 领域中的重要概念。在 AI 产品中，Rerank 决定了产品功能上限与用户体验。",
+    "example": "示例：Rerank 在 AI 产品中的应用",
+    "aliases": [
+      "Cross-Encoder"
+    ],
+    "tags": [
+      "RAG 术语",
+      "Rerank"
+    ]
+  },
+  {
+    "id": "aipm-gloss-356",
+    "term": "Cross-Encoder",
+    "category": "向量检索术语",
+    "definition": "Cross-Encoder 是 向量检索术语 领域中的重要概念。在 AI 产品中，Cross-Encoder 决定了产品功能上限与用户体验。",
+    "example": "示例：Cross-Encoder 在 AI 产品中的应用",
+    "aliases": [
+      "余弦相似度"
+    ],
+    "tags": [
+      "向量检索术语",
+      "Cross-Encoder"
+    ]
+  },
+  {
+    "id": "aipm-gloss-357",
+    "term": "余弦相似度",
+    "category": "AI 评测术语",
+    "definition": "余弦相似度 是 AI 评测术语 领域中的重要概念。在 AI 产品中，余弦相似度 决定了产品功能上限与用户体验。",
+    "example": "示例：余弦相似度 在 AI 产品中的应用",
+    "aliases": [
+      "点积"
+    ],
+    "tags": [
+      "AI 评测术语",
+      "余弦相似度"
+    ]
+  },
+  {
+    "id": "aipm-gloss-358",
+    "term": "点积",
+    "category": "AI 安全术语",
+    "definition": "点积 是 AI 安全术语 领域中的重要概念。在 AI 产品中，点积 决定了产品功能上限与用户体验。",
+    "example": "示例：点积 在 AI 产品中的应用",
+    "aliases": [
+      "幻觉"
+    ],
+    "tags": [
+      "AI 安全术语",
+      "点积"
+    ]
+  },
+  {
+    "id": "aipm-gloss-359",
+    "term": "幻觉",
+    "category": "SaaS 商业化术语",
+    "definition": "幻觉 是 SaaS 商业化术语 领域中的重要概念。在 AI 产品中，幻觉 决定了产品功能上限与用户体验。",
+    "example": "示例：幻觉 在 AI 产品中的应用",
+    "aliases": [
+      "Hallucination"
+    ],
+    "tags": [
+      "SaaS 商业化术语",
+      "幻觉"
+    ]
+  },
+  {
+    "id": "aipm-gloss-360",
+    "term": "Hallucination",
+    "category": "产品经理术语",
+    "definition": "Hallucination 是 产品经理术语 领域中的重要概念。在 AI 产品中，Hallucination 决定了产品功能上限与用户体验。",
+    "example": "示例：Hallucination 在 AI 产品中的应用",
+    "aliases": [
+      "Temperature"
+    ],
+    "tags": [
+      "产品经理术语",
+      "Hallucination"
+    ]
+  }
 ]

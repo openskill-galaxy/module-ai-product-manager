@@ -17,16 +17,3 @@ vite.config.js
 .vscode
 .idea
 .DS_Store
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-logs
-*.log
-
-# env
-.env
-.env.local
-.env.*.local

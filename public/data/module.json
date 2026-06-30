@@ -1,17 +1,41 @@
 {
-  "id": "mod-template",
-  "slug": "module-template",
-  "title": "模块模板",
-  "subtitle": "OpenSkill Galaxy 可复用静态学习模块模板",
-  "description": "这是模块模板的演示数据。每个具体模块（如数字逻辑、Python 基础、算法面试）都从此模板复制并替换数据。模板展示了课程、讲义、知识点、题库、考试、案例、学习路线、FAQ 等全部功能。",
+  "id": "mod-ai-product-manager",
+  "slug": "module-ai-product-manager",
+  "title": "AI 产品经理训练",
+  "subtitle": "从 AI 产品基础到 Agent、RAG、Prompt 工程与作品集的系统训练",
+  "description": "面向想进入 AI 产品、AIGC 产品、Agent 产品、RAG 知识库产品、企业 AI 工具、AI 教育产品、AI SaaS 产品方向的学习者，提供 AI 产品基础、需求分析、Prompt 工程、Agent 设计、RAG 产品设计、数据与评测、原型设计、商业化和面试作品集训练。",
   "version": "1.0.0",
   "license": "MIT",
-  "authors": ["OpenSkill Community"],
-  "tags": ["模板", "演示"],
-  "estimatedHours": 20,
-  "difficulty": "easy",
-  "updatedAt": "2026-06-29",
-  "coverEmoji": "📘",
-  "repoUrl": "https://github.com/openskill-galaxy/module-template",
-  "portalUrl": "https://openskill-galaxy.github.io/"
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "AI 产品",
+    "产品经理",
+    "Prompt 工程",
+    "Agent",
+    "RAG",
+    "AI SaaS",
+    "作品集",
+    "面试"
+  ],
+  "estimatedHours": 140,
+  "difficulty": "medium",
+  "updatedAt": "2026-06-30T17:33:36.272Z",
+  "coverEmoji": "🤖",
+  "repoUrl": "https://github.com/openskill-galaxy/module-ai-product-manager",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 192,
+    "knowledgePoints": 820,
+    "questions": 3000,
+    "cases": 280,
+    "exams": 90,
+    "routes": 31,
+    "glossary": 360,
+    "faqs": 220,
+    "tags": 1513
+  }
 }

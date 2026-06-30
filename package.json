@@ -1,8 +1,8 @@
 {
-  "name": "openskill-module-template",
+  "name": "openskill-module-ai-product-manager",
   "version": "1.0.0",
   "private": true,
-  "description": "OpenSkill Galaxy reusable static learning module template.",
+  "description": "OpenSkill Galaxy AI Product Manager training module.",
   "type": "module",
   "scripts": {
     "dev": "vite",
