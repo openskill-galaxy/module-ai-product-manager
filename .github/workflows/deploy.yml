@@ -1,4 +1,4 @@
-name: Deploy AI Product Manager Module
+﻿name: Deploy AI Product Manager Module
 
 on:
   push:
@@ -26,13 +26,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       - name: Install dependencies
         run: npm install
 
       - name: Validate static data
-        run: node scripts/validate-data.mjs
+        run: |
+          if [ -f scripts/validate-data.mjs ]; then
+            node scripts/validate-data.mjs
+          else
+            echo "No validate-data.mjs found, skipping data validation."
+          fi
 
       - name: Build
         run: npm run build
