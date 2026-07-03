@@ -4498,5 +4498,135 @@
       "不可查阅资料",
       "可使用草稿纸"
     ]
+  },
+  {
+    "id": "ai-exam-91",
+    "title": "AI 产品经理面试与作品集综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI 产品经理面试与作品集"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-92",
+    "title": "RAG 知识库产品设计综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "RAG 知识库产品设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-93",
+    "title": "AI 安全、合规与风险控制综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI 安全、合规与风险控制"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-94",
+    "title": "AI 安全、合规与风险控制综合",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI 安全、合规与风险控制"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-95",
+    "title": "AI 安全、合规与风险控制综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI 安全、合规与风险控制"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-96",
+    "title": "AI Agent 产品设计综合",
+    "difficulty": "medium",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI Agent 产品设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-97",
+    "title": "RAG 知识库产品设计综合",
+    "difficulty": "easy",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "RAG 知识库产品设计"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-98",
+    "title": "AI 工作流与自动化产品综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "AI 工作流与自动化产品"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-99",
+    "title": "Prompt 工程与产品化综合",
+    "difficulty": "hard",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "Prompt 工程与产品化"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
+  },
+  {
+    "id": "ai-exam-100",
+    "title": "LLM 与 AIGC 产品基础综合",
+    "difficulty": "medium",
+    "timeLimit": 60,
+    "totalScore": 100,
+    "passingScore": 60,
+    "questionIds": [],
+    "tags": [
+      "LLM 与 AIGC 产品基础"
+    ],
+    "updatedAt": "2026-07-03T00:00:00.000Z"
   }
 ]
