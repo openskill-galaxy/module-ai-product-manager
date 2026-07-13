@@ -4,7 +4,7 @@
     "slug": "7 天 AI 产品入门路线",
     "title": "7 天 AI 产品入门路线",
     "summary": "7 天 AI 产品入门路线：针对零基础初学者设计的 7 天学习路线。",
-    "description": "7 天 AI 产品入门路线：针对零基础初学者设计的 7 天学习路线，覆盖 2 门课程。",
+    "description": "7 天 AI 产品入门路线：针对零基础初学者设计的 7 天学习路线。",
     "targetUser": "零基础初学者",
     "durationDays": 7,
     "steps": [
@@ -121,7 +121,7 @@
     "slug": "14 天 AI 产品基础路线",
     "title": "14 天 AI 产品基础路线",
     "summary": "14 天 AI 产品基础路线：针对有产品经验者设计的 14 天学习路线。",
-    "description": "14 天 AI 产品基础路线：针对有产品经验者设计的 14 天学习路线，覆盖 3 门课程。",
+    "description": "14 天 AI 产品基础路线：针对有产品经验者设计的 14 天学习路线。",
     "targetUser": "有产品经验者",
     "durationDays": 14,
     "steps": [
@@ -246,7 +246,7 @@
     "slug": "30 天 AI 产品经理系统学习路线",
     "title": "30 天 AI 产品经理系统学习路线",
     "summary": "30 天 AI 产品经理系统学习路线：针对希望系统掌握设计的 30 天学习路线。",
-    "description": "30 天 AI 产品经理系统学习路线：针对希望系统掌握设计的 30 天学习路线，覆盖 5 门课程。",
+    "description": "30 天 AI 产品经理系统学习路线：针对希望系统掌握设计的 30 天学习路线。",
     "targetUser": "希望系统掌握",
     "durationDays": 30,
     "steps": [
@@ -394,7 +394,7 @@
     "slug": "60 天 AI 产品作品集路线",
     "title": "60 天 AI 产品作品集路线",
     "summary": "60 天 AI 产品作品集路线：针对准备求职作品集设计的 60 天学习路线。",
-    "description": "60 天 AI 产品作品集路线：针对准备求职作品集设计的 60 天学习路线，覆盖 9 门课程。",
+    "description": "60 天 AI 产品作品集路线：针对准备求职作品集设计的 60 天学习路线。",
     "targetUser": "准备求职作品集",
     "durationDays": 60,
     "steps": [
@@ -574,7 +574,7 @@
     "slug": "Prompt 工程专项路线",
     "title": "Prompt 工程专项路线",
     "summary": "Prompt 工程专项路线：针对深入 Prompt 工程设计的 14 天学习路线。",
-    "description": "Prompt 工程专项路线：针对深入 Prompt 工程设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "Prompt 工程专项路线：针对深入 Prompt 工程设计的 14 天学习路线。",
     "targetUser": "深入 Prompt 工程",
     "durationDays": 14,
     "steps": [
@@ -686,7 +686,7 @@
     "slug": "RAG 产品专项路线",
     "title": "RAG 产品专项路线",
     "summary": "RAG 产品专项路线：针对深入 RAG 产品设计的 21 天学习路线。",
-    "description": "RAG 产品专项路线：针对深入 RAG 产品设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "RAG 产品专项路线：针对深入 RAG 产品设计的 21 天学习路线。",
     "targetUser": "深入 RAG 产品",
     "durationDays": 21,
     "steps": [
@@ -806,7 +806,7 @@
     "slug": "Agent 产品专项路线",
     "title": "Agent 产品专项路线",
     "summary": "Agent 产品专项路线：针对深入 Agent 产品设计的 21 天学习路线。",
-    "description": "Agent 产品专项路线：针对深入 Agent 产品设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "Agent 产品专项路线：针对深入 Agent 产品设计的 21 天学习路线。",
     "targetUser": "深入 Agent 产品",
     "durationDays": 21,
     "steps": [
@@ -925,7 +925,7 @@
     "slug": "AI SaaS 产品路线",
     "title": "AI SaaS 产品路线",
     "summary": "AI SaaS 产品路线：针对想做 AI SaaS设计的 30 天学习路线。",
-    "description": "AI SaaS 产品路线：针对想做 AI SaaS设计的 30 天学习路线，覆盖 1 门课程。",
+    "description": "AI SaaS 产品路线：针对想做 AI SaaS设计的 30 天学习路线。",
     "targetUser": "想做 AI SaaS",
     "durationDays": 30,
     "steps": [
@@ -1058,7 +1058,7 @@
     "slug": "AI 产品面试冲刺路线",
     "title": "AI 产品面试冲刺路线",
     "summary": "AI 产品面试冲刺路线：针对准备面试设计的 21 天学习路线。",
-    "description": "AI 产品面试冲刺路线：针对准备面试设计的 21 天学习路线，覆盖 2 门课程。",
+    "description": "AI 产品面试冲刺路线：针对准备面试设计的 21 天学习路线。",
     "targetUser": "准备面试",
     "durationDays": 21,
     "steps": [
@@ -1189,7 +1189,7 @@
     "slug": "AI 产品 PRD 写作路线",
     "title": "AI 产品 PRD 写作路线",
     "summary": "AI 产品 PRD 写作路线：针对提升 PRD 能力设计的 14 天学习路线。",
-    "description": "AI 产品 PRD 写作路线：针对提升 PRD 能力设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品 PRD 写作路线：针对提升 PRD 能力设计的 14 天学习路线。",
     "targetUser": "提升 PRD 能力",
     "durationDays": 14,
     "steps": [
@@ -1301,7 +1301,7 @@
     "slug": "AI 产品案例分析路线",
     "title": "AI 产品案例分析路线",
     "summary": "AI 产品案例分析路线：针对积累案例设计的 21 天学习路线。",
-    "description": "AI 产品案例分析路线：针对积累案例设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品案例分析路线：针对积累案例设计的 21 天学习路线。",
     "targetUser": "积累案例",
     "durationDays": 21,
     "steps": [
@@ -1421,7 +1421,7 @@
     "slug": "AI 产品商业化路线",
     "title": "AI 产品商业化路线",
     "summary": "AI 产品商业化路线：针对深入商业化设计的 21 天学习路线。",
-    "description": "AI 产品商业化路线：针对深入商业化设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品商业化路线：针对深入商业化设计的 21 天学习路线。",
     "targetUser": "深入商业化",
     "durationDays": 21,
     "steps": [
@@ -1540,7 +1540,7 @@
     "slug": "AI 评测与质量路线",
     "title": "AI 评测与质量路线",
     "summary": "AI 评测与质量路线：针对深入评测设计的 14 天学习路线。",
-    "description": "AI 评测与质量路线：针对深入评测设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 评测与质量路线：针对深入评测设计的 14 天学习路线。",
     "targetUser": "深入评测",
     "durationDays": 14,
     "steps": [
@@ -1652,7 +1652,7 @@
     "slug": "AI 安全合规路线",
     "title": "AI 安全合规路线",
     "summary": "AI 安全合规路线：针对深入安全合规设计的 14 天学习路线。",
-    "description": "AI 安全合规路线：针对深入安全合规设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 安全合规路线：针对深入安全合规设计的 14 天学习路线。",
     "targetUser": "深入安全合规",
     "durationDays": 14,
     "steps": [
@@ -1763,7 +1763,7 @@
     "slug": "AI 产品从 0 到 1 路线",
     "title": "AI 产品从 0 到 1 路线",
     "summary": "AI 产品从 0 到 1 路线：针对完整产品落地设计的 45 天学习路线。",
-    "description": "AI 产品从 0 到 1 路线：针对完整产品落地设计的 45 天学习路线，覆盖 8 门课程。",
+    "description": "AI 产品从 0 到 1 路线：针对完整产品落地设计的 45 天学习路线。",
     "targetUser": "完整产品落地",
     "durationDays": 45,
     "steps": [
@@ -1928,7 +1928,7 @@
     "slug": "Chatbot 产品专项路线",
     "title": "Chatbot 产品专项路线",
     "summary": "Chatbot 产品专项路线：针对深入 Chatbot设计的 14 天学习路线。",
-    "description": "Chatbot 产品专项路线：针对深入 Chatbot设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "Chatbot 产品专项路线：针对深入 Chatbot设计的 14 天学习路线。",
     "targetUser": "深入 Chatbot",
     "durationDays": 14,
     "steps": [
@@ -2040,7 +2040,7 @@
     "slug": "AI 工作流产品路线",
     "title": "AI 工作流产品路线",
     "summary": "AI 工作流产品路线：针对深入工作流设计的 14 天学习路线。",
-    "description": "AI 工作流产品路线：针对深入工作流设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 工作流产品路线：针对深入工作流设计的 14 天学习路线。",
     "targetUser": "深入工作流",
     "durationDays": 14,
     "steps": [
@@ -2151,7 +2151,7 @@
     "slug": "AI 交互设计路线",
     "title": "AI 交互设计路线",
     "summary": "AI 交互设计路线：针对深入交互设计的 14 天学习路线。",
-    "description": "AI 交互设计路线：针对深入交互设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 交互设计路线：针对深入交互设计的 14 天学习路线。",
     "targetUser": "深入交互",
     "durationDays": 14,
     "steps": [
@@ -2262,7 +2262,7 @@
     "slug": "AI 数据标注路线",
     "title": "AI 数据标注路线",
     "summary": "AI 数据标注路线：针对了解数据标注设计的 7 天学习路线。",
-    "description": "AI 数据标注路线：针对了解数据标注设计的 7 天学习路线，覆盖 1 门课程。",
+    "description": "AI 数据标注路线：针对了解数据标注设计的 7 天学习路线。",
     "targetUser": "了解数据标注",
     "durationDays": 7,
     "steps": [
@@ -2367,7 +2367,7 @@
     "slug": "AI 产品经理转型路线",
     "title": "AI 产品经理转型路线",
     "summary": "AI 产品经理转型路线：针对传统 PM 转 AI设计的 30 天学习路线。",
-    "description": "AI 产品经理转型路线：针对传统 PM 转 AI设计的 30 天学习路线，覆盖 4 门课程。",
+    "description": "AI 产品经理转型路线：针对传统 PM 转 AI设计的 30 天学习路线。",
     "targetUser": "传统 PM 转 AI",
     "durationDays": 30,
     "steps": [
@@ -2514,7 +2514,7 @@
     "slug": "AI 产品创业路线",
     "title": "AI 产品创业路线",
     "summary": "AI 产品创业路线：针对准备创业设计的 60 天学习路线。",
-    "description": "AI 产品创业路线：针对准备创业设计的 60 天学习路线，覆盖 6 门课程。",
+    "description": "AI 产品创业路线：针对准备创业设计的 60 天学习路线。",
     "targetUser": "准备创业",
     "durationDays": 60,
     "steps": [
@@ -2691,7 +2691,7 @@
     "slug": "AI 教育产品路线",
     "title": "AI 教育产品路线",
     "summary": "AI 教育产品路线：针对AI 教育方向设计的 21 天学习路线。",
-    "description": "AI 教育产品路线：针对AI 教育方向设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "AI 教育产品路线：针对AI 教育方向设计的 21 天学习路线。",
     "targetUser": "AI 教育方向",
     "durationDays": 21,
     "steps": [
@@ -2811,7 +2811,7 @@
     "slug": "AI 电商产品路线",
     "title": "AI 电商产品路线",
     "summary": "AI 电商产品路线：针对AI 电商方向设计的 14 天学习路线。",
-    "description": "AI 电商产品路线：针对AI 电商方向设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 电商产品路线：针对AI 电商方向设计的 14 天学习路线。",
     "targetUser": "AI 电商方向",
     "durationDays": 14,
     "steps": [
@@ -2924,7 +2924,7 @@
     "slug": "AI 客服产品路线",
     "title": "AI 客服产品路线",
     "summary": "AI 客服产品路线：针对AI 客服方向设计的 14 天学习路线。",
-    "description": "AI 客服产品路线：针对AI 客服方向设计的 14 天学习路线，覆盖 2 门课程。",
+    "description": "AI 客服产品路线：针对AI 客服方向设计的 14 天学习路线。",
     "targetUser": "AI 客服方向",
     "durationDays": 14,
     "steps": [
@@ -3048,7 +3048,7 @@
     "slug": "AI 办公产品路线",
     "title": "AI 办公产品路线",
     "summary": "AI 办公产品路线：针对AI 办公方向设计的 14 天学习路线。",
-    "description": "AI 办公产品路线：针对AI 办公方向设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 办公产品路线：针对AI 办公方向设计的 14 天学习路线。",
     "targetUser": "AI 办公方向",
     "durationDays": 14,
     "steps": [
@@ -3161,7 +3161,7 @@
     "slug": "AI Agent 平台路线",
     "title": "AI Agent 平台路线",
     "summary": "AI Agent 平台路线：针对Agent 平台方向设计的 21 天学习路线。",
-    "description": "AI Agent 平台路线：针对Agent 平台方向设计的 21 天学习路线，覆盖 2 门课程。",
+    "description": "AI Agent 平台路线：针对Agent 平台方向设计的 21 天学习路线。",
     "targetUser": "Agent 平台方向",
     "durationDays": 21,
     "steps": [
@@ -3292,7 +3292,7 @@
     "slug": "LLM 基础概念路线",
     "title": "LLM 基础概念路线",
     "summary": "LLM 基础概念路线：针对理解 LLM设计的 7 天学习路线。",
-    "description": "LLM 基础概念路线：针对理解 LLM设计的 7 天学习路线，覆盖 1 门课程。",
+    "description": "LLM 基础概念路线：针对理解 LLM设计的 7 天学习路线。",
     "targetUser": "理解 LLM",
     "durationDays": 7,
     "steps": [
@@ -3398,7 +3398,7 @@
     "slug": "AI 产品冷启动路线",
     "title": "AI 产品冷启动路线",
     "summary": "AI 产品冷启动路线：针对产品冷启动设计的 14 天学习路线。",
-    "description": "AI 产品冷启动路线：针对产品冷启动设计的 14 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品冷启动路线：针对产品冷启动设计的 14 天学习路线。",
     "targetUser": "产品冷启动",
     "durationDays": 14,
     "steps": [
@@ -3510,7 +3510,7 @@
     "slug": "AI 产品增长路线",
     "title": "AI 产品增长路线",
     "summary": "AI 产品增长路线：针对产品增长设计的 21 天学习路线。",
-    "description": "AI 产品增长路线：针对产品增长设计的 21 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品增长路线：针对产品增长设计的 21 天学习路线。",
     "targetUser": "产品增长",
     "durationDays": 21,
     "steps": [
@@ -3629,7 +3629,7 @@
     "slug": "AI 产品竞品分析路线",
     "title": "AI 产品竞品分析路线",
     "summary": "AI 产品竞品分析路线：针对竞品分析能力设计的 7 天学习路线。",
-    "description": "AI 产品竞品分析路线：针对竞品分析能力设计的 7 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品竞品分析路线：针对竞品分析能力设计的 7 天学习路线。",
     "targetUser": "竞品分析能力",
     "durationDays": 7,
     "steps": [
@@ -3735,7 +3735,7 @@
     "slug": "AI 产品作品集项目路线",
     "title": "AI 产品作品集项目路线",
     "summary": "AI 产品作品集项目路线：针对完成作品集设计的 30 天学习路线。",
-    "description": "AI 产品作品集项目路线：针对完成作品集设计的 30 天学习路线，覆盖 1 门课程。",
+    "description": "AI 产品作品集项目路线：针对完成作品集设计的 30 天学习路线。",
     "targetUser": "完成作品集",
     "durationDays": 30,
     "steps": [

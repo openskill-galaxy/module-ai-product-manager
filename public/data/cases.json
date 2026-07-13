@@ -31,7 +31,12 @@
       "aipm-q-001641",
       "aipm-q-002461"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI 产品经理定义 设计 校园 AI 学习助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0001"
+    ]
   },
   {
     "id": "aipm-case-002",
@@ -65,7 +70,12 @@
       "aipm-q-001642",
       "aipm-q-002462"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 职责清单 设计 企业知识库问答 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0002"
+    ]
   },
   {
     "id": "aipm-case-003",
@@ -99,7 +109,12 @@
       "aipm-q-001643",
       "aipm-q-002463"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM vs 传统 PM 设计 电商客服 AI 助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0003"
+    ]
   },
   {
     "id": "aipm-case-004",
@@ -133,7 +148,12 @@
       "aipm-q-001644",
       "aipm-q-002464"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 能力模型 设计 AI 会议纪要产品 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0004"
+    ]
   },
   {
     "id": "aipm-case-005",
@@ -167,7 +187,12 @@
       "aipm-q-001645",
       "aipm-q-002465"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 工作流 设计 Prompt 模板市场 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0005"
+    ]
   },
   {
     "id": "aipm-case-006",
@@ -201,7 +226,12 @@
       "aipm-q-001646",
       "aipm-q-002466"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 工具栈 设计 AI Agent 工作流平台 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0006"
+    ]
   },
   {
     "id": "aipm-case-007",
@@ -235,7 +265,12 @@
       "aipm-q-001647",
       "aipm-q-002467"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 术语 设计 AI 题库生成平台 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0007"
+    ]
   },
   {
     "id": "aipm-case-008",
@@ -269,7 +304,12 @@
       "aipm-q-001648",
       "aipm-q-002468"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 团队角色 设计 AI 简历优化工具 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0008"
+    ]
   },
   {
     "id": "aipm-case-009",
@@ -303,7 +343,12 @@
       "aipm-q-001649",
       "aipm-q-002469"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 与算法工程师 设计 AI 产品经理作品集项目 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0009"
+    ]
   },
   {
     "id": "aipm-case-010",
@@ -337,7 +382,12 @@
       "aipm-q-001650",
       "aipm-q-002470"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 与数据科学家 设计 无 API 静态学习平台 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0010"
+    ]
   },
   {
     "id": "aipm-case-011",
@@ -371,7 +421,12 @@
       "aipm-q-001651",
       "aipm-q-002471"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 与设计师 设计 AI 写作助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0011"
+    ]
   },
   {
     "id": "aipm-case-012",
@@ -405,7 +460,12 @@
       "aipm-q-001652",
       "aipm-q-002472"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 与运营 设计 AI 翻译产品 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0012"
+    ]
   },
   {
     "id": "aipm-case-013",
@@ -439,7 +499,12 @@
       "aipm-q-001653",
       "aipm-q-002473"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 决策权 设计 AI 摘要产品 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0013"
+    ]
   },
   {
     "id": "aipm-case-014",
@@ -473,7 +538,12 @@
       "aipm-q-001654",
       "aipm-q-002474"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 边界 设计 AI 改写工具 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0014"
+    ]
   },
   {
     "id": "aipm-case-015",
@@ -507,7 +577,12 @@
       "aipm-q-001655",
       "aipm-q-002475"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 入门路径 设计 AI 代码助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0015"
+    ]
   },
   {
     "id": "aipm-case-016",
@@ -541,7 +616,12 @@
       "aipm-q-001656",
       "aipm-q-002476"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 转型路径 设计 AI 数据分析助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0016"
+    ]
   },
   {
     "id": "aipm-case-017",
@@ -575,7 +655,12 @@
       "aipm-q-001657",
       "aipm-q-002477"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 晋升路径 设计 AI 报表生成 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0017"
+    ]
   },
   {
     "id": "aipm-case-018",
@@ -609,7 +694,12 @@
       "aipm-q-001658",
       "aipm-q-002478"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 常见误区 设计 AI 邮件助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0018"
+    ]
   },
   {
     "id": "aipm-case-019",
@@ -643,7 +733,12 @@
       "aipm-q-001659",
       "aipm-q-002479"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 误区一技术焦虑 设计 AI 日程管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0019"
+    ]
   },
   {
     "id": "aipm-case-020",
@@ -677,7 +772,12 @@
       "aipm-q-001660",
       "aipm-q-002480"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 误区二全栈幻想 设计 AI 任务管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0020"
+    ]
   },
   {
     "id": "aipm-case-021",
@@ -711,7 +811,12 @@
       "aipm-q-001661",
       "aipm-q-002481"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 误区三忽视数据 设计 AI 客户成功助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0021"
+    ]
   },
   {
     "id": "aipm-case-022",
@@ -745,7 +850,12 @@
       "aipm-q-001662",
       "aipm-q-002482"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 误区四过度依赖模型 设计 AI 销售助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0022"
+    ]
   },
   {
     "id": "aipm-case-023",
@@ -779,7 +889,12 @@
       "aipm-q-001663",
       "aipm-q-002483"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 误区五忽视合规 设计 AI 营销文案 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0023"
+    ]
   },
   {
     "id": "aipm-case-024",
@@ -813,7 +928,12 @@
       "aipm-q-001664",
       "aipm-q-002484"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 日程 设计 AI 广告创意 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0024"
+    ]
   },
   {
     "id": "aipm-case-025",
@@ -847,7 +967,12 @@
       "aipm-q-001665",
       "aipm-q-002485"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 周报 设计 AI SEO 工具 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0025"
+    ]
   },
   {
     "id": "aipm-case-026",
@@ -881,7 +1006,12 @@
       "aipm-q-001666",
       "aipm-q-002486"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 月度规划 设计 AI 电商选品 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0026"
+    ]
   },
   {
     "id": "aipm-case-027",
@@ -915,7 +1045,12 @@
       "aipm-q-001667",
       "aipm-q-002487"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM OKR 设计 AI 商品描述 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0027"
+    ]
   },
   {
     "id": "aipm-case-028",
@@ -949,7 +1084,12 @@
       "aipm-q-001668",
       "aipm-q-002488"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM KPI 设计 AI 商品图生成 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0028"
+    ]
   },
   {
     "id": "aipm-case-029",
@@ -983,7 +1123,12 @@
       "aipm-q-001669",
       "aipm-q-002489"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 面试流程 设计 AI 直播助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0029"
+    ]
   },
   {
     "id": "aipm-case-030",
@@ -1017,7 +1162,12 @@
       "aipm-q-001670",
       "aipm-q-002490"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 简历要点 设计 AI 短视频脚本 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0030"
+    ]
   },
   {
     "id": "aipm-case-031",
@@ -1051,7 +1201,12 @@
       "aipm-q-001671",
       "aipm-q-002491"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 社区资源 设计 AI 视频剪辑 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0031"
+    ]
   },
   {
     "id": "aipm-case-032",
@@ -1085,7 +1240,12 @@
       "aipm-q-001672",
       "aipm-q-002492"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 书籍推荐 设计 AI 字幕生成 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0032"
+    ]
   },
   {
     "id": "aipm-case-033",
@@ -1119,7 +1279,12 @@
       "aipm-q-001673",
       "aipm-q-002493"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 播客 设计 AI 配音 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0033"
+    ]
   },
   {
     "id": "aipm-case-034",
@@ -1153,7 +1318,12 @@
       "aipm-q-001674",
       "aipm-q-002494"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 行业报告 设计 AI 音乐生成 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0034"
+    ]
   },
   {
     "id": "aipm-case-035",
@@ -1187,7 +1357,12 @@
       "aipm-q-001675",
       "aipm-q-002495"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 峰会 设计 AI 播客助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0035"
+    ]
   },
   {
     "id": "aipm-case-036",
@@ -1221,7 +1396,12 @@
       "aipm-q-001676",
       "aipm-q-002496"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 认证 设计 AI 教育备课 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0036"
+    ]
   },
   {
     "id": "aipm-case-037",
@@ -1255,7 +1435,12 @@
       "aipm-q-001677",
       "aipm-q-002497"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 实习 设计 AI 出题 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0037"
+    ]
   },
   {
     "id": "aipm-case-038",
@@ -1289,7 +1474,12 @@
       "aipm-q-001678",
       "aipm-q-002498"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 校招 设计 AI 批改 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0038"
+    ]
   },
   {
     "id": "aipm-case-039",
@@ -1323,7 +1513,12 @@
       "aipm-q-001679",
       "aipm-q-002499"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 社招 设计 AI 辅导 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0039"
+    ]
   },
   {
     "id": "aipm-case-040",
@@ -1357,7 +1552,12 @@
       "aipm-q-001680",
       "aipm-q-002500"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 跳槽 设计 AI 学习规划 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0040"
+    ]
   },
   {
     "id": "aipm-case-041",
@@ -1391,7 +1591,12 @@
       "aipm-q-001681",
       "aipm-q-002501"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 创业 设计 AI 题库讲解 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0041"
+    ]
   },
   {
     "id": "aipm-case-042",
@@ -1425,7 +1630,12 @@
       "aipm-q-001682",
       "aipm-q-002502"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 自由职业 设计 AI 错题本 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0042"
+    ]
   },
   {
     "id": "aipm-case-043",
@@ -1459,7 +1669,12 @@
       "aipm-q-001683",
       "aipm-q-002503"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 顾问 设计 AI 学情分析 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0043"
+    ]
   },
   {
     "id": "aipm-case-044",
@@ -1493,7 +1708,12 @@
       "aipm-q-001684",
       "aipm-q-002504"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 培训师 设计 AI 家校沟通 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0044"
+    ]
   },
   {
     "id": "aipm-case-045",
@@ -1527,7 +1747,12 @@
       "aipm-q-001685",
       "aipm-q-002505"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 写作 设计 AI 校园管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0045"
+    ]
   },
   {
     "id": "aipm-case-046",
@@ -1561,7 +1786,12 @@
       "aipm-q-001686",
       "aipm-q-002506"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 演讲 设计 AI 招聘助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0046"
+    ]
   },
   {
     "id": "aipm-case-047",
@@ -1595,7 +1825,12 @@
       "aipm-q-001687",
       "aipm-q-002507"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 开源贡献 设计 AI 面试官 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0047"
+    ]
   },
   {
     "id": "aipm-case-048",
@@ -1629,7 +1864,12 @@
       "aipm-q-001688",
       "aipm-q-002508"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 专利 设计 AI 背调 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0048"
+    ]
   },
   {
     "id": "aipm-case-049",
@@ -1663,7 +1903,12 @@
       "aipm-q-001689",
       "aipm-q-002509"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 论文 设计 AI 培训 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0049"
+    ]
   },
   {
     "id": "aipm-case-050",
@@ -1697,7 +1942,12 @@
       "aipm-q-001690",
       "aipm-q-002510"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AI PM 行业影响 设计 AI 绩效 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0050"
+    ]
   },
   {
     "id": "aipm-case-051",
@@ -1731,7 +1981,12 @@
       "aipm-q-001691",
       "aipm-q-002511"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LLM 定义 设计 AI 法务助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0051"
+    ]
   },
   {
     "id": "aipm-case-052",
@@ -1765,7 +2020,12 @@
       "aipm-q-001692",
       "aipm-q-002512"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LLM 架构 设计 AI 合同审查 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0052"
+    ]
   },
   {
     "id": "aipm-case-053",
@@ -1799,7 +2059,12 @@
       "aipm-q-001693",
       "aipm-q-002513"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Transformer 设计 AI 专利分析 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0053"
+    ]
   },
   {
     "id": "aipm-case-054",
@@ -1833,7 +2098,12 @@
       "aipm-q-001694",
       "aipm-q-002514"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 注意力机制 设计 AI 案例检索 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0054"
+    ]
   },
   {
     "id": "aipm-case-055",
@@ -1867,7 +2137,12 @@
       "aipm-q-001695",
       "aipm-q-002515"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 预训练 设计 AI 法律咨询 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0055"
+    ]
   },
   {
     "id": "aipm-case-056",
@@ -1901,7 +2176,12 @@
       "aipm-q-001696",
       "aipm-q-002516"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 微调 SFT 设计 AI 财务助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0056"
+    ]
   },
   {
     "id": "aipm-case-057",
@@ -1935,7 +2215,12 @@
       "aipm-q-001697",
       "aipm-q-002517"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 RLHF 设计 AI 报销 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0057"
+    ]
   },
   {
     "id": "aipm-case-058",
@@ -1969,7 +2254,12 @@
       "aipm-q-001698",
       "aipm-q-002518"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Token 定义 设计 AI 发票 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0058"
+    ]
   },
   {
     "id": "aipm-case-059",
@@ -2003,7 +2293,12 @@
       "aipm-q-001699",
       "aipm-q-002519"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Token 计算方法 设计 AI 记账 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0059"
+    ]
   },
   {
     "id": "aipm-case-060",
@@ -2037,7 +2332,12 @@
       "aipm-q-001700",
       "aipm-q-002520"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Token 计费 设计 AI 审计 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0060"
+    ]
   },
   {
     "id": "aipm-case-061",
@@ -2071,7 +2371,12 @@
       "aipm-q-001701",
       "aipm-q-002521"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文窗口 设计 AI 医疗问诊 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0061"
+    ]
   },
   {
     "id": "aipm-case-062",
@@ -2105,7 +2410,12 @@
       "aipm-q-001702",
       "aipm-q-002522"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 长上下文 设计 AI 健康管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0062"
+    ]
   },
   {
     "id": "aipm-case-063",
@@ -2139,7 +2449,12 @@
       "aipm-q-001703",
       "aipm-q-002523"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文溢出 设计 AI 用药提醒 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0063"
+    ]
   },
   {
     "id": "aipm-case-064",
@@ -2173,7 +2488,12 @@
       "aipm-q-001704",
       "aipm-q-002524"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 幻觉定义 设计 AI 病历 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0064"
+    ]
   },
   {
     "id": "aipm-case-065",
@@ -2207,7 +2527,12 @@
       "aipm-q-001705",
       "aipm-q-002525"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 幻觉成因 设计 AI 影像 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0065"
+    ]
   },
   {
     "id": "aipm-case-066",
@@ -2241,7 +2566,12 @@
       "aipm-q-001706",
       "aipm-q-002526"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 幻觉缓解 设计 AI 心理咨询 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0066"
+    ]
   },
   {
     "id": "aipm-case-067",
@@ -2275,7 +2605,12 @@
       "aipm-q-001707",
       "aipm-q-002527"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 幻觉检测 设计 AI 情绪陪伴 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0067"
+    ]
   },
   {
     "id": "aipm-case-068",
@@ -2309,7 +2644,12 @@
       "aipm-q-001708",
       "aipm-q-002528"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Temperature 设计 AI 冥想 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0068"
+    ]
   },
   {
     "id": "aipm-case-069",
@@ -2343,7 +2683,12 @@
       "aipm-q-001709",
       "aipm-q-002529"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Top P 设计 AI 睡眠 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0069"
+    ]
   },
   {
     "id": "aipm-case-070",
@@ -2377,7 +2722,12 @@
       "aipm-q-001710",
       "aipm-q-002530"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Top K 设计 AI 减肥 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0070"
+    ]
   },
   {
     "id": "aipm-case-071",
@@ -2411,7 +2761,12 @@
       "aipm-q-001711",
       "aipm-q-002531"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 采样策略 设计 AI 旅行规划 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0071"
+    ]
   },
   {
     "id": "aipm-case-072",
@@ -2445,7 +2800,12 @@
       "aipm-q-001712",
       "aipm-q-002532"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 贪心解码 设计 AI 行程 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0072"
+    ]
   },
   {
     "id": "aipm-case-073",
@@ -2479,7 +2839,12 @@
       "aipm-q-001713",
       "aipm-q-002533"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 束搜索 设计 AI 攻略 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0073"
+    ]
   },
   {
     "id": "aipm-case-074",
@@ -2513,7 +2878,12 @@
       "aipm-q-001714",
       "aipm-q-002534"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Embedding 定义 设计 AI 翻译机 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0074"
+    ]
   },
   {
     "id": "aipm-case-075",
@@ -2547,7 +2917,12 @@
       "aipm-q-001715",
       "aipm-q-002535"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Embedding 维度 设计 AI 导游 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0075"
+    ]
   },
   {
     "id": "aipm-case-076",
@@ -2581,7 +2956,12 @@
       "aipm-q-001716",
       "aipm-q-002536"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Embedding 模型 设计 AI 美食推荐 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0076"
+    ]
   },
   {
     "id": "aipm-case-077",
@@ -2615,7 +2995,12 @@
       "aipm-q-001717",
       "aipm-q-002537"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 向量相似度 设计 AI 菜谱 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0077"
+    ]
   },
   {
     "id": "aipm-case-078",
@@ -2649,7 +3034,12 @@
       "aipm-q-001718",
       "aipm-q-002538"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 余弦相似度 设计 AI 点餐 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0078"
+    ]
   },
   {
     "id": "aipm-case-079",
@@ -2683,7 +3073,12 @@
       "aipm-q-001719",
       "aipm-q-002539"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 点积相似度 设计 AI 外卖 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0079"
+    ]
   },
   {
     "id": "aipm-case-080",
@@ -2717,7 +3112,12 @@
       "aipm-q-001720",
       "aipm-q-002540"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 预训练数据 设计 AI 营养 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0080"
+    ]
   },
   {
     "id": "aipm-case-081",
@@ -2751,7 +3151,12 @@
       "aipm-q-001721",
       "aipm-q-002541"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 指令微调 设计 AI 健身教练 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0081"
+    ]
   },
   {
     "id": "aipm-case-082",
@@ -2785,7 +3190,12 @@
       "aipm-q-001722",
       "aipm-q-002542"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 对齐训练 设计 AI 运动计划 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0082"
+    ]
   },
   {
     "id": "aipm-case-083",
@@ -2819,7 +3229,12 @@
       "aipm-q-001723",
       "aipm-q-002543"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 安全训练 设计 AI 动作识别 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0083"
+    ]
   },
   {
     "id": "aipm-case-084",
@@ -2853,7 +3268,12 @@
       "aipm-q-001724",
       "aipm-q-002544"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 GPT 系列 设计 AI 跑步 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0084"
+    ]
   },
   {
     "id": "aipm-case-085",
@@ -2887,7 +3307,12 @@
       "aipm-q-001725",
       "aipm-q-002545"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Claude 系列 设计 AI 瑜伽 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0085"
+    ]
   },
   {
     "id": "aipm-case-086",
@@ -2921,7 +3346,12 @@
       "aipm-q-001726",
       "aipm-q-002546"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Gemini 系列 设计 AI 宠物助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0086"
+    ]
   },
   {
     "id": "aipm-case-087",
@@ -2955,7 +3385,12 @@
       "aipm-q-001727",
       "aipm-q-002547"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Llama 系列 设计 AI 宠物健康 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0087"
+    ]
   },
   {
     "id": "aipm-case-088",
@@ -2989,7 +3424,12 @@
       "aipm-q-001728",
       "aipm-q-002548"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Qwen 系列 设计 AI 宠物训练 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0088"
+    ]
   },
   {
     "id": "aipm-case-089",
@@ -3023,7 +3463,12 @@
       "aipm-q-001729",
       "aipm-q-002549"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 GLM 系列 设计 AI 宠物社交 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0089"
+    ]
   },
   {
     "id": "aipm-case-090",
@@ -3057,7 +3502,12 @@
       "aipm-q-001730",
       "aipm-q-002550"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 开源模型 设计 AI 宠物电商 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0090"
+    ]
   },
   {
     "id": "aipm-case-091",
@@ -3091,7 +3541,12 @@
       "aipm-q-001731",
       "aipm-q-002551"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 闭源模型 设计 AI 汽车助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0091"
+    ]
   },
   {
     "id": "aipm-case-092",
@@ -3125,7 +3580,12 @@
       "aipm-q-001732",
       "aipm-q-002552"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型 API 设计 AI 导航 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0092"
+    ]
   },
   {
     "id": "aipm-case-093",
@@ -3159,7 +3619,12 @@
       "aipm-q-001733",
       "aipm-q-002553"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型部署 设计 AI 驾驶 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0093"
+    ]
   },
   {
     "id": "aipm-case-094",
@@ -3193,7 +3658,12 @@
       "aipm-q-001734",
       "aipm-q-002554"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型推理 设计 AI 停车 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0094"
+    ]
   },
   {
     "id": "aipm-case-095",
@@ -3227,7 +3697,12 @@
       "aipm-q-001735",
       "aipm-q-002555"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型延迟 设计 AI 加油 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0095"
+    ]
   },
   {
     "id": "aipm-case-096",
@@ -3261,7 +3736,12 @@
       "aipm-q-001736",
       "aipm-q-002556"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型吞吐 设计 AI 房产助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0096"
+    ]
   },
   {
     "id": "aipm-case-097",
@@ -3295,7 +3775,12 @@
       "aipm-q-001737",
       "aipm-q-002557"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型并发 设计 AI 看房 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0097"
+    ]
   },
   {
     "id": "aipm-case-098",
@@ -3329,7 +3814,12 @@
       "aipm-q-001738",
       "aipm-q-002558"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型限流 设计 AI 估价 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0098"
+    ]
   },
   {
     "id": "aipm-case-099",
@@ -3363,7 +3853,12 @@
       "aipm-q-001739",
       "aipm-q-002559"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型降级 设计 AI 装修 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0099"
+    ]
   },
   {
     "id": "aipm-case-100",
@@ -3397,7 +3892,12 @@
       "aipm-q-001740",
       "aipm-q-002560"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型缓存 设计 AI 家居 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0100"
+    ]
   },
   {
     "id": "aipm-case-101",
@@ -3431,7 +3931,12 @@
       "aipm-q-001741",
       "aipm-q-002561"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型路由 设计 AI 时尚助手 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0101"
+    ]
   },
   {
     "id": "aipm-case-102",
@@ -3465,7 +3970,12 @@
       "aipm-q-001742",
       "aipm-q-002562"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 多模型架构 设计 AI 穿搭 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0102"
+    ]
   },
   {
     "id": "aipm-case-103",
@@ -3499,7 +4009,12 @@
       "aipm-q-001743",
       "aipm-q-002563"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型选型 设计 AI 试衣 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0103"
+    ]
   },
   {
     "id": "aipm-case-104",
@@ -3533,7 +4048,12 @@
       "aipm-q-001744",
       "aipm-q-002564"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模型评估 设计 AI 设计 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0104"
+    ]
   },
   {
     "id": "aipm-case-105",
@@ -3567,7 +4087,12 @@
       "aipm-q-001745",
       "aipm-q-002565"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 MMLU 设计 AI 制造 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0105"
+    ]
   },
   {
     "id": "aipm-case-106",
@@ -3601,7 +4126,12 @@
       "aipm-q-001746",
       "aipm-q-002566"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 HumanEval 设计 AI 物流 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0106"
+    ]
   },
   {
     "id": "aipm-case-107",
@@ -3635,7 +4165,12 @@
       "aipm-q-001747",
       "aipm-q-002567"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 MT-Bench 设计 AI 仓储 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0107"
+    ]
   },
   {
     "id": "aipm-case-108",
@@ -3669,7 +4204,12 @@
       "aipm-q-001748",
       "aipm-q-002568"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Arena 设计 AI 调度 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0108"
+    ]
   },
   {
     "id": "aipm-case-109",
@@ -3703,7 +4243,12 @@
       "aipm-q-001749",
       "aipm-q-002569"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LLM 限制 设计 AI 配送 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0109"
+    ]
   },
   {
     "id": "aipm-case-110",
@@ -3737,7 +4282,12 @@
       "aipm-q-001750",
       "aipm-q-002570"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LLM 边界 设计 AI 供应链 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0110"
+    ]
   },
   {
     "id": "aipm-case-111",
@@ -3771,7 +4321,12 @@
       "aipm-q-001751",
       "aipm-q-002571"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LLM 成本 设计 AI 金融 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0111"
+    ]
   },
   {
     "id": "aipm-case-112",
@@ -3805,7 +4360,12 @@
       "aipm-q-001752",
       "aipm-q-002572"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 定义 设计 AI 风控 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0112"
+    ]
   },
   {
     "id": "aipm-case-113",
@@ -3839,7 +4399,12 @@
       "aipm-q-001753",
       "aipm-q-002573"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 分类 设计 AI 反欺诈 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0113"
+    ]
   },
   {
     "id": "aipm-case-114",
@@ -3873,7 +4438,12 @@
       "aipm-q-001754",
       "aipm-q-002574"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 文本生成 设计 AI 信贷 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0114"
+    ]
   },
   {
     "id": "aipm-case-115",
@@ -3907,7 +4477,12 @@
       "aipm-q-001755",
       "aipm-q-002575"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 图像生成 设计 AI 投资顾问 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0115"
+    ]
   },
   {
     "id": "aipm-case-116",
@@ -3941,7 +4516,12 @@
       "aipm-q-001756",
       "aipm-q-002576"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 音频生成 设计 AI 保险 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0116"
+    ]
   },
   {
     "id": "aipm-case-117",
@@ -3975,7 +4555,12 @@
       "aipm-q-001757",
       "aipm-q-002577"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 视频生成 设计 AI 理赔 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0117"
+    ]
   },
   {
     "id": "aipm-case-118",
@@ -4009,7 +4594,12 @@
       "aipm-q-001758",
       "aipm-q-002578"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 代码生成 设计 AI 核保 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0118"
+    ]
   },
   {
     "id": "aipm-case-119",
@@ -4043,7 +4633,12 @@
       "aipm-q-001759",
       "aipm-q-002579"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 多模态 设计 AI 客服 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0119"
+    ]
   },
   {
     "id": "aipm-case-120",
@@ -4077,7 +4672,12 @@
       "aipm-q-001760",
       "aipm-q-002580"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 应用 设计 AI 催收 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0120"
+    ]
   },
   {
     "id": "aipm-case-121",
@@ -4111,7 +4711,12 @@
       "aipm-q-001761",
       "aipm-q-002581"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 伦理 设计 AI 政务 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0121"
+    ]
   },
   {
     "id": "aipm-case-122",
@@ -4145,7 +4750,12 @@
       "aipm-q-001762",
       "aipm-q-002582"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 版权 设计 AI 窗口 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0122"
+    ]
   },
   {
     "id": "aipm-case-123",
@@ -4179,7 +4789,12 @@
       "aipm-q-001763",
       "aipm-q-002583"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AIGC 监管 设计 AI 审批 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0123"
+    ]
   },
   {
     "id": "aipm-case-124",
@@ -4213,7 +4828,12 @@
       "aipm-q-001764",
       "aipm-q-002584"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 定义 设计 AI 问答 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0124"
+    ]
   },
   {
     "id": "aipm-case-125",
@@ -4247,7 +4867,12 @@
       "aipm-q-001765",
       "aipm-q-002585"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 结构 设计 AI 办事 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0125"
+    ]
   },
   {
     "id": "aipm-case-126",
@@ -4281,7 +4906,12 @@
       "aipm-q-001766",
       "aipm-q-002586"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 System Prompt 设计 AI 农业 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0126"
+    ]
   },
   {
     "id": "aipm-case-127",
@@ -4315,7 +4945,12 @@
       "aipm-q-001767",
       "aipm-q-002587"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 User Prompt 设计 AI 种植 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0127"
+    ]
   },
   {
     "id": "aipm-case-128",
@@ -4349,7 +4984,12 @@
       "aipm-q-001768",
       "aipm-q-002588"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Assistant Prompt 设计 AI 养殖 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0128"
+    ]
   },
   {
     "id": "aipm-case-129",
@@ -4383,7 +5023,12 @@
       "aipm-q-001769",
       "aipm-q-002589"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Few-shot 设计 AI 气象 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0129"
+    ]
   },
   {
     "id": "aipm-case-130",
@@ -4417,7 +5062,12 @@
       "aipm-q-001770",
       "aipm-q-002590"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Zero-shot 设计 AI 病虫害 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0130"
+    ]
   },
   {
     "id": "aipm-case-131",
@@ -4451,7 +5101,12 @@
       "aipm-q-001771",
       "aipm-q-002591"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 One-shot 设计 AI 能源 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0131"
+    ]
   },
   {
     "id": "aipm-case-132",
@@ -4485,7 +5140,12 @@
       "aipm-q-001772",
       "aipm-q-002592"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 示例选择 设计 AI 电网 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0132"
+    ]
   },
   {
     "id": "aipm-case-133",
@@ -4519,7 +5179,12 @@
       "aipm-q-001773",
       "aipm-q-002593"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 示例顺序 设计 AI 光伏 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0133"
+    ]
   },
   {
     "id": "aipm-case-134",
@@ -4553,7 +5218,12 @@
       "aipm-q-001774",
       "aipm-q-002594"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 示例数量 设计 AI 储能 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0134"
+    ]
   },
   {
     "id": "aipm-case-135",
@@ -4587,7 +5257,12 @@
       "aipm-q-001775",
       "aipm-q-002595"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chain of Thought 设计 AI 碳排 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0135"
+    ]
   },
   {
     "id": "aipm-case-136",
@@ -4621,7 +5296,12 @@
       "aipm-q-001776",
       "aipm-q-002596"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Self-Consistency 设计 AI 环保 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0136"
+    ]
   },
   {
     "id": "aipm-case-137",
@@ -4655,7 +5335,12 @@
       "aipm-q-001777",
       "aipm-q-002597"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Tree of Thought 设计 AI 监测 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0137"
+    ]
   },
   {
     "id": "aipm-case-138",
@@ -4689,7 +5374,12 @@
       "aipm-q-001778",
       "aipm-q-002598"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 ReAct 设计 AI 治理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0138"
+    ]
   },
   {
     "id": "aipm-case-139",
@@ -4723,7 +5413,12 @@
       "aipm-q-001779",
       "aipm-q-002599"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 输出格式约束 设计 AI 回收 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0139"
+    ]
   },
   {
     "id": "aipm-case-140",
@@ -4757,7 +5452,12 @@
       "aipm-q-001780",
       "aipm-q-002600"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 JSON 输出 设计 AI 评估 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0140"
+    ]
   },
   {
     "id": "aipm-case-141",
@@ -4791,7 +5491,12 @@
       "aipm-q-001781",
       "aipm-q-002601"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 XML 输出 设计 AI 文娱 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0141"
+    ]
   },
   {
     "id": "aipm-case-142",
@@ -4825,7 +5530,12 @@
       "aipm-q-001782",
       "aipm-q-002602"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Markdown 输出 设计 AI 游戏 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0142"
+    ]
   },
   {
     "id": "aipm-case-143",
@@ -4859,7 +5569,12 @@
       "aipm-q-001783",
       "aipm-q-002603"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 结构化输出 设计 AI 剧本 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0143"
+    ]
   },
   {
     "id": "aipm-case-144",
@@ -4893,7 +5608,12 @@
       "aipm-q-001784",
       "aipm-q-002604"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 输出校验 设计 AI 角色 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0144"
+    ]
   },
   {
     "id": "aipm-case-145",
@@ -4927,7 +5647,12 @@
       "aipm-q-001785",
       "aipm-q-002605"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 输出重试 设计 AI 关卡 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0145"
+    ]
   },
   {
     "id": "aipm-case-146",
@@ -4961,7 +5686,12 @@
       "aipm-q-001786",
       "aipm-q-002606"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 输出降级 设计 AI 社交 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0146"
+    ]
   },
   {
     "id": "aipm-case-147",
@@ -4995,7 +5725,12 @@
       "aipm-q-001787",
       "aipm-q-002607"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 模板 设计 AI 匹配 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0147"
+    ]
   },
   {
     "id": "aipm-case-148",
@@ -5029,7 +5764,12 @@
       "aipm-q-001788",
       "aipm-q-002608"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模板变量 设计 AI 推荐 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0148"
+    ]
   },
   {
     "id": "aipm-case-149",
@@ -5063,7 +5803,12 @@
       "aipm-q-001789",
       "aipm-q-002609"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 模板继承 设计 AI 社区 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0149"
+    ]
   },
   {
     "id": "aipm-case-150",
@@ -5097,7 +5842,12 @@
       "aipm-q-001790",
       "aipm-q-002610"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 版本管理 设计 AI 内容 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0150"
+    ]
   },
   {
     "id": "aipm-case-151",
@@ -5131,7 +5881,12 @@
       "aipm-q-001791",
       "aipm-q-002611"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 仓库 设计 AI 出版 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0151"
+    ]
   },
   {
     "id": "aipm-case-152",
@@ -5165,7 +5920,12 @@
       "aipm-q-001792",
       "aipm-q-002612"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt diff 设计 AI 编辑 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0152"
+    ]
   },
   {
     "id": "aipm-case-153",
@@ -5199,7 +5959,12 @@
       "aipm-q-001793",
       "aipm-q-002613"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 测试 设计 AI 校对 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0153"
+    ]
   },
   {
     "id": "aipm-case-154",
@@ -5233,7 +5998,12 @@
       "aipm-q-001794",
       "aipm-q-002614"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 评估 设计 AI 排版 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0154"
+    ]
   },
   {
     "id": "aipm-case-155",
@@ -5267,7 +6037,12 @@
       "aipm-q-001795",
       "aipm-q-002615"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 优化 设计 AI 印刷 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0155"
+    ]
   },
   {
     "id": "aipm-case-156",
@@ -5301,7 +6076,12 @@
       "aipm-q-001796",
       "aipm-q-002616"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 简化 设计 AI 科研 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0156"
+    ]
   },
   {
     "id": "aipm-case-157",
@@ -5335,7 +6115,12 @@
       "aipm-q-001797",
       "aipm-q-002617"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 拆分 设计 AI 文献 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0157"
+    ]
   },
   {
     "id": "aipm-case-158",
@@ -5369,7 +6154,12 @@
       "aipm-q-001798",
       "aipm-q-002618"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 合并 设计 AI 实验 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0158"
+    ]
   },
   {
     "id": "aipm-case-159",
@@ -5403,7 +6193,12 @@
       "aipm-q-001799",
       "aipm-q-002619"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 注入防护 设计 AI 数据 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0159"
+    ]
   },
   {
     "id": "aipm-case-160",
@@ -5437,7 +6232,12 @@
       "aipm-q-001800",
       "aipm-q-002620"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 越狱 设计 AI 论文 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0160"
+    ]
   },
   {
     "id": "aipm-case-161",
@@ -5471,7 +6271,12 @@
       "aipm-q-001801",
       "aipm-q-002621"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 安全 设计 AI 航天 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0161"
+    ]
   },
   {
     "id": "aipm-case-162",
@@ -5505,7 +6310,12 @@
       "aipm-q-001802",
       "aipm-q-002622"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 工程产品化 设计 AI 卫星 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0162"
+    ]
   },
   {
     "id": "aipm-case-163",
@@ -5539,7 +6349,12 @@
       "aipm-q-001803",
       "aipm-q-002623"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 平台 设计 AI 遥感 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0163"
+    ]
   },
   {
     "id": "aipm-case-164",
@@ -5573,7 +6388,12 @@
       "aipm-q-001804",
       "aipm-q-002624"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 市场 设计 AI 无人机 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0164"
+    ]
   },
   {
     "id": "aipm-case-165",
@@ -5607,7 +6427,12 @@
       "aipm-q-001805",
       "aipm-q-002625"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 共享 设计 AI 机器人 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0165"
+    ]
   },
   {
     "id": "aipm-case-166",
@@ -5641,7 +6466,12 @@
       "aipm-q-001806",
       "aipm-q-002626"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 协作 设计 AI 制造质检 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0166"
+    ]
   },
   {
     "id": "aipm-case-167",
@@ -5675,7 +6505,12 @@
       "aipm-q-001807",
       "aipm-q-002627"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 监控 设计 AI 预测维护 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0167"
+    ]
   },
   {
     "id": "aipm-case-168",
@@ -5709,7 +6544,12 @@
       "aipm-q-001808",
       "aipm-q-002628"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 日志 设计 AI 工艺 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0168"
+    ]
   },
   {
     "id": "aipm-case-169",
@@ -5743,7 +6583,12 @@
       "aipm-q-001809",
       "aipm-q-002629"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 分析 设计 AI 排产 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0169"
+    ]
   },
   {
     "id": "aipm-case-170",
@@ -5777,7 +6622,12 @@
       "aipm-q-001810",
       "aipm-q-002630"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 迭代 设计 AI 安全 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0170"
+    ]
   },
   {
     "id": "aipm-case-171",
@@ -5811,7 +6661,12 @@
       "aipm-q-001811",
       "aipm-q-002631"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt AB 测试 设计 AI 零售 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0171"
+    ]
   },
   {
     "id": "aipm-case-172",
@@ -5845,7 +6700,12 @@
       "aipm-q-001812",
       "aipm-q-002632"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 工程师 设计 AI 选址 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0172"
+    ]
   },
   {
     "id": "aipm-case-173",
@@ -5879,7 +6739,12 @@
       "aipm-q-001813",
       "aipm-q-002633"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Prompt 工程方法论 设计 AI 陈列 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0173"
+    ]
   },
   {
     "id": "aipm-case-174",
@@ -5913,7 +6778,12 @@
       "aipm-q-001814",
       "aipm-q-002634"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chatbot 定义 设计 AI 促销 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0174"
+    ]
   },
   {
     "id": "aipm-case-175",
@@ -5947,7 +6817,12 @@
       "aipm-q-001815",
       "aipm-q-002635"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chatbot 类型 设计 AI 会员 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0175"
+    ]
   },
   {
     "id": "aipm-case-176",
@@ -5981,7 +6856,12 @@
       "aipm-q-001816",
       "aipm-q-002636"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 任务型 Chatbot 设计 AI 餐饮连锁 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0176"
+    ]
   },
   {
     "id": "aipm-case-177",
@@ -6015,7 +6895,12 @@
       "aipm-q-001817",
       "aipm-q-002637"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 闲聊型 Chatbot 设计 AI 中央厨房 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0177"
+    ]
   },
   {
     "id": "aipm-case-178",
@@ -6049,7 +6934,12 @@
       "aipm-q-001818",
       "aipm-q-002638"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 混合型 Chatbot 设计 AI 供应链 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0178"
+    ]
   },
   {
     "id": "aipm-case-179",
@@ -6083,7 +6973,12 @@
       "aipm-q-001819",
       "aipm-q-002639"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 信息架构 设计 AI 加盟 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0179"
+    ]
   },
   {
     "id": "aipm-case-180",
@@ -6117,7 +7012,12 @@
       "aipm-q-001820",
       "aipm-q-002640"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 对话流程 设计 AI 品牌 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0180"
+    ]
   },
   {
     "id": "aipm-case-181",
@@ -6151,7 +7051,12 @@
       "aipm-q-001821",
       "aipm-q-002641"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 对话状态 设计 AI 美业 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0181"
+    ]
   },
   {
     "id": "aipm-case-182",
@@ -6185,7 +7090,12 @@
       "aipm-q-001822",
       "aipm-q-002642"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 多轮对话 设计 AI 预约 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0182"
+    ]
   },
   {
     "id": "aipm-case-183",
@@ -6219,7 +7129,12 @@
       "aipm-q-001823",
       "aipm-q-002643"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文管理 设计 AI 皮肤检测 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0183"
+    ]
   },
   {
     "id": "aipm-case-184",
@@ -6253,7 +7168,12 @@
       "aipm-q-001824",
       "aipm-q-002644"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文截断 设计 AI 方案 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0184"
+    ]
   },
   {
     "id": "aipm-case-185",
@@ -6287,7 +7207,12 @@
       "aipm-q-001825",
       "aipm-q-002645"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文压缩 设计 AI 复购 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0185"
+    ]
   },
   {
     "id": "aipm-case-186",
@@ -6321,7 +7246,12 @@
       "aipm-q-001826",
       "aipm-q-002646"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 上下文持久化 设计 AI 母婴 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0186"
+    ]
   },
   {
     "id": "aipm-case-187",
@@ -6355,7 +7285,12 @@
       "aipm-q-001827",
       "aipm-q-002647"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 用户画像 设计 AI 育儿 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0187"
+    ]
   },
   {
     "id": "aipm-case-188",
@@ -6389,7 +7324,12 @@
       "aipm-q-001828",
       "aipm-q-002648"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 场景识别 设计 AI 早教 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0188"
+    ]
   },
   {
     "id": "aipm-case-189",
@@ -6423,7 +7363,12 @@
       "aipm-q-001829",
       "aipm-q-002649"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 意图识别 设计 AI 玩具 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0189"
+    ]
   },
   {
     "id": "aipm-case-190",
@@ -6457,7 +7402,12 @@
       "aipm-q-001830",
       "aipm-q-002650"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 槽位填充 设计 AI 安全看护 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0190"
+    ]
   },
   {
     "id": "aipm-case-191",
@@ -6491,7 +7441,12 @@
       "aipm-q-001831",
       "aipm-q-002651"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 对话失败 设计 AI 银发 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0191"
+    ]
   },
   {
     "id": "aipm-case-192",
@@ -6525,7 +7480,12 @@
       "aipm-q-001832",
       "aipm-q-002652"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 兜底话术 设计 AI 健康 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0192"
+    ]
   },
   {
     "id": "aipm-case-193",
@@ -6559,7 +7519,12 @@
       "aipm-q-001833",
       "aipm-q-002653"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 转人工 设计 AI 陪伴 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0193"
+    ]
   },
   {
     "id": "aipm-case-194",
@@ -6593,7 +7558,12 @@
       "aipm-q-001834",
       "aipm-q-002654"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 数据沉淀 设计 AI 应急 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0194"
+    ]
   },
   {
     "id": "aipm-case-195",
@@ -6627,7 +7597,12 @@
       "aipm-q-001835",
       "aipm-q-002655"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 对话日志 设计 AI 适老化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0195"
+    ]
   },
   {
     "id": "aipm-case-196",
@@ -6661,7 +7636,12 @@
       "aipm-q-001836",
       "aipm-q-002656"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 用户反馈 设计 AI 公益 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0196"
+    ]
   },
   {
     "id": "aipm-case-197",
@@ -6695,7 +7675,12 @@
       "aipm-q-001837",
       "aipm-q-002657"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 评测指标 设计 AI 志愿者 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0197"
+    ]
   },
   {
     "id": "aipm-case-198",
@@ -6729,7 +7714,12 @@
       "aipm-q-001838",
       "aipm-q-002658"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 任务完成率 设计 AI 募捐 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0198"
+    ]
   },
   {
     "id": "aipm-case-199",
@@ -6763,7 +7753,12 @@
       "aipm-q-001839",
       "aipm-q-002659"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 轮次效率 设计 AI 透明 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0199"
+    ]
   },
   {
     "id": "aipm-case-200",
@@ -6797,7 +7792,12 @@
       "aipm-q-001840",
       "aipm-q-002660"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 用户满意度 设计 AI 影响 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0200"
+    ]
   },
   {
     "id": "aipm-case-201",
@@ -6831,7 +7831,12 @@
       "aipm-q-001841",
       "aipm-q-002661"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 冷启动 设计 AI 创业孵化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0201"
+    ]
   },
   {
     "id": "aipm-case-202",
@@ -6865,7 +7870,12 @@
       "aipm-q-001842",
       "aipm-q-002662"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 种子用户 设计 AI BP 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0202"
+    ]
   },
   {
     "id": "aipm-case-203",
@@ -6899,7 +7909,12 @@
       "aipm-q-001843",
       "aipm-q-002663"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 增长策略 设计 AI 路演 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0203"
+    ]
   },
   {
     "id": "aipm-case-204",
@@ -6933,7 +7948,12 @@
       "aipm-q-001844",
       "aipm-q-002664"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 留存策略 设计 AI 投后 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0204"
+    ]
   },
   {
     "id": "aipm-case-205",
@@ -6967,7 +7987,12 @@
       "aipm-q-001845",
       "aipm-q-002665"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 案例拆解 设计 AI 退出 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0205"
+    ]
   },
   {
     "id": "aipm-case-206",
@@ -7001,7 +8026,12 @@
       "aipm-q-001846",
       "aipm-q-002666"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 ChatGPT 设计 AI 人才 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0206"
+    ]
   },
   {
     "id": "aipm-case-207",
@@ -7035,7 +8065,12 @@
       "aipm-q-001847",
       "aipm-q-002667"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Claude 设计 AI 招聘 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0207"
+    ]
   },
   {
     "id": "aipm-case-208",
@@ -7069,7 +8104,12 @@
       "aipm-q-001848",
       "aipm-q-002668"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Character.AI 设计 AI 培训 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0208"
+    ]
   },
   {
     "id": "aipm-case-209",
@@ -7103,7 +8143,12 @@
       "aipm-q-001849",
       "aipm-q-002669"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Replika 设计 AI 评估 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0209"
+    ]
   },
   {
     "id": "aipm-case-210",
@@ -7137,7 +8182,12 @@
       "aipm-q-001850",
       "aipm-q-002670"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 PRD 模板 设计 AI 职业规划 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0210"
+    ]
   },
   {
     "id": "aipm-case-211",
@@ -7171,7 +8221,12 @@
       "aipm-q-001851",
       "aipm-q-002671"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 PRD 要素 设计 AI 知识管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0211"
+    ]
   },
   {
     "id": "aipm-case-212",
@@ -7205,7 +8260,12 @@
       "aipm-q-001852",
       "aipm-q-002672"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 定义 设计 AI 笔记 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0212"
+    ]
   },
   {
     "id": "aipm-case-213",
@@ -7239,7 +8299,12 @@
       "aipm-q-001853",
       "aipm-q-002673"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 架构 设计 AI 文档 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0213"
+    ]
   },
   {
     "id": "aipm-case-214",
@@ -7273,7 +8338,12 @@
       "aipm-q-001854",
       "aipm-q-002674"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 目标 设计 AI 协作 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0214"
+    ]
   },
   {
     "id": "aipm-case-215",
@@ -7307,7 +8377,12 @@
       "aipm-q-001855",
       "aipm-q-002675"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 工具 设计 AI 搜索 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0215"
+    ]
   },
   {
     "id": "aipm-case-216",
@@ -7341,7 +8416,12 @@
       "aipm-q-001856",
       "aipm-q-002676"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 工具调用 设计 AI 创意 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0216"
+    ]
   },
   {
     "id": "aipm-case-217",
@@ -7375,7 +8455,12 @@
       "aipm-q-001857",
       "aipm-q-002677"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Function Calling 设计 AI 头脑风暴 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0217"
+    ]
   },
   {
     "id": "aipm-case-218",
@@ -7409,7 +8494,12 @@
       "aipm-q-001858",
       "aipm-q-002678"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 工具选择 设计 AI 灵感 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0218"
+    ]
   },
   {
     "id": "aipm-case-219",
@@ -7443,7 +8533,12 @@
       "aipm-q-001859",
       "aipm-q-002679"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 工具组合 设计 AI 草图 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0219"
+    ]
   },
   {
     "id": "aipm-case-220",
@@ -7477,7 +8572,12 @@
       "aipm-q-001860",
       "aipm-q-002680"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 记忆 设计 AI 原型 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0220"
+    ]
   },
   {
     "id": "aipm-case-221",
@@ -7511,7 +8611,12 @@
       "aipm-q-001861",
       "aipm-q-002681"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 短期记忆 设计 AI 测试 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0221"
+    ]
   },
   {
     "id": "aipm-case-222",
@@ -7545,7 +8650,12 @@
       "aipm-q-001862",
       "aipm-q-002682"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 长期记忆 设计 AI 用例 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0222"
+    ]
   },
   {
     "id": "aipm-case-223",
@@ -7579,7 +8689,12 @@
       "aipm-q-001863",
       "aipm-q-002683"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 记忆检索 设计 AI 缺陷 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0223"
+    ]
   },
   {
     "id": "aipm-case-224",
@@ -7613,7 +8728,12 @@
       "aipm-q-001864",
       "aipm-q-002684"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 规划 设计 AI 自动化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0224"
+    ]
   },
   {
     "id": "aipm-case-225",
@@ -7647,7 +8767,12 @@
       "aipm-q-001865",
       "aipm-q-002685"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 任务拆解 设计 AI 报告 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0225"
+    ]
   },
   {
     "id": "aipm-case-226",
@@ -7681,7 +8806,12 @@
       "aipm-q-001866",
       "aipm-q-002686"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 ReAct 模式 设计 AI 运维 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0226"
+    ]
   },
   {
     "id": "aipm-case-227",
@@ -7715,7 +8845,12 @@
       "aipm-q-001867",
       "aipm-q-002687"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Plan-and-Execute 设计 AI 监控 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0227"
+    ]
   },
   {
     "id": "aipm-case-228",
@@ -7749,7 +8884,12 @@
       "aipm-q-001868",
       "aipm-q-002688"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Reflection 设计 AI 告警 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0228"
+    ]
   },
   {
     "id": "aipm-case-229",
@@ -7783,7 +8923,12 @@
       "aipm-q-001869",
       "aipm-q-002689"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 边界 设计 AI 故障 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0229"
+    ]
   },
   {
     "id": "aipm-case-230",
@@ -7817,7 +8962,12 @@
       "aipm-q-001870",
       "aipm-q-002690"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 适用场景 设计 AI 自愈 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0230"
+    ]
   },
   {
     "id": "aipm-case-231",
@@ -7851,7 +9001,12 @@
       "aipm-q-001871",
       "aipm-q-002691"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 不适用场景 设计 AI 安全运营 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0231"
+    ]
   },
   {
     "id": "aipm-case-232",
@@ -7885,7 +9040,12 @@
       "aipm-q-001872",
       "aipm-q-002692"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 工作流 vs Agent 设计 AI 威胁 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0232"
+    ]
   },
   {
     "id": "aipm-case-233",
@@ -7919,7 +9079,12 @@
       "aipm-q-001873",
       "aipm-q-002693"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 架构模式 设计 AI 溯源 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0233"
+    ]
   },
   {
     "id": "aipm-case-234",
@@ -7953,7 +9118,12 @@
       "aipm-q-001874",
       "aipm-q-002694"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 单 Agent 设计 AI 取证 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0234"
+    ]
   },
   {
     "id": "aipm-case-235",
@@ -7987,7 +9157,12 @@
       "aipm-q-001875",
       "aipm-q-002695"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 多 Agent 设计 AI 应急 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0235"
+    ]
   },
   {
     "id": "aipm-case-236",
@@ -8021,7 +9196,12 @@
       "aipm-q-001876",
       "aipm-q-002696"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 协作 设计 AI 合规审查 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0236"
+    ]
   },
   {
     "id": "aipm-case-237",
@@ -8055,7 +9235,12 @@
       "aipm-q-001877",
       "aipm-q-002697"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 编排 设计 AI 政策 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0237"
+    ]
   },
   {
     "id": "aipm-case-238",
@@ -8089,7 +9274,12 @@
       "aipm-q-001878",
       "aipm-q-002698"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 多步任务 设计 AI 标准 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0238"
+    ]
   },
   {
     "id": "aipm-case-239",
@@ -8123,7 +9313,12 @@
       "aipm-q-001879",
       "aipm-q-002699"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 错误处理 设计 AI 认证 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0239"
+    ]
   },
   {
     "id": "aipm-case-240",
@@ -8157,7 +9352,12 @@
       "aipm-q-001880",
       "aipm-q-002700"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 重试策略 设计 AI 审计 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0240"
+    ]
   },
   {
     "id": "aipm-case-241",
@@ -8191,7 +9391,12 @@
       "aipm-q-001881",
       "aipm-q-002701"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 降级策略 设计 AI 数据治理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0241"
+    ]
   },
   {
     "id": "aipm-case-242",
@@ -8225,7 +9430,12 @@
       "aipm-q-001882",
       "aipm-q-002702"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 评测 设计 AI 质量 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0242"
+    ]
   },
   {
     "id": "aipm-case-243",
@@ -8259,7 +9469,12 @@
       "aipm-q-001883",
       "aipm-q-002703"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 任务成功率 设计 AI 标准 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0243"
+    ]
   },
   {
     "id": "aipm-case-244",
@@ -8293,7 +9508,12 @@
       "aipm-q-001884",
       "aipm-q-002704"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 工具使用率 设计 AI 血缘 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0244"
+    ]
   },
   {
     "id": "aipm-case-245",
@@ -8327,7 +9547,12 @@
       "aipm-q-001885",
       "aipm-q-002705"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 步骤效率 设计 AI 资产 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0245"
+    ]
   },
   {
     "id": "aipm-case-246",
@@ -8361,7 +9586,12 @@
       "aipm-q-001886",
       "aipm-q-002706"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 案例 设计 AI 算法治理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0246"
+    ]
   },
   {
     "id": "aipm-case-247",
@@ -8395,7 +9625,12 @@
       "aipm-q-001887",
       "aipm-q-002707"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AutoGPT 设计 AI 公平 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0247"
+    ]
   },
   {
     "id": "aipm-case-248",
@@ -8429,7 +9664,12 @@
       "aipm-q-001888",
       "aipm-q-002708"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 BabyAGI 设计 AI 透明 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0248"
+    ]
   },
   {
     "id": "aipm-case-249",
@@ -8463,7 +9703,12 @@
       "aipm-q-001889",
       "aipm-q-002709"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 LangChain Agent 设计 AI 可解释 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0249"
+    ]
   },
   {
     "id": "aipm-case-250",
@@ -8497,7 +9742,12 @@
       "aipm-q-001890",
       "aipm-q-002710"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 AutoGen 设计 AI 复审 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0250"
+    ]
   },
   {
     "id": "aipm-case-251",
@@ -8531,7 +9781,12 @@
       "aipm-q-001891",
       "aipm-q-002711"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 CrewAI 设计 AI 风险管理 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0251"
+    ]
   },
   {
     "id": "aipm-case-252",
@@ -8565,7 +9820,12 @@
       "aipm-q-001892",
       "aipm-q-002712"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 平台 设计 AI 识别 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0252"
+    ]
   },
   {
     "id": "aipm-case-253",
@@ -8599,7 +9859,12 @@
       "aipm-q-001893",
       "aipm-q-002713"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent 市场 设计 AI 评估 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0253"
+    ]
   },
   {
     "id": "aipm-case-254",
@@ -8633,7 +9898,12 @@
       "aipm-q-001894",
       "aipm-q-002714"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Agent PRD 设计 AI 缓释 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0254"
+    ]
   },
   {
     "id": "aipm-case-255",
@@ -8667,7 +9937,12 @@
       "aipm-q-001895",
       "aipm-q-002715"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 RAG 定义 设计 AI 报告 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0255"
+    ]
   },
   {
     "id": "aipm-case-256",
@@ -8701,7 +9976,12 @@
       "aipm-q-001896",
       "aipm-q-002716"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 RAG 流程 设计 AI 用户体验 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0256"
+    ]
   },
   {
     "id": "aipm-case-257",
@@ -8735,7 +10015,12 @@
       "aipm-q-001897",
       "aipm-q-002717"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 RAG vs 微调 设计 AI 调研 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0257"
+    ]
   },
   {
     "id": "aipm-case-258",
@@ -8769,7 +10054,12 @@
       "aipm-q-001898",
       "aipm-q-002718"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 文档上传 设计 AI 测试 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0258"
+    ]
   },
   {
     "id": "aipm-case-259",
@@ -8803,7 +10093,12 @@
       "aipm-q-001899",
       "aipm-q-002719"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 文件格式 设计 AI 优化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0259"
+    ]
   },
   {
     "id": "aipm-case-260",
@@ -8837,7 +10132,12 @@
       "aipm-q-001900",
       "aipm-q-002720"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 PDF 解析 设计 AI 度量 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0260"
+    ]
   },
   {
     "id": "aipm-case-261",
@@ -8871,7 +10171,12 @@
       "aipm-q-001901",
       "aipm-q-002721"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Word 解析 设计 AI 产品运营 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0261"
+    ]
   },
   {
     "id": "aipm-case-262",
@@ -8905,7 +10210,12 @@
       "aipm-q-001902",
       "aipm-q-002722"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Excel 解析 设计 AI 数据 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0262"
+    ]
   },
   {
     "id": "aipm-case-263",
@@ -8939,7 +10249,12 @@
       "aipm-q-001903",
       "aipm-q-002723"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 OCR 设计 AI 内容 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0263"
+    ]
   },
   {
     "id": "aipm-case-264",
@@ -8973,7 +10288,12 @@
       "aipm-q-001904",
       "aipm-q-002724"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 文档清洗 设计 AI 活动 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0264"
+    ]
   },
   {
     "id": "aipm-case-265",
@@ -9007,7 +10327,12 @@
       "aipm-q-001905",
       "aipm-q-002725"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 分块策略 设计 AI 增长 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0265"
+    ]
   },
   {
     "id": "aipm-case-266",
@@ -9041,7 +10366,12 @@
       "aipm-q-001906",
       "aipm-q-002726"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chunk Size 设计 AI 商业化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0266"
+    ]
   },
   {
     "id": "aipm-case-267",
@@ -9075,7 +10405,12 @@
       "aipm-q-001907",
       "aipm-q-002727"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chunk Overlap 设计 AI 定价 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0267"
+    ]
   },
   {
     "id": "aipm-case-268",
@@ -9109,7 +10444,12 @@
       "aipm-q-001908",
       "aipm-q-002728"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 语义分块 设计 AI 渠道 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0268"
+    ]
   },
   {
     "id": "aipm-case-269",
@@ -9143,7 +10483,12 @@
       "aipm-q-001909",
       "aipm-q-002729"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 固定分块 设计 AI 合作 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0269"
+    ]
   },
   {
     "id": "aipm-case-270",
@@ -9177,7 +10522,12 @@
       "aipm-q-001910",
       "aipm-q-002730"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 递归分块 设计 AI 生态 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0270"
+    ]
   },
   {
     "id": "aipm-case-271",
@@ -9211,7 +10561,12 @@
       "aipm-q-001911",
       "aipm-q-002731"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Embedding 模型 设计 AI 战略 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0271"
+    ]
   },
   {
     "id": "aipm-case-272",
@@ -9245,7 +10600,12 @@
       "aipm-q-001912",
       "aipm-q-002732"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Embedding 维度 设计 AI 规划 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0272"
+    ]
   },
   {
     "id": "aipm-case-273",
@@ -9279,7 +10639,12 @@
       "aipm-q-001913",
       "aipm-q-002733"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 向量数据库 设计 AI 投入 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0273"
+    ]
   },
   {
     "id": "aipm-case-274",
@@ -9313,7 +10678,12 @@
       "aipm-q-001914",
       "aipm-q-002734"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Pinecone 设计 AI 产出 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0274"
+    ]
   },
   {
     "id": "aipm-case-275",
@@ -9347,7 +10717,12 @@
       "aipm-q-001915",
       "aipm-q-002735"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Milvus 设计 AI 复盘 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0275"
+    ]
   },
   {
     "id": "aipm-case-276",
@@ -9381,7 +10756,12 @@
       "aipm-q-001916",
       "aipm-q-002736"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Weaviate 设计 AI 组织 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0276"
+    ]
   },
   {
     "id": "aipm-case-277",
@@ -9415,7 +10795,12 @@
       "aipm-q-001917",
       "aipm-q-002737"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Chroma 设计 AI 文化 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0277"
+    ]
   },
   {
     "id": "aipm-case-278",
@@ -9449,7 +10834,12 @@
       "aipm-q-001918",
       "aipm-q-002738"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Qdrant 设计 AI 培养 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0278"
+    ]
   },
   {
     "id": "aipm-case-279",
@@ -9483,7 +10873,12 @@
       "aipm-q-001919",
       "aipm-q-002739"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 Top K 检索 设计 AI 激励 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0279"
+    ]
   },
   {
     "id": "aipm-case-280",
@@ -9517,6 +10912,11 @@
       "aipm-q-001920",
       "aipm-q-002740"
     ],
-    "estimatedMinutes": 30
+    "estimatedMinutes": 30,
+    "description": "基于 K 值选择 设计 AI 评估 的完整产品方案。",
+    "duration": 30,
+    "knowledgePointIds": [
+      "aipm-kp-0280"
+    ]
   }
 ]

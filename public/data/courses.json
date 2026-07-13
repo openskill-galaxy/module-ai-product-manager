@@ -41,6 +41,22 @@
     "outcomes": [
       "能清晰描述 AI 产品经理的工作内容",
       "能判断自己是否适合 AI 产品方向"
+    ],
+    "lessonIds": [
+      "aipm-lesson-001",
+      "aipm-lesson-002",
+      "aipm-lesson-003",
+      "aipm-lesson-004",
+      "aipm-lesson-005",
+      "aipm-lesson-006",
+      "aipm-lesson-007",
+      "aipm-lesson-008",
+      "aipm-lesson-009",
+      "aipm-lesson-010",
+      "aipm-lesson-011",
+      "aipm-lesson-012",
+      "aipm-lesson-013",
+      "aipm-lesson-014"
     ]
   },
   {
@@ -86,6 +102,23 @@
     "outcomes": [
       "能与工程师就 LLM 能力进行有效沟通",
       "能评估某任务是否适合用 LLM 实现"
+    ],
+    "lessonIds": [
+      "aipm-lesson-015",
+      "aipm-lesson-016",
+      "aipm-lesson-017",
+      "aipm-lesson-018",
+      "aipm-lesson-019",
+      "aipm-lesson-020",
+      "aipm-lesson-021",
+      "aipm-lesson-022",
+      "aipm-lesson-023",
+      "aipm-lesson-024",
+      "aipm-lesson-025",
+      "aipm-lesson-026",
+      "aipm-lesson-027",
+      "aipm-lesson-028",
+      "aipm-lesson-029"
     ]
   },
   {
@@ -130,6 +163,22 @@
     "outcomes": [
       "能独立设计产品级 Prompt",
       "能建立 Prompt 版本管理流程"
+    ],
+    "lessonIds": [
+      "aipm-lesson-030",
+      "aipm-lesson-031",
+      "aipm-lesson-032",
+      "aipm-lesson-033",
+      "aipm-lesson-034",
+      "aipm-lesson-035",
+      "aipm-lesson-036",
+      "aipm-lesson-037",
+      "aipm-lesson-038",
+      "aipm-lesson-039",
+      "aipm-lesson-040",
+      "aipm-lesson-041",
+      "aipm-lesson-042",
+      "aipm-lesson-043"
     ]
   },
   {
@@ -174,6 +223,22 @@
     "outcomes": [
       "能设计完整的 Chatbot 产品方案",
       "能输出 Chatbot PRD"
+    ],
+    "lessonIds": [
+      "aipm-lesson-044",
+      "aipm-lesson-045",
+      "aipm-lesson-046",
+      "aipm-lesson-047",
+      "aipm-lesson-048",
+      "aipm-lesson-049",
+      "aipm-lesson-050",
+      "aipm-lesson-051",
+      "aipm-lesson-052",
+      "aipm-lesson-053",
+      "aipm-lesson-054",
+      "aipm-lesson-055",
+      "aipm-lesson-056",
+      "aipm-lesson-057"
     ]
   },
   {
@@ -219,6 +284,22 @@
     "outcomes": [
       "能设计 Agent 产品方案",
       "能评估 Agent 适用场景"
+    ],
+    "lessonIds": [
+      "aipm-lesson-058",
+      "aipm-lesson-059",
+      "aipm-lesson-060",
+      "aipm-lesson-061",
+      "aipm-lesson-062",
+      "aipm-lesson-063",
+      "aipm-lesson-064",
+      "aipm-lesson-065",
+      "aipm-lesson-066",
+      "aipm-lesson-067",
+      "aipm-lesson-068",
+      "aipm-lesson-069",
+      "aipm-lesson-070",
+      "aipm-lesson-071"
     ]
   },
   {
@@ -265,6 +346,23 @@
     "outcomes": [
       "能设计企业知识库问答产品",
       "能输出 RAG 产品 PRD"
+    ],
+    "lessonIds": [
+      "aipm-lesson-072",
+      "aipm-lesson-073",
+      "aipm-lesson-074",
+      "aipm-lesson-075",
+      "aipm-lesson-076",
+      "aipm-lesson-077",
+      "aipm-lesson-078",
+      "aipm-lesson-079",
+      "aipm-lesson-080",
+      "aipm-lesson-081",
+      "aipm-lesson-082",
+      "aipm-lesson-083",
+      "aipm-lesson-084",
+      "aipm-lesson-085",
+      "aipm-lesson-086"
     ]
   },
   {
@@ -308,6 +406,21 @@
     "outcomes": [
       "能设计 AI 工作流产品",
       "能编排多步骤 AI 任务"
+    ],
+    "lessonIds": [
+      "aipm-lesson-087",
+      "aipm-lesson-088",
+      "aipm-lesson-089",
+      "aipm-lesson-090",
+      "aipm-lesson-091",
+      "aipm-lesson-092",
+      "aipm-lesson-093",
+      "aipm-lesson-094",
+      "aipm-lesson-095",
+      "aipm-lesson-096",
+      "aipm-lesson-097",
+      "aipm-lesson-098",
+      "aipm-lesson-099"
     ]
   },
   {
@@ -353,6 +466,22 @@
     "outcomes": [
       "能独立完成 AI 产品 PRD",
       "能定义可验收的 AI 功能标准"
+    ],
+    "lessonIds": [
+      "aipm-lesson-100",
+      "aipm-lesson-101",
+      "aipm-lesson-102",
+      "aipm-lesson-103",
+      "aipm-lesson-104",
+      "aipm-lesson-105",
+      "aipm-lesson-106",
+      "aipm-lesson-107",
+      "aipm-lesson-108",
+      "aipm-lesson-109",
+      "aipm-lesson-110",
+      "aipm-lesson-111",
+      "aipm-lesson-112",
+      "aipm-lesson-113"
     ]
   },
   {
@@ -396,6 +525,21 @@
     "outcomes": [
       "能输出 AI 产品原型",
       "能设计完整的 AI 交互方案"
+    ],
+    "lessonIds": [
+      "aipm-lesson-114",
+      "aipm-lesson-115",
+      "aipm-lesson-116",
+      "aipm-lesson-117",
+      "aipm-lesson-118",
+      "aipm-lesson-119",
+      "aipm-lesson-120",
+      "aipm-lesson-121",
+      "aipm-lesson-122",
+      "aipm-lesson-123",
+      "aipm-lesson-124",
+      "aipm-lesson-125",
+      "aipm-lesson-126"
     ]
   },
   {
@@ -441,6 +585,22 @@
     "outcomes": [
       "能设计完整评测体系",
       "能建立质量监控流程"
+    ],
+    "lessonIds": [
+      "aipm-lesson-127",
+      "aipm-lesson-128",
+      "aipm-lesson-129",
+      "aipm-lesson-130",
+      "aipm-lesson-131",
+      "aipm-lesson-132",
+      "aipm-lesson-133",
+      "aipm-lesson-134",
+      "aipm-lesson-135",
+      "aipm-lesson-136",
+      "aipm-lesson-137",
+      "aipm-lesson-138",
+      "aipm-lesson-139",
+      "aipm-lesson-140"
     ]
   },
   {
@@ -484,6 +644,21 @@
     "outcomes": [
       "能输出 AI 安全方案",
       "能建立合规检查清单"
+    ],
+    "lessonIds": [
+      "aipm-lesson-141",
+      "aipm-lesson-142",
+      "aipm-lesson-143",
+      "aipm-lesson-144",
+      "aipm-lesson-145",
+      "aipm-lesson-146",
+      "aipm-lesson-147",
+      "aipm-lesson-148",
+      "aipm-lesson-149",
+      "aipm-lesson-150",
+      "aipm-lesson-151",
+      "aipm-lesson-152",
+      "aipm-lesson-153"
     ]
   },
   {
@@ -528,6 +703,22 @@
     "outcomes": [
       "能输出 AI 产品商业化方案",
       "能制定增长路线图"
+    ],
+    "lessonIds": [
+      "aipm-lesson-154",
+      "aipm-lesson-155",
+      "aipm-lesson-156",
+      "aipm-lesson-157",
+      "aipm-lesson-158",
+      "aipm-lesson-159",
+      "aipm-lesson-160",
+      "aipm-lesson-161",
+      "aipm-lesson-162",
+      "aipm-lesson-163",
+      "aipm-lesson-164",
+      "aipm-lesson-165",
+      "aipm-lesson-166",
+      "aipm-lesson-167"
     ]
   },
   {
@@ -573,6 +764,23 @@
     "outcomes": [
       "能独立完成 AI 产品案例拆解",
       "能输出竞品分析报告"
+    ],
+    "lessonIds": [
+      "aipm-lesson-168",
+      "aipm-lesson-169",
+      "aipm-lesson-170",
+      "aipm-lesson-171",
+      "aipm-lesson-172",
+      "aipm-lesson-173",
+      "aipm-lesson-174",
+      "aipm-lesson-175",
+      "aipm-lesson-176",
+      "aipm-lesson-177",
+      "aipm-lesson-178",
+      "aipm-lesson-179",
+      "aipm-lesson-180",
+      "aipm-lesson-181",
+      "aipm-lesson-182"
     ]
   },
   {
@@ -613,6 +821,18 @@
     "outcomes": [
       "能完成 AI 产品作品集",
       "能应对 AI 产品面试"
+    ],
+    "lessonIds": [
+      "aipm-lesson-183",
+      "aipm-lesson-184",
+      "aipm-lesson-185",
+      "aipm-lesson-186",
+      "aipm-lesson-187",
+      "aipm-lesson-188",
+      "aipm-lesson-189",
+      "aipm-lesson-190",
+      "aipm-lesson-191",
+      "aipm-lesson-192"
     ]
   }
 ]

@@ -4,7 +4,7 @@
     "slug": "aipm-course-01-入门测验",
     "title": "AI 产品经理岗位入门 入门测验",
     "summary": "针对 AI 产品经理岗位入门 的入门测验，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 入门测验：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的入门测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000001",
@@ -47,14 +47,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-002",
     "slug": "aipm-course-02-基础测验",
     "title": "LLM 与 AIGC 产品基础 基础测验",
     "summary": "针对 LLM 与 AIGC 产品基础 的基础测验，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 基础测验：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的基础测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000051",
@@ -97,14 +98,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-003",
     "slug": "aipm-course-03-专项测试",
     "title": "Prompt 工程与产品化 专项测试",
     "summary": "针对 Prompt 工程与产品化 的专项测试，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 专项测试：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的专项测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000124",
@@ -147,14 +149,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-004",
     "slug": "aipm-course-04-模拟考试",
     "title": "AI Chatbot 产品设计 模拟考试",
     "summary": "针对 AI Chatbot 产品设计 的模拟考试，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 模拟考试：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000174",
@@ -197,14 +200,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-005",
     "slug": "aipm-course-05-综合测试",
     "title": "AI Agent 产品设计 综合测试",
     "summary": "针对 AI Agent 产品设计 的综合测试，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 综合测试：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的综合测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000212",
@@ -247,14 +251,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-006",
     "slug": "aipm-course-06-能力测评",
     "title": "RAG 知识库产品设计 能力测评",
     "summary": "针对 RAG 知识库产品设计 的能力测评，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 能力测评：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000255",
@@ -297,14 +302,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-007",
     "slug": "aipm-course-07-认证模拟",
     "title": "AI 工作流与自动化产品 认证模拟",
     "summary": "针对 AI 工作流与自动化产品 的认证模拟，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 认证模拟：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的认证模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000308",
@@ -347,14 +353,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-008",
     "slug": "aipm-course-08-面试模拟",
     "title": "AI 产品需求分析与 PRD 面试模拟",
     "summary": "针对 AI 产品需求分析与 PRD 的面试模拟，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 面试模拟：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000336",
@@ -397,14 +404,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-009",
     "slug": "aipm-course-09-入门测验",
     "title": "AI 产品交互与原型设计 入门测验",
     "summary": "针对 AI 产品交互与原型设计 的入门测验，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 入门测验：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的入门测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000365",
@@ -447,14 +455,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-010",
     "slug": "aipm-course-10-基础测验",
     "title": "AI 数据、评测与质量管理 基础测验",
     "summary": "针对 AI 数据、评测与质量管理 的基础测验，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 基础测验：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的基础测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000399",
@@ -497,14 +506,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-011",
     "slug": "aipm-course-11-专项测试",
     "title": "AI 安全、合规与风险控制 专项测试",
     "summary": "针对 AI 安全、合规与风险控制 的专项测试，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 专项测试：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的专项测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000427",
@@ -547,14 +557,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-012",
     "slug": "aipm-course-12-模拟考试",
     "title": "AI 产品商业化与增长 模拟考试",
     "summary": "针对 AI 产品商业化与增长 的模拟考试，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 模拟考试：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的模拟考试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000458",
@@ -597,14 +608,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-013",
     "slug": "aipm-course-13-综合测试",
     "title": "AI 产品案例分析 综合测试",
     "summary": "针对 AI 产品案例分析 的综合测试，覆盖核心知识点。",
-    "description": "AI 产品案例分析 综合测试：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的综合测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000485",
@@ -647,14 +659,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-014",
     "slug": "aipm-course-14-能力测评",
     "title": "AI 产品经理面试与作品集 能力测评",
     "summary": "针对 AI 产品经理面试与作品集 的能力测评，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 能力测评：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000512",
@@ -697,14 +710,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-015",
     "slug": "aipm-course-01-认证模拟",
     "title": "AI 产品经理岗位入门 认证模拟",
     "summary": "针对 AI 产品经理岗位入门 的认证模拟，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 认证模拟：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的认证模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000001",
@@ -747,14 +761,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-016",
     "slug": "aipm-course-02-面试模拟",
     "title": "LLM 与 AIGC 产品基础 面试模拟",
     "summary": "针对 LLM 与 AIGC 产品基础 的面试模拟，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 面试模拟：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000051",
@@ -797,14 +812,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-017",
     "slug": "aipm-course-03-入门测验",
     "title": "Prompt 工程与产品化 入门测验",
     "summary": "针对 Prompt 工程与产品化 的入门测验，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 入门测验：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的入门测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000124",
@@ -847,14 +863,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-018",
     "slug": "aipm-course-04-基础测验",
     "title": "AI Chatbot 产品设计 基础测验",
     "summary": "针对 AI Chatbot 产品设计 的基础测验，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 基础测验：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000174",
@@ -897,14 +914,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-019",
     "slug": "aipm-course-05-专项测试",
     "title": "AI Agent 产品设计 专项测试",
     "summary": "针对 AI Agent 产品设计 的专项测试，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 专项测试：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的专项测试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000212",
@@ -947,14 +965,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-020",
     "slug": "aipm-course-06-模拟考试",
     "title": "RAG 知识库产品设计 模拟考试",
     "summary": "针对 RAG 知识库产品设计 的模拟考试，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 模拟考试：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的模拟考试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000255",
@@ -997,14 +1016,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-021",
     "slug": "aipm-course-07-综合测试",
     "title": "AI 工作流与自动化产品 综合测试",
     "summary": "针对 AI 工作流与自动化产品 的综合测试，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 综合测试：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的综合测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000308",
@@ -1047,14 +1067,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-022",
     "slug": "aipm-course-08-能力测评",
     "title": "AI 产品需求分析与 PRD 能力测评",
     "summary": "针对 AI 产品需求分析与 PRD 的能力测评，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 能力测评：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的能力测评，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000336",
@@ -1097,14 +1118,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-023",
     "slug": "aipm-course-09-认证模拟",
     "title": "AI 产品交互与原型设计 认证模拟",
     "summary": "针对 AI 产品交互与原型设计 的认证模拟，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 认证模拟：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的认证模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000365",
@@ -1147,14 +1169,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-024",
     "slug": "aipm-course-10-面试模拟",
     "title": "AI 数据、评测与质量管理 面试模拟",
     "summary": "针对 AI 数据、评测与质量管理 的面试模拟，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 面试模拟：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000399",
@@ -1197,14 +1220,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-025",
     "slug": "aipm-course-11-入门测验",
     "title": "AI 安全、合规与风险控制 入门测验",
     "summary": "针对 AI 安全、合规与风险控制 的入门测验，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 入门测验：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的入门测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000427",
@@ -1247,14 +1271,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-026",
     "slug": "aipm-course-12-基础测验",
     "title": "AI 产品商业化与增长 基础测验",
     "summary": "针对 AI 产品商业化与增长 的基础测验，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 基础测验：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000458",
@@ -1297,14 +1322,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-027",
     "slug": "aipm-course-13-专项测试",
     "title": "AI 产品案例分析 专项测试",
     "summary": "针对 AI 产品案例分析 的专项测试，覆盖核心知识点。",
-    "description": "AI 产品案例分析 专项测试：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的专项测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000485",
@@ -1347,14 +1373,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-028",
     "slug": "aipm-course-14-模拟考试",
     "title": "AI 产品经理面试与作品集 模拟考试",
     "summary": "针对 AI 产品经理面试与作品集 的模拟考试，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 模拟考试：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000512",
@@ -1397,14 +1424,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-029",
     "slug": "aipm-course-01-综合测试",
     "title": "AI 产品经理岗位入门 综合测试",
     "summary": "针对 AI 产品经理岗位入门 的综合测试，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 综合测试：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的综合测试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000001",
@@ -1447,14 +1475,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-030",
     "slug": "aipm-course-02-能力测评",
     "title": "LLM 与 AIGC 产品基础 能力测评",
     "summary": "针对 LLM 与 AIGC 产品基础 的能力测评，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 能力测评：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的能力测评，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000051",
@@ -1497,14 +1526,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-031",
     "slug": "aipm-course-03-认证模拟",
     "title": "Prompt 工程与产品化 认证模拟",
     "summary": "针对 Prompt 工程与产品化 的认证模拟，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 认证模拟：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的认证模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000124",
@@ -1547,14 +1577,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-032",
     "slug": "aipm-course-04-面试模拟",
     "title": "AI Chatbot 产品设计 面试模拟",
     "summary": "针对 AI Chatbot 产品设计 的面试模拟，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 面试模拟：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的面试模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000174",
@@ -1597,14 +1628,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-033",
     "slug": "aipm-course-05-入门测验",
     "title": "AI Agent 产品设计 入门测验",
     "summary": "针对 AI Agent 产品设计 的入门测验，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 入门测验：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的入门测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000212",
@@ -1647,14 +1679,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-034",
     "slug": "aipm-course-06-基础测验",
     "title": "RAG 知识库产品设计 基础测验",
     "summary": "针对 RAG 知识库产品设计 的基础测验，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 基础测验：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000255",
@@ -1697,14 +1730,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-035",
     "slug": "aipm-course-07-专项测试",
     "title": "AI 工作流与自动化产品 专项测试",
     "summary": "针对 AI 工作流与自动化产品 的专项测试，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 专项测试：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的专项测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000308",
@@ -1747,14 +1781,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-036",
     "slug": "aipm-course-08-模拟考试",
     "title": "AI 产品需求分析与 PRD 模拟考试",
     "summary": "针对 AI 产品需求分析与 PRD 的模拟考试，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 模拟考试：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000336",
@@ -1797,14 +1832,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-037",
     "slug": "aipm-course-09-综合测试",
     "title": "AI 产品交互与原型设计 综合测试",
     "summary": "针对 AI 产品交互与原型设计 的综合测试，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 综合测试：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的综合测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000365",
@@ -1847,14 +1883,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-038",
     "slug": "aipm-course-10-能力测评",
     "title": "AI 数据、评测与质量管理 能力测评",
     "summary": "针对 AI 数据、评测与质量管理 的能力测评，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 能力测评：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000399",
@@ -1897,14 +1934,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-039",
     "slug": "aipm-course-11-认证模拟",
     "title": "AI 安全、合规与风险控制 认证模拟",
     "summary": "针对 AI 安全、合规与风险控制 的认证模拟，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 认证模拟：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的认证模拟，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000427",
@@ -1947,14 +1985,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-040",
     "slug": "aipm-course-12-面试模拟",
     "title": "AI 产品商业化与增长 面试模拟",
     "summary": "针对 AI 产品商业化与增长 的面试模拟，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 面试模拟：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的面试模拟，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000458",
@@ -1997,14 +2036,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-041",
     "slug": "aipm-course-13-入门测验",
     "title": "AI 产品案例分析 入门测验",
     "summary": "针对 AI 产品案例分析 的入门测验，覆盖核心知识点。",
-    "description": "AI 产品案例分析 入门测验：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的入门测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000485",
@@ -2047,14 +2087,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-042",
     "slug": "aipm-course-14-基础测验",
     "title": "AI 产品经理面试与作品集 基础测验",
     "summary": "针对 AI 产品经理面试与作品集 的基础测验，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 基础测验：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的基础测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000512",
@@ -2097,14 +2138,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-043",
     "slug": "aipm-course-01-专项测试",
     "title": "AI 产品经理岗位入门 专项测试",
     "summary": "针对 AI 产品经理岗位入门 的专项测试，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 专项测试：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的专项测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000001",
@@ -2147,14 +2189,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-044",
     "slug": "aipm-course-02-模拟考试",
     "title": "LLM 与 AIGC 产品基础 模拟考试",
     "summary": "针对 LLM 与 AIGC 产品基础 的模拟考试，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 模拟考试：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000051",
@@ -2197,14 +2240,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-045",
     "slug": "aipm-course-03-综合测试",
     "title": "Prompt 工程与产品化 综合测试",
     "summary": "针对 Prompt 工程与产品化 的综合测试，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 综合测试：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的综合测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000124",
@@ -2247,14 +2291,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-046",
     "slug": "aipm-course-04-能力测评",
     "title": "AI Chatbot 产品设计 能力测评",
     "summary": "针对 AI Chatbot 产品设计 的能力测评，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 能力测评：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000174",
@@ -2297,14 +2342,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-047",
     "slug": "aipm-course-05-认证模拟",
     "title": "AI Agent 产品设计 认证模拟",
     "summary": "针对 AI Agent 产品设计 的认证模拟，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 认证模拟：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的认证模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000212",
@@ -2347,14 +2393,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-048",
     "slug": "aipm-course-06-面试模拟",
     "title": "RAG 知识库产品设计 面试模拟",
     "summary": "针对 RAG 知识库产品设计 的面试模拟，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 面试模拟：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000255",
@@ -2397,14 +2444,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-049",
     "slug": "aipm-course-07-入门测验",
     "title": "AI 工作流与自动化产品 入门测验",
     "summary": "针对 AI 工作流与自动化产品 的入门测验，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 入门测验：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的入门测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000308",
@@ -2447,14 +2495,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-050",
     "slug": "aipm-course-08-基础测验",
     "title": "AI 产品需求分析与 PRD 基础测验",
     "summary": "针对 AI 产品需求分析与 PRD 的基础测验，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 基础测验：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的基础测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000336",
@@ -2497,14 +2546,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-051",
     "slug": "aipm-course-09-专项测试",
     "title": "AI 产品交互与原型设计 专项测试",
     "summary": "针对 AI 产品交互与原型设计 的专项测试，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 专项测试：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的专项测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000365",
@@ -2547,14 +2597,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-052",
     "slug": "aipm-course-10-模拟考试",
     "title": "AI 数据、评测与质量管理 模拟考试",
     "summary": "针对 AI 数据、评测与质量管理 的模拟考试，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 模拟考试：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的模拟考试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000399",
@@ -2597,14 +2648,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-053",
     "slug": "aipm-course-11-综合测试",
     "title": "AI 安全、合规与风险控制 综合测试",
     "summary": "针对 AI 安全、合规与风险控制 的综合测试，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 综合测试：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的综合测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000427",
@@ -2647,14 +2699,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-054",
     "slug": "aipm-course-12-能力测评",
     "title": "AI 产品商业化与增长 能力测评",
     "summary": "针对 AI 产品商业化与增长 的能力测评，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 能力测评：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000458",
@@ -2697,14 +2750,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-055",
     "slug": "aipm-course-13-认证模拟",
     "title": "AI 产品案例分析 认证模拟",
     "summary": "针对 AI 产品案例分析 的认证模拟，覆盖核心知识点。",
-    "description": "AI 产品案例分析 认证模拟：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的认证模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000485",
@@ -2747,14 +2801,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-056",
     "slug": "aipm-course-14-面试模拟",
     "title": "AI 产品经理面试与作品集 面试模拟",
     "summary": "针对 AI 产品经理面试与作品集 的面试模拟，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 面试模拟：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000512",
@@ -2797,14 +2852,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-057",
     "slug": "aipm-course-01-入门测验",
     "title": "AI 产品经理岗位入门 入门测验",
     "summary": "针对 AI 产品经理岗位入门 的入门测验，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 入门测验：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的入门测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000001",
@@ -2847,14 +2903,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-058",
     "slug": "aipm-course-02-基础测验",
     "title": "LLM 与 AIGC 产品基础 基础测验",
     "summary": "针对 LLM 与 AIGC 产品基础 的基础测验，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 基础测验：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000051",
@@ -2897,14 +2954,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-059",
     "slug": "aipm-course-03-专项测试",
     "title": "Prompt 工程与产品化 专项测试",
     "summary": "针对 Prompt 工程与产品化 的专项测试，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 专项测试：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的专项测试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000124",
@@ -2947,14 +3005,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-060",
     "slug": "aipm-course-04-模拟考试",
     "title": "AI Chatbot 产品设计 模拟考试",
     "summary": "针对 AI Chatbot 产品设计 的模拟考试，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 模拟考试：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的模拟考试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000174",
@@ -2997,14 +3056,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-061",
     "slug": "aipm-course-05-综合测试",
     "title": "AI Agent 产品设计 综合测试",
     "summary": "针对 AI Agent 产品设计 的综合测试，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 综合测试：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的综合测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000212",
@@ -3047,14 +3107,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-062",
     "slug": "aipm-course-06-能力测评",
     "title": "RAG 知识库产品设计 能力测评",
     "summary": "针对 RAG 知识库产品设计 的能力测评，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 能力测评：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的能力测评，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000255",
@@ -3097,14 +3158,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-063",
     "slug": "aipm-course-07-认证模拟",
     "title": "AI 工作流与自动化产品 认证模拟",
     "summary": "针对 AI 工作流与自动化产品 的认证模拟，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 认证模拟：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的认证模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000308",
@@ -3147,14 +3209,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-064",
     "slug": "aipm-course-08-面试模拟",
     "title": "AI 产品需求分析与 PRD 面试模拟",
     "summary": "针对 AI 产品需求分析与 PRD 的面试模拟，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 面试模拟：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000336",
@@ -3197,14 +3260,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-065",
     "slug": "aipm-course-09-入门测验",
     "title": "AI 产品交互与原型设计 入门测验",
     "summary": "针对 AI 产品交互与原型设计 的入门测验，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 入门测验：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的入门测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000365",
@@ -3247,14 +3311,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-066",
     "slug": "aipm-course-10-基础测验",
     "title": "AI 数据、评测与质量管理 基础测验",
     "summary": "针对 AI 数据、评测与质量管理 的基础测验，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 基础测验：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000399",
@@ -3297,14 +3362,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-067",
     "slug": "aipm-course-11-专项测试",
     "title": "AI 安全、合规与风险控制 专项测试",
     "summary": "针对 AI 安全、合规与风险控制 的专项测试，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 专项测试：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的专项测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000427",
@@ -3347,14 +3413,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-068",
     "slug": "aipm-course-12-模拟考试",
     "title": "AI 产品商业化与增长 模拟考试",
     "summary": "针对 AI 产品商业化与增长 的模拟考试，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 模拟考试：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000458",
@@ -3397,14 +3464,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-069",
     "slug": "aipm-course-13-综合测试",
     "title": "AI 产品案例分析 综合测试",
     "summary": "针对 AI 产品案例分析 的综合测试，覆盖核心知识点。",
-    "description": "AI 产品案例分析 综合测试：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的综合测试，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000485",
@@ -3447,14 +3515,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-070",
     "slug": "aipm-course-14-能力测评",
     "title": "AI 产品经理面试与作品集 能力测评",
     "summary": "针对 AI 产品经理面试与作品集 的能力测评，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 能力测评：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的能力测评，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000512",
@@ -3497,14 +3566,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-071",
     "slug": "aipm-course-01-认证模拟",
     "title": "AI 产品经理岗位入门 认证模拟",
     "summary": "针对 AI 产品经理岗位入门 的认证模拟，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 认证模拟：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的认证模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000001",
@@ -3547,14 +3617,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-072",
     "slug": "aipm-course-02-面试模拟",
     "title": "LLM 与 AIGC 产品基础 面试模拟",
     "summary": "针对 LLM 与 AIGC 产品基础 的面试模拟，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 面试模拟：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的面试模拟，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000051",
@@ -3597,14 +3668,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-073",
     "slug": "aipm-course-03-入门测验",
     "title": "Prompt 工程与产品化 入门测验",
     "summary": "针对 Prompt 工程与产品化 的入门测验，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 入门测验：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的入门测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000124",
@@ -3647,14 +3719,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-074",
     "slug": "aipm-course-04-基础测验",
     "title": "AI Chatbot 产品设计 基础测验",
     "summary": "针对 AI Chatbot 产品设计 的基础测验，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 基础测验：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的基础测验，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000174",
@@ -3697,14 +3770,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-075",
     "slug": "aipm-course-05-专项测试",
     "title": "AI Agent 产品设计 专项测试",
     "summary": "针对 AI Agent 产品设计 的专项测试，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 专项测试：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的专项测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000212",
@@ -3747,14 +3821,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-076",
     "slug": "aipm-course-06-模拟考试",
     "title": "RAG 知识库产品设计 模拟考试",
     "summary": "针对 RAG 知识库产品设计 的模拟考试，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 模拟考试：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000255",
@@ -3797,14 +3872,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-077",
     "slug": "aipm-course-07-综合测试",
     "title": "AI 工作流与自动化产品 综合测试",
     "summary": "针对 AI 工作流与自动化产品 的综合测试，覆盖核心知识点。",
-    "description": "AI 工作流与自动化产品 综合测试：理解 AI 工作流编排。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 工作流与自动化产品 的综合测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000308",
@@ -3847,14 +3923,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-078",
     "slug": "aipm-course-08-能力测评",
     "title": "AI 产品需求分析与 PRD 能力测评",
     "summary": "针对 AI 产品需求分析与 PRD 的能力测评，覆盖核心知识点。",
-    "description": "AI 产品需求分析与 PRD 能力测评：掌握 AI 产品需求分析方法。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品需求分析与 PRD 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000336",
@@ -3897,14 +3974,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-079",
     "slug": "aipm-course-09-认证模拟",
     "title": "AI 产品交互与原型设计 认证模拟",
     "summary": "针对 AI 产品交互与原型设计 的认证模拟，覆盖核心知识点。",
-    "description": "AI 产品交互与原型设计 认证模拟：设计 AI 产品交互流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品交互与原型设计 的认证模拟，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000365",
@@ -3947,14 +4025,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-080",
     "slug": "aipm-course-10-面试模拟",
     "title": "AI 数据、评测与质量管理 面试模拟",
     "summary": "针对 AI 数据、评测与质量管理 的面试模拟，覆盖核心知识点。",
-    "description": "AI 数据、评测与质量管理 面试模拟：设计 AI 评测集。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 数据、评测与质量管理 的面试模拟，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000399",
@@ -3997,14 +4076,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-081",
     "slug": "aipm-course-11-入门测验",
     "title": "AI 安全、合规与风险控制 入门测验",
     "summary": "针对 AI 安全、合规与风险控制 的入门测验，覆盖核心知识点。",
-    "description": "AI 安全、合规与风险控制 入门测验：识别 Prompt Injection 风险。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 安全、合规与风险控制 的入门测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000427",
@@ -4047,14 +4127,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-082",
     "slug": "aipm-course-12-基础测验",
     "title": "AI 产品商业化与增长 基础测验",
     "summary": "针对 AI 产品商业化与增长 的基础测验，覆盖核心知识点。",
-    "description": "AI 产品商业化与增长 基础测验：设计 AI SaaS 定价。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品商业化与增长 的基础测验，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000458",
@@ -4097,14 +4178,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-083",
     "slug": "aipm-course-13-专项测试",
     "title": "AI 产品案例分析 专项测试",
     "summary": "针对 AI 产品案例分析 的专项测试，覆盖核心知识点。",
-    "description": "AI 产品案例分析 专项测试：拆解主流 AI 产品案例。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品案例分析 的专项测试，覆盖核心知识点。",
     "difficulty": "easy",
     "questionIds": [
       "aipm-q-000485",
@@ -4147,14 +4229,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-084",
     "slug": "aipm-course-14-模拟考试",
     "title": "AI 产品经理面试与作品集 模拟考试",
     "summary": "针对 AI 产品经理面试与作品集 的模拟考试，覆盖核心知识点。",
-    "description": "AI 产品经理面试与作品集 模拟考试：准备 AI 产品面试。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理面试与作品集 的模拟考试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000512",
@@ -4197,14 +4280,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-085",
     "slug": "aipm-course-01-综合测试",
     "title": "AI 产品经理岗位入门 综合测试",
     "summary": "针对 AI 产品经理岗位入门 的综合测试，覆盖核心知识点。",
-    "description": "AI 产品经理岗位入门 综合测试：理解 AI 产品经理的职责边界。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI 产品经理岗位入门 的综合测试，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000001",
@@ -4247,14 +4331,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-086",
     "slug": "aipm-course-02-能力测评",
     "title": "LLM 与 AIGC 产品基础 能力测评",
     "summary": "针对 LLM 与 AIGC 产品基础 的能力测评，覆盖核心知识点。",
-    "description": "LLM 与 AIGC 产品基础 能力测评：理解 LLM 基本原理。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 LLM 与 AIGC 产品基础 的能力测评，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000051",
@@ -4297,14 +4382,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "aipm-exam-087",
     "slug": "aipm-course-03-认证模拟",
     "title": "Prompt 工程与产品化 认证模拟",
     "summary": "针对 Prompt 工程与产品化 的认证模拟，覆盖核心知识点。",
-    "description": "Prompt 工程与产品化 认证模拟：掌握 Prompt 结构设计。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 Prompt 工程与产品化 的认证模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000124",
@@ -4347,14 +4433,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 90
   },
   {
     "id": "aipm-exam-088",
     "slug": "aipm-course-04-面试模拟",
     "title": "AI Chatbot 产品设计 面试模拟",
     "summary": "针对 AI Chatbot 产品设计 的面试模拟，覆盖核心知识点。",
-    "description": "AI Chatbot 产品设计 面试模拟：掌握 Chatbot 信息架构。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Chatbot 产品设计 的面试模拟，覆盖核心知识点。",
     "difficulty": "medium",
     "questionIds": [
       "aipm-q-000174",
@@ -4397,14 +4484,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 105
   },
   {
     "id": "aipm-exam-089",
     "slug": "aipm-course-05-入门测验",
     "title": "AI Agent 产品设计 入门测验",
     "summary": "针对 AI Agent 产品设计 的入门测验，覆盖核心知识点。",
-    "description": "AI Agent 产品设计 入门测验：理解 Agent 的目标/工具/记忆/规划。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 AI Agent 产品设计 的入门测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000212",
@@ -4447,14 +4535,15 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 60
   },
   {
     "id": "aipm-exam-090",
     "slug": "aipm-course-06-基础测验",
     "title": "RAG 知识库产品设计 基础测验",
     "summary": "针对 RAG 知识库产品设计 的基础测验，覆盖核心知识点。",
-    "description": "RAG 知识库产品设计 基础测验：掌握 RAG 完整流程。限时完成，覆盖该课程核心知识点。",
+    "description": "针对 RAG 知识库产品设计 的基础测验，覆盖核心知识点。",
     "difficulty": "hard",
     "questionIds": [
       "aipm-q-000255",
@@ -4497,7 +4586,8 @@
       "限时完成",
       "不可查阅资料",
       "可使用草稿纸"
-    ]
+    ],
+    "timeLimit": 75
   },
   {
     "id": "ai-exam-91",
@@ -4510,7 +4600,11 @@
     "tags": [
       "AI 产品经理面试与作品集"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI 产品经理面试与作品集综合",
+    "description": "AI 产品经理面试与作品集综合",
+    "slug": "ai-产品经理面试与作品集综合"
   },
   {
     "id": "ai-exam-92",
@@ -4523,7 +4617,11 @@
     "tags": [
       "RAG 知识库产品设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "RAG 知识库产品设计综合",
+    "description": "RAG 知识库产品设计综合",
+    "slug": "rag-知识库产品设计综合"
   },
   {
     "id": "ai-exam-93",
@@ -4536,7 +4634,11 @@
     "tags": [
       "AI 安全、合规与风险控制"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI 安全、合规与风险控制综合",
+    "description": "AI 安全、合规与风险控制综合",
+    "slug": "ai-安全-合规与风险控制综合"
   },
   {
     "id": "ai-exam-94",
@@ -4549,7 +4651,11 @@
     "tags": [
       "AI 安全、合规与风险控制"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI 安全、合规与风险控制综合",
+    "description": "AI 安全、合规与风险控制综合",
+    "slug": "ai-安全-合规与风险控制综合"
   },
   {
     "id": "ai-exam-95",
@@ -4562,7 +4668,11 @@
     "tags": [
       "AI 安全、合规与风险控制"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI 安全、合规与风险控制综合",
+    "description": "AI 安全、合规与风险控制综合",
+    "slug": "ai-安全-合规与风险控制综合"
   },
   {
     "id": "ai-exam-96",
@@ -4575,7 +4685,11 @@
     "tags": [
       "AI Agent 产品设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI Agent 产品设计综合",
+    "description": "AI Agent 产品设计综合",
+    "slug": "ai-agent-产品设计综合"
   },
   {
     "id": "ai-exam-97",
@@ -4588,7 +4702,11 @@
     "tags": [
       "RAG 知识库产品设计"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "RAG 知识库产品设计综合",
+    "description": "RAG 知识库产品设计综合",
+    "slug": "rag-知识库产品设计综合"
   },
   {
     "id": "ai-exam-98",
@@ -4601,7 +4719,11 @@
     "tags": [
       "AI 工作流与自动化产品"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "AI 工作流与自动化产品综合",
+    "description": "AI 工作流与自动化产品综合",
+    "slug": "ai-工作流与自动化产品综合"
   },
   {
     "id": "ai-exam-99",
@@ -4614,7 +4736,11 @@
     "tags": [
       "Prompt 工程与产品化"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "Prompt 工程与产品化综合",
+    "description": "Prompt 工程与产品化综合",
+    "slug": "prompt-工程与产品化综合"
   },
   {
     "id": "ai-exam-100",
@@ -4627,6 +4753,10 @@
     "tags": [
       "LLM 与 AIGC 产品基础"
     ],
-    "updatedAt": "2026-07-03T00:00:00.000Z"
+    "updatedAt": "2026-07-03T00:00:00.000Z",
+    "timeLimitMinutes": 60,
+    "summary": "LLM 与 AIGC 产品基础综合",
+    "description": "LLM 与 AIGC 产品基础综合",
+    "slug": "llm-与-aigc-产品基础综合"
   }
 ]
