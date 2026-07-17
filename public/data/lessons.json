@@ -38,7 +38,7 @@
     "order": 2,
     "title": "向量数据库索引与近似检索",
     "slug": "lesson-2-2",
-    "summary": "了解 Milvus, Pinecone 等向量库的 HNSW 索引与 Cosine 检索实现。",
+    "summary": "了解 Milvus, Pinecone 等向量库 of HNSW 索引与 Cosine 检索实现。",
     "contentMarkdown": "# 向量数据库索引与近似检索\n          \n## 1. 概述与背景\n在进行 `AI 产品经理训练` 的开发实践中，`向量数据库索引与近似检索` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```python\nimport openai\n\n# 激活 Few-shot 及 CoT 的提示词\nprompt = \"\"\"\n问题：商店里有10个苹果，卖了3个，又买了5个，现在有多少个？\n步骤：\n1. 初始有10个。\n2. 卖了3个：10 - 3 = 7 个。\n3. 又买5个：7 + 5 = 12 个。\n答案：12。\n\n问题：小明有5本书，送给朋友2本，自己买进3本，现在有多少本？\n步骤：\n\"\"\"\n\nresponse = openai.ChatCompletion.create(\n    model=\"gpt-4\",\n    messages=[{\"role\": \"user\", \"content\": prompt}]\n)\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
     "knowledgePoints": [],
     "estimatedMinutes": 20
