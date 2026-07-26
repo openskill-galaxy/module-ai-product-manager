@@ -1,28 +1,65 @@
 [
   {
     "id": "mod-ai-product-manager-exam-1",
-    "slug": "final-exam",
-    "title": "AI 产品经理训练 核心期末综合自测",
-    "summary": "全面检验您对 AI 产品经理训练 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "AI 产品经理基础入门测验",
+    "summary": "覆盖 AI 产品判断、大模型基础概念、Prompt 基础与 RAG 价值认知的入门自测。",
     "difficulty": "easy",
     "questionIds": [
       "mod-ai-product-manager-q-1",
       "mod-ai-product-manager-q-2",
       "mod-ai-product-manager-q-3",
-      "mod-ai-product-manager-q-4"
+      "mod-ai-product-manager-q-4",
+      "mod-ai-product-manager-q-5",
+      "mod-ai-product-manager-q-6",
+      "mod-ai-product-manager-q-7",
+      "mod-ai-product-manager-q-19",
+      "mod-ai-product-manager-q-23",
+      "mod-ai-product-manager-q-24"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 20,
     "passingScore": 60
   },
   {
     "id": "mod-ai-product-manager-exam-2",
-    "slug": "basic-exam",
-    "title": "AI 产品经理训练 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "AI 产品经理进阶强化测验",
+    "summary": "聚焦 RAG 调优、评测体系、结构化输出、商业化成本与安全风险等进阶考点。",
+    "difficulty": "medium",
+    "questionIds": [
+      "mod-ai-product-manager-q-8",
+      "mod-ai-product-manager-q-9",
+      "mod-ai-product-manager-q-10",
+      "mod-ai-product-manager-q-11",
+      "mod-ai-product-manager-q-12",
+      "mod-ai-product-manager-q-16",
+      "mod-ai-product-manager-q-17",
+      "mod-ai-product-manager-q-18",
+      "mod-ai-product-manager-q-20",
+      "mod-ai-product-manager-q-21"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-ai-product-manager-exam-3",
+    "slug": "comprehensive-exam",
+    "title": "AI 产品经理综合模拟考试",
+    "summary": "综合需求判断、Prompt 工程、RAG、Agent 风险控制与商业化的模拟大考，含检索定位与 Agent 权限设计等高难度场景题。",
+    "difficulty": "hard",
     "questionIds": [
       "mod-ai-product-manager-q-1",
-      "mod-ai-product-manager-q-2"
+      "mod-ai-product-manager-q-8",
+      "mod-ai-product-manager-q-10",
+      "mod-ai-product-manager-q-11",
+      "mod-ai-product-manager-q-13",
+      "mod-ai-product-manager-q-14",
+      "mod-ai-product-manager-q-15",
+      "mod-ai-product-manager-q-17",
+      "mod-ai-product-manager-q-18",
+      "mod-ai-product-manager-q-20",
+      "mod-ai-product-manager-q-21",
+      "mod-ai-product-manager-q-22"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60

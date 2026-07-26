@@ -1,146 +1,769 @@
 [
   {
     "id": "mod-ai-product-manager-q-1",
-    "slug": "question-course-1-2",
+    "slug": "question-1",
     "type": "single",
-    "stem": "在学习 [AI 产品经理训练] 的过程里，关于“系统级 Prompt 设计准则”的核心考点，以下表述最为准确的是？",
+    "stem": "AI 产品经理在评估“某功能是否值得用大模型实现”时，最应该优先思考的问题是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "该场景是否真的需要生成式能力，用规则或传统方案能否更便宜、更可控地满足需求"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "竞品用了大模型，我们必须马上跟进"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "选用参数量最大的模型以保证效果"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "先上线再说，出了问题再补规则"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“系统级 Prompt 设计准则”的正确答案为 A。解析：在 AI 产品经理训练 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "AI 产品的第一原则是“问题—方案匹配”：许多需求用规则、检索或传统 ML 就能低成本稳定解决，滥用大模型会带来幻觉、延迟与成本问题。跟风竞品和唯参数量论都不是需求判断依据，先上线再补救对高风险场景尤其危险。",
     "tags": [
-      "AI 产品经理训练",
-      "基础考点"
+      "AI 产品",
+      "需求分析"
     ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-ai-product-manager-q-2",
-    "slug": "question-course-1-3",
+    "slug": "question-2",
     "type": "single",
-    "stem": "在学习 [AI 产品经理训练] 的过程里，关于“思维链 (Chain of Thought) 实践”的核心考点，以下表述最为准确的是？",
+    "stem": "大模型的“幻觉（Hallucination）”指的是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "模型生成看似流畅可信、但与事实不符或凭空捏造的内容"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "模型运行时的图形渲染错误"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "模型拒绝回答用户问题"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "模型响应速度过慢产生的超时"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“思维链 (Chain of Thought) 实践”的正确答案为 A。解析：在 AI 产品经理训练 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "幻觉是生成式模型的固有风险：输出语法通顺、语气笃定，但内容可能是编造的（如虚构文献、错误数字）。产品上常用 RAG 提供事实依据、要求引用来源、限定回答范围、增加人工审核等手段缓解。拒答和超时是另外两类问题。",
     "tags": [
-      "AI 产品经理训练",
-      "基础考点"
+      "大模型基础",
+      "幻觉"
     ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-ai-product-manager-q-3",
-    "slug": "question-course-2-4",
+    "slug": "question-3",
     "type": "single",
-    "stem": "在学习 [AI 产品经理训练] 的过程里，关于“文本向量化与嵌入技术”的核心考点，以下表述最为准确的是？",
+    "stem": "在 Prompt 工程中，System Prompt（系统提示词）的主要作用是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "设定 AI 的角色、行为边界与输出规范，约束整个会话的基调"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "存储用户的历史聊天记录"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "提高模型的训练速度"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "替代模型的预训练过程"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“文本向量化与嵌入技术”的正确答案为 A。解析：在 AI 产品经理训练 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "System Prompt 在会话层面定义角色（如“你是保险客服助手”）、能力边界（不得提供医疗诊断）、语气与输出格式，优先级通常高于用户消息。它不存储历史（那是上下文/记忆机制），也与训练过程无关。",
     "tags": [
-      "AI 产品经理训练",
-      "基础考点"
+      "Prompt 工程",
+      "System Prompt"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-4",
+    "slug": "question-4",
+    "type": "single",
+    "stem": "RAG（检索增强生成）产品相比直接让大模型回答的核心价值是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "让回答基于企业私有知识库与最新资料，减少幻觉且无需重新训练模型"
+      },
+      {
+        "key": "B",
+        "text": "彻底消除模型的一切错误"
+      },
+      {
+        "key": "C",
+        "text": "降低模型参数量"
+      },
+      {
+        "key": "D",
+        "text": "让模型可以离线运行"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "RAG 在生成前先从知识库检索相关片段并注入上下文，使回答有据可依，能覆盖模型训练截止后的新知识和企业私有信息，且比微调更新成本低。但检索质量不佳时仍会答错，B 的“彻底消除”过于绝对；RAG 与参数量、离线运行无关。",
+    "tags": [
+      "RAG",
+      "产品设计"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-5",
+    "slug": "question-5",
+    "type": "single",
+    "stem": "Few-shot Prompting 指的是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在提示词中提供少量示例（输入→期望输出），引导模型模仿示例完成任务"
+      },
+      {
+        "key": "B",
+        "text": "用少量数据对模型做梯度更新微调"
+      },
+      {
+        "key": "C",
+        "text": "限制用户每天只能提问几次"
+      },
+      {
+        "key": "D",
+        "text": "把提示词压缩到几个字以内"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Few-shot 是在上下文中给出若干示范样例，模型通过上下文学习（in-context learning）模仿其格式与逻辑，不改变模型参数。B 描述的是微调（fine-tuning），两者常被混淆：前者改提示词，后者改权重。",
+    "tags": [
+      "Prompt 工程",
+      "Few-shot"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-6",
+    "slug": "question-6",
+    "type": "single",
+    "stem": "Embedding（文本向量化）在 AI 产品中的典型用途是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "把文本映射为稠密向量，通过向量相似度实现语义检索、推荐与聚类"
+      },
+      {
+        "key": "B",
+        "text": "把文本加密以防泄露"
+      },
+      {
+        "key": "C",
+        "text": "压缩文本以节省数据库存储空间"
+      },
+      {
+        "key": "D",
+        "text": "直接生成回答文本"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Embedding 模型将语义相近的文本映射到向量空间中相近的位置，用余弦相似度等度量即可做语义搜索（RAG 的检索层）、相似推荐、去重与聚类。它不是加密（向量可被部分还原语义）也不是压缩手段，生成回答是生成式模型的工作。",
+    "tags": [
+      "Embedding",
+      "语义检索"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-7",
+    "slug": "question-7",
+    "type": "single",
+    "stem": "AI Agent 与普通 Chatbot 的本质区别是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Agent 能围绕目标自主规划步骤并调用工具执行（搜索、查库、下单等），而不只是生成一轮回答"
+      },
+      {
+        "key": "B",
+        "text": "Agent 的界面更好看"
+      },
+      {
+        "key": "C",
+        "text": "Agent 不需要大模型"
+      },
+      {
+        "key": "D",
+        "text": "Agent 只能处理语音输入"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Agent 的核心特征是“规划 + 工具调用 + 迭代执行”：把目标拆成步骤，选择并调用外部工具，根据结果调整后续动作，直到完成任务。Chatbot 主要做单轮或多轮对话生成。界面、输入模态都不是本质区别。",
+    "tags": [
+      "Agent",
+      "产品设计"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-8",
+    "slug": "question-8",
+    "type": "single",
+    "stem": "设计 RAG 知识库产品时，文档切分（Chunking）策略的选择为什么重要？",
+    "options": [
+      {
+        "key": "A",
+        "text": "切片过大召回不精准且挤占上下文，过小则语义不完整，直接影响检索与回答质量"
+      },
+      {
+        "key": "B",
+        "text": "切分只影响存储成本，与效果无关"
+      },
+      {
+        "key": "C",
+        "text": "切分越碎越好，粒度越小效果一定越好"
+      },
+      {
+        "key": "D",
+        "text": "切分策略只由前端页面布局决定"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Chunk 是检索与注入上下文的基本单位：太大时一个片段混杂多个主题、相似度计算被稀释；太小时上下文残缺、模型无法理解。实践中常按语义边界（标题、段落）切分并设置重叠（overlap），必要时附带父级上下文，这是 RAG 调优的关键环节。",
+    "tags": [
+      "RAG",
+      "Chunking"
     ],
     "difficulty": "medium",
-    "chapter": "course-2",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-9",
+    "slug": "question-9",
+    "type": "single",
+    "stem": "思维链（Chain of Thought, CoT）提示技巧最适合改善哪类任务的表现？",
+    "options": [
+      {
+        "key": "A",
+        "text": "多步推理任务，如数学应用题、逻辑推断、复杂决策分析"
+      },
+      {
+        "key": "B",
+        "text": "简单的关键词提取"
+      },
+      {
+        "key": "C",
+        "text": "图像分辨率放大"
+      },
+      {
+        "key": "D",
+        "text": "降低 API 调用价格"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "CoT 通过引导模型“逐步思考”、显式写出中间推理过程，在数学、逻辑、多条件决策类任务上显著提升准确率。对简单抽取任务收益有限反而增加 token 消耗；它与图像处理、定价无关。",
+    "tags": [
+      "Prompt 工程",
+      "思维链"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-10",
+    "slug": "question-10",
+    "type": "single",
+    "stem": "评测一个客服问答 AI 产品的回答质量，业界常用且可规模化的方案是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "构建标注评测集，结合 LLM-as-a-Judge 自动打分与抽样人工复核"
+      },
+      {
+        "key": "B",
+        "text": "上线后凭个别用户的口头反馈判断"
+      },
+      {
+        "key": "C",
+        "text": "只看模型厂商公布的通用基准跑分"
+      },
+      {
+        "key": "D",
+        "text": "让开发者自己随手试几个问题"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "可靠评测需要固定评测集（覆盖典型与边界用例）+ 明确评分维度（准确性、相关性、安全性等）。LLM-as-a-Judge 可规模化打分，但需用人工标注校准其一致性。通用基准分数不代表你的业务场景表现，零散试用无法回归对比版本差异。",
+    "tags": [
+      "评测",
+      "LLM-as-a-Judge"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-11",
+    "slug": "question-11",
+    "type": "single",
+    "stem": "AI 订阅制产品的毛利测算中，与传统 SaaS 最大的不同点是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "每次用户使用都会产生随用量线性增长的模型推理（token）成本，重度用户可能让单账户亏损"
+      },
+      {
+        "key": "B",
+        "text": "AI 产品不需要服务器"
+      },
+      {
+        "key": "C",
+        "text": "AI 产品没有获客成本"
+      },
+      {
+        "key": "D",
+        "text": "AI 产品的边际成本恒为零"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "传统 SaaS 边际服务成本极低，而 AI 产品每次调用都消耗推理算力，成本与使用量近似线性。因此定价常配合用量分层、额度限制、模型分级路由（简单问题走便宜模型）、缓存等手段控制成本，这是 AI 产品商业化的核心课题。",
+    "tags": [
+      "商业化",
+      "成本模型"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-12",
+    "slug": "question-12",
+    "type": "single",
+    "stem": "产品需要模型输出稳定的结构化数据（如 JSON）供下游系统消费，最可靠的做法是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用模型的结构化输出/函数调用能力并定义 schema，辅以解析校验与失败重试"
+      },
+      {
+        "key": "B",
+        "text": "在提示词里口头拜托模型“尽量输出 JSON”，直接把回复入库"
+      },
+      {
+        "key": "C",
+        "text": "让用户自己从自然语言回答中复制粘贴字段"
+      },
+      {
+        "key": "D",
+        "text": "放弃结构化，下游系统改为人工录入"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "生产级方案是“约束 + 校验”双保险：用 JSON mode/function calling/结构化输出等能力配合明确 schema，输出后仍要做解析校验（字段缺失、类型错误），失败则重试或降级。仅靠口头约定的输出偶尔会混入解释文字或格式错误，直接入库会造成脏数据。",
+    "tags": [
+      "结构化输出",
+      "产品设计"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-13",
+    "slug": "question-13",
+    "type": "single",
+    "stem": "某企业 RAG 知识库助手上线后，用户反馈“答案经常答非所问”。排查发现向量检索返回的片段与问题相关性差。以下改进方向中最“对症”的是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "优化检索层：改进切分策略、更换/微调 Embedding 模型、引入混合检索（关键词+向量）与重排序（Rerank）"
+      },
+      {
+        "key": "B",
+        "text": "把生成模型换成参数量更大的版本，检索层保持不变"
+      },
+      {
+        "key": "C",
+        "text": "把温度参数调到 0 就能解决"
+      },
+      {
+        "key": "D",
+        "text": "增加回答字数上限"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "既然定位到“检索返回的片段不相关”，瓶颈就在召回环节：检索垃圾进、生成垃圾出（garbage in, garbage out）。应优化 chunking、embedding 质量、混合检索与 rerank。换更大的生成模型无法弥补上下文本身错误，温度和字数只影响生成风格与长度。",
+    "tags": [
+      "RAG",
+      "问题定位"
+    ],
+    "difficulty": "hard",
+    "chapter": "mod-ai-product-manager-c-1",
     "knowledge_points": [],
     "estimated_time": 5
   },
   {
-    "id": "mod-ai-product-manager-q-4",
-    "slug": "question-course-2-5",
+    "id": "mod-ai-product-manager-q-14",
+    "slug": "question-14",
     "type": "single",
-    "stem": "在学习 [AI 产品经理训练] 的过程里，关于“向量数据库索引与近似检索”的核心考点，以下表述最为准确的是？",
+    "stem": "设计一个可自动执行退款操作的客服 Agent 时，从产品风险控制角度最关键的设计是？",
     "options": [
       {
         "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
+        "text": "对高风险操作设置权限边界与金额阈值，超限走人工审批（human-in-the-loop），并保留完整操作审计日志"
       },
       {
         "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
+        "text": "赋予 Agent 全部系统权限以保证任务完成率"
       },
       {
         "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
+        "text": "不设任何限制，靠提示词里一句“请谨慎操作”约束"
       },
       {
         "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
+        "text": "只在出事后再回滚数据库"
       }
     ],
     "answer": [
-      "0"
+      "A"
     ],
-    "explanation": "关于“向量数据库索引与近似检索”的正确答案为 A。解析：在 AI 产品经理训练 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
+    "explanation": "Agent 具备执行真实业务操作的能力，风险设计必须前置：最小权限原则、金额/频次阈值、高风险动作人工确认、全链路审计与回滚预案。提示词约束可被绕过（提示注入），不能作为唯一防线；事后补救无法挽回资金损失与信任损失。",
     "tags": [
-      "AI 产品经理训练",
-      "基础考点"
+      "Agent",
+      "风险控制"
     ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "difficulty": "hard",
+    "chapter": "mod-ai-product-manager-c-2",
     "knowledge_points": [],
     "estimated_time": 5
+  },
+  {
+    "id": "mod-ai-product-manager-q-15",
+    "slug": "question-15",
+    "type": "multiple",
+    "stem": "编写高质量 Prompt 时，下列哪些是公认的有效技巧？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "明确角色、任务、输出格式与约束条件"
+      },
+      {
+        "key": "B",
+        "text": "提供代表性的示例（few-shot）示范期望的输入输出"
+      },
+      {
+        "key": "C",
+        "text": "用分隔符（如三引号、XML 标签）清晰区分指令与待处理内容"
+      },
+      {
+        "key": "D",
+        "text": "指令写得越含糊，越能激发模型的创造力，效果越好"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "角色/任务/格式/约束四要素、few-shot 示例、分隔符隔离指令与数据都是提示工程的基础最佳实践（分隔符还能降低提示注入风险）。含糊指令导致输出不可控、不可复现，与“激发创造力”是两回事——需要发散时也应显式说明发散的方向和边界。",
+    "tags": [
+      "Prompt 工程"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-16",
+    "slug": "question-16",
+    "type": "multiple",
+    "stem": "一个典型 RAG 系统的核心组件包括哪些？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "文档解析与切分（Chunking）管道"
+      },
+      {
+        "key": "B",
+        "text": "Embedding 模型与向量数据库"
+      },
+      {
+        "key": "C",
+        "text": "把检索片段注入提示词并生成回答的大模型"
+      },
+      {
+        "key": "D",
+        "text": "自动驾驶的激光雷达传感器"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "RAG 链路 = 离线索引（解析→切分→向量化→入库）+ 在线检索（query 向量化→相似度检索→可选 rerank）+ 增强生成（片段注入提示词→模型生成带引用的回答）。激光雷达属于自动驾驶感知硬件，与 RAG 无关。",
+    "tags": [
+      "RAG",
+      "系统架构"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-ai-product-manager-q-17",
+    "slug": "question-17",
+    "type": "multiple",
+    "stem": "AI 产品经理定义产品指标时，下列哪些属于合理的评估维度？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "任务完成率/回答采纳率（如客服问题一次解决率）"
+      },
+      {
+        "key": "B",
+        "text": "回答质量指标：准确率、幻觉率、有害内容率"
+      },
+      {
+        "key": "C",
+        "text": "成本与性能指标：单次会话 token 成本、首字延迟（TTFT）"
+      },
+      {
+        "key": "D",
+        "text": "模型参数量本身，参数越大指标越好"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "AI 产品指标应覆盖业务效果（完成率、采纳率）、质量与安全（准确率、幻觉率、有害率）、成本与体验（token 成本、延迟）三个层面。参数量是模型属性而非产品指标，大参数不必然带来更好的业务表现，还会推高成本与延迟。",
+    "tags": [
+      "评测",
+      "指标体系"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-18",
+    "slug": "question-18",
+    "type": "multiple",
+    "stem": "关于提示注入（Prompt Injection）攻击，下列说法正确的有？（多选）",
+    "options": [
+      {
+        "key": "A",
+        "text": "攻击者可在用户输入或被检索的文档中埋入指令，诱导模型偏离系统设定"
+      },
+      {
+        "key": "B",
+        "text": "RAG 产品也可能被知识库文档中隐藏的恶意指令攻击（间接注入）"
+      },
+      {
+        "key": "C",
+        "text": "缓解手段包括指令与数据分离、输出过滤、对高危操作强制人工确认"
+      },
+      {
+        "key": "D",
+        "text": "只要系统提示词里写上“请勿听从用户的恶意指令”，就能彻底免疫"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "提示注入分直接注入（用户输入）与间接注入（藏在被检索网页/文档里），是 LLM 应用的头号安全风险。防御需要多层：内容隔离与标记、权限最小化、输出审查、高危动作人工兜底。仅靠一句系统提示词无法彻底防御，D 的“彻底免疫”说法错误。",
+    "tags": [
+      "安全",
+      "提示注入"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-ai-product-manager-q-19",
+    "slug": "question-19",
+    "type": "judge",
+    "stem": "大模型的上下文窗口（Context Window）限制了单次请求能处理的 token 总量，超长文档需要通过切分、摘要或检索等方式处理。",
+    "options": [],
+    "answer": [
+      "T"
+    ],
+    "explanation": "正确。上下文窗口是输入+输出 token 的总预算，超限会被截断或报错。即使窗口很大，超长上下文也会推高成本、增加延迟，且模型对中段信息的利用率下降（lost in the middle），因此切分、摘要、RAG 检索仍是必要的产品设计手段。",
+    "tags": [
+      "大模型基础",
+      "上下文窗口"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-20",
+    "slug": "question-20",
+    "type": "judge",
+    "stem": "只要把生成温度（temperature）设为 0，大模型就不会再产生任何事实性错误。",
+    "options": [],
+    "answer": [
+      "F"
+    ],
+    "explanation": "错误。温度只控制采样的随机性：温度低输出更确定、可复现，但模型“确定地”输出的内容仍可能是错的。幻觉源于模型知识与生成机制本身，需要靠 RAG 溯源、事实校验、评测把关来缓解，而不是调温度。",
+    "tags": [
+      "大模型基础",
+      "幻觉"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-21",
+    "slug": "question-21",
+    "type": "judge",
+    "stem": "向量数据库中的 HNSW 索引是一种近似最近邻（ANN）算法，用少量召回率损失换取大幅提升的检索速度。",
+    "options": [],
+    "answer": [
+      "T"
+    ],
+    "explanation": "正确。HNSW（分层可导航小世界图）通过多层图结构做贪心搜索，在百万级以上向量规模下比暴力精确检索快几个数量级，代价是可能漏掉极少数真实最近邻。Milvus、Pinecone、pgvector 等主流向量库都支持该索引。",
+    "tags": [
+      "向量数据库",
+      "HNSW"
+    ],
+    "difficulty": "medium",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-22",
+    "slug": "question-22",
+    "type": "judge",
+    "stem": "AI 产品经理不需要理解模型的技术边界，只要把需求文档写清楚交给算法团队就可以了。",
+    "options": [],
+    "answer": [
+      "F"
+    ],
+    "explanation": "错误。AI 产品的可行性、成本、风险都与技术边界强相关：不了解幻觉、上下文限制、延迟与 token 成本，就会定义出无法落地或亏损的需求。AI PM 需要能与算法团队讨论方案取舍、设计评测标准、判断“能做到什么程度”，这是与传统 PM 的关键差异。",
+    "tags": [
+      "AI 产品",
+      "职业能力"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-ai-product-manager-q-23",
+    "slug": "question-23",
+    "type": "short",
+    "stem": "在提示词中引导模型“一步一步思考”、显式展开推理过程的技巧，英文缩写是什么？（3 个字母）",
+    "options": [],
+    "answer": [
+      "CoT|COT|cot|Chain of Thought|思维链"
+    ],
+    "explanation": "CoT（Chain of Thought，思维链）通过让模型输出中间推理步骤来提升多步推理任务的准确率，常见触发方式包括“Let's think step by step”或在 few-shot 示例中示范推理过程。",
+    "tags": [
+      "Prompt 工程"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-1",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-ai-product-manager-q-24",
+    "slug": "question-24",
+    "type": "short",
+    "stem": "“先从知识库检索相关内容、再交给大模型生成回答”的技术架构，英文缩写是什么？（3 个字母）",
+    "options": [],
+    "answer": [
+      "RAG|rag|Retrieval-Augmented Generation|Retrieval Augmented Generation|检索增强生成"
+    ],
+    "explanation": "RAG（Retrieval-Augmented Generation，检索增强生成）先用向量/关键词检索找到相关片段，再注入提示词让模型基于这些依据作答，是企业知识库问答类产品的主流架构。",
+    "tags": [
+      "RAG"
+    ],
+    "difficulty": "easy",
+    "chapter": "mod-ai-product-manager-c-2",
+    "knowledge_points": [],
+    "estimated_time": 1
   }
 ]
